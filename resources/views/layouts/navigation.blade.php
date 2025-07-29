@@ -3,8 +3,7 @@
         <div class="flex justify-between h-20 items-center">
             <!-- Logo -->
             <div class="flex items-center space-x-2">
-                <img src="/logo.png" alt="Logo" class="h-8 w-8" />
-                <span class="text-2xl font-bold text-blue-600">US Global Mail</span>
+                <img src="/assets/images/logo.svg" alt="Logo" class="h-12 w-full lg:min-w-[230px]" />
             </div>
             <!-- Nav Links -->
             <div class="hidden md:flex space-x-8 items-center">
