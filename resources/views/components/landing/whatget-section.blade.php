@@ -1,93 +1,89 @@
-<section class="py-16 bg-gray-50">
+<section class="py-16 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Section Header -->
         <div class="text-center mb-16">
-            <h2 class="text-4xl font-bold text-gray-900 mb-4">
-                What You Get
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                We figured why not use our expertise...
             </h2>
-            <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                Discover the powerful features and benefits that make our platform the perfect solution for your needs
-            </p>
+            <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
         </div>
 
-        <!-- Features Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Feature 1 -->
-            <div class="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
-                <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
-                    <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                    </svg>
+        <!-- Environmental Impact Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Award -->
+            <div class="text-center">
+                <div class="w-24 h-24 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <div class="w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center">
+                        <svg class="w-8 h-8 text-yellow-800" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
                 </div>
-                <h3 class="text-xl font-semibold text-gray-900 mb-4">Lightning Fast</h3>
-                <p class="text-gray-600">
-                    Experience blazing-fast performance with our optimized infrastructure and cutting-edge technology stack.
+                <h3 class="text-lg font-bold text-gray-900 mb-2">148k+</h3>
+                <p class="text-gray-600 text-sm">
+                    Award-winning customer service since 1999
                 </p>
             </div>
 
-            <!-- Feature 2 -->
-            <div class="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
-                <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-6">
-                    <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            <!-- Recycling Impact -->
+            <div class="text-center">
+                <div class="w-24 h-24 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <svg class="w-12 h-12 text-green-600" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
                     </svg>
                 </div>
-                <h3 class="text-xl font-semibold text-gray-900 mb-4">Secure & Reliable</h3>
-                <p class="text-gray-600">
-                    Your data is protected with enterprise-grade security and 99.9% uptime guarantee for peace of mind.
+                <h3 class="text-lg font-bold text-gray-900 mb-2">5,400,000</h3>
+                <p class="text-gray-600 text-sm">
+                    To help recycle 5,400,000 lbs pounds of junk mail every year
                 </p>
             </div>
 
-            <!-- Feature 3 -->
-            <div class="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
-                <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
-                    <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+            <!-- Tree Planting -->
+            <div class="text-center">
+                <div class="w-24 h-24 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <svg class="w-12 h-12 text-green-600" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M17,8C8,10 5.9,16.17 3.82,21.34L5.71,22L6.66,19.7C7.14,19.87 7.64,20 8,20C19,20 22,3 22,3C21,5 14,5.25 9,6.25C4,7.25 2,11.5 2,13.5C2,15.5 3.75,17.25 3.75,17.25C7,8 17,8 17,8Z"/>
                     </svg>
                 </div>
-                <h3 class="text-xl font-semibold text-gray-900 mb-4">User Friendly</h3>
-                <p class="text-gray-600">
-                    Intuitive interface designed with users in mind, making complex tasks simple and enjoyable.
+                <h3 class="text-lg font-bold text-gray-900 mb-2">100,000+</h3>
+                <p class="text-gray-600 text-sm">
+                    And go further - plant trees for every user to help repair the planet
                 </p>
             </div>
 
-            <!-- Feature 4 -->
-            <div class="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
-                <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-6">
-                    <svg class="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+            <!-- Global Reach -->
+            <div class="text-center">
+                <div class="w-24 h-24 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <svg class="w-12 h-12 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2M13,4.07C15.39,4.59 17.39,6.59 17.93,9H13V4.07M11,4.07V9H6.07C6.61,6.59 8.61,4.59 11,4.07M4,12C4,11.31 4.08,10.64 4.23,10H6.78C6.68,10.64 6.63,11.31 6.63,12C6.63,12.69 6.68,13.36 6.78,14H4.23C4.08,13.36 4,12.69 4,12M6.07,15H11V19.93C8.61,19.41 6.61,17.41 6.07,15M13,19.93V15H17.93C17.39,17.41 15.39,19.41 13,19.93M19.77,14H17.22C17.32,13.36 17.37,12.69 17.37,12C17.37,11.31 17.32,10.64 17.22,10H19.77C19.92,10.64 20,11.31 20,12C20,12.69 19.92,13.36 19.77,14Z"/>
                     </svg>
                 </div>
-                <h3 class="text-xl font-semibold text-gray-900 mb-4">Mobile Ready</h3>
-                <p class="text-gray-600">
-                    Fully responsive design that works perfectly on all devices, from desktop to mobile phones.
+                <h3 class="text-lg font-bold text-gray-900 mb-2">Global</h3>
+                <p class="text-gray-600 text-sm">
+                    Serving customers worldwide with sustainable mail solutions
                 </p>
             </div>
+        </div>
 
-            <!-- Feature 5 -->
-            <div class="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
-                <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-6">
-                    <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
-                    </svg>
+        <!-- Environmental Banner -->
+        <div class="mt-16 bg-gradient-to-r from-green-500 to-blue-600 rounded-2xl p-8 text-white text-center">
+            <h3 class="text-2xl font-bold mb-4">Our goal is to plant 100,000,000 trees</h3>
+            <p class="text-lg opacity-90 mb-6">
+                Every new member helps us get closer to this environmental milestone
+            </p>
+            <div class="flex justify-center items-center space-x-8">
+                <div class="text-center">
+                    <div class="text-3xl font-bold">25+</div>
+                    <div class="text-sm opacity-80">Years of Service</div>
                 </div>
-                <h3 class="text-xl font-semibold text-gray-900 mb-4">24/7 Support</h3>
-                <p class="text-gray-600">
-                    Round-the-clock customer support to help you whenever you need assistance or have questions.
-                </p>
-            </div>
-
-            <!-- Feature 6 -->
-            <div class="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
-                <div class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-6">
-                    <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
-                    </svg>
+                <div class="text-center">
+                    <div class="text-3xl font-bold">100k+</div>
+                    <div class="text-sm opacity-80">Trees Planted</div>
                 </div>
-                <h3 class="text-xl font-semibold text-gray-900 mb-4">Analytics & Insights</h3>
-                <p class="text-gray-600">
-                    Powerful analytics tools to track performance and gain valuable insights into your data.
-                </p>
+                <div class="text-center">
+                    <div class="text-3xl font-bold">50k+</div>
+                    <div class="text-sm opacity-80">Happy Customers</div>
+                </div>
             </div>
         </div>
     </div>
