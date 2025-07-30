@@ -14,7 +14,7 @@
         </div>
         <!-- Right: Illustration/Image Placeholder -->
         <div class="w-full lg:w-2/3 flex justify-center mb-12 lg:mb-0">
-            <img src="/assets/images/hero-right.avif" alt="">
+            <img src="/assets/images/hero-right.avif" alt="Professional mail management illustration showing digital mailbox interface">
         </div>
     </div>
 </section>
