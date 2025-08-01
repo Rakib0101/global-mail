@@ -10,6 +10,7 @@ Route::view('/about-us', 'about-us')->name('about-us');
 Route::view('/contact-us', 'contact-us')->name('contact-us');
 Route::view('/faqs', 'faqs')->name('faqs');
 Route::view('/pricing', 'pricing')->name('pricing');
+Route::view('/electronic-check-deposit', 'electronic-check-deposit')->name('electronic-check-deposit');
 
 // FAQ Category Routes
 Route::view('/faqs/getting-started', 'faqs.getting-started')->name('faqs.getting-started');

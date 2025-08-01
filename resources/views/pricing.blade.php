@@ -137,5 +137,13 @@
                 </button>
             </div>
         </div>
+
+        @include('components.pricing.partner-section')
+        @include('components.pricing.plan-feature')
+        @include('components.landing.cta-section')
+        @include('components.pricing.testimonial-section')
+        @include('components.pricing.more-service')
+        @include('components.pricing.award-section')
+        @include('components.pricing.faq-section')
     </div>
 @endsection

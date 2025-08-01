@@ -7,7 +7,7 @@
             </a>
             <!-- Nav Links -->
             <div class="hidden md:flex space-x-8 items-center">
-                <div class="relative group">
+                {{-- <div class="relative group">
                     <button class="font-medium text-gray-700 hover:text-blue-600 flex items-center">Product <svg
                             class="ml-1 w-4 h-4" fill="none" stroke="currentColor" stroke-width="2"
                             viewBox="0 0 24 24">
@@ -15,11 +15,15 @@
                         </svg></button>
                     <div
                         class="absolute left-0 mt-0 min-w-max bg-white border rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity z-10 hidden group-hover:block">
-                        <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Electronic Check
+                        <a href="/electronic-check-deposit"
+                            class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Electronic Check
                             Deposits</a>
                         <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Features</a>
                     </div>
-                </div>
+                </div> --}}
+                <a href="/electronic-check-deposit" class="font-medium text-gray-700 hover:text-blue-600">Electronic
+                    Check
+                    Deposits</a>
                 <a href="/pricing" class="font-medium text-gray-700 hover:text-blue-600">Pricing</a>
                 <a href="/about-us" class="font-medium text-gray-700 hover:text-blue-600">About Us</a>
                 <a href="/faqs" class="font-medium text-gray-700 hover:text-blue-600">Faq's</a>
