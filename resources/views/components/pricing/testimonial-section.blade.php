@@ -3,21 +3,21 @@
     testimonials: [{
             name: 'Dawn Wills',
             verified: true,
-            image: '/images/testimonials/dawn-wills.jpg',
+            image: '/assets/images/michelle.avif',
             quote: 'The feature of US Global Mail that I rely on the most ... As soon as they receive mail, they send me an email and bam, I can go in, log into my account, and check to see if this is something that I need for them to scan so I can look at it further, or I can just request for them to just delete it right away. I appreciate the fact that I can rely on them to quickly expedite any mail services I might need.',
             video: true
         },
         {
             name: 'Sarah Johnson',
             verified: true,
-            image: '/images/testimonials/sarah-johnson.jpg',
+            image: '/assets/images/Jamie.webp',
             quote: 'US Global Mail has been a game-changer for my business. The scanning feature saves me hours every week, and the professional address gives my company credibility. Highly recommended!',
             video: false
         },
         {
             name: 'Michael Chen',
             verified: true,
-            image: '/images/testimonials/michael-chen.jpg',
+            image: '/assets/images/michelle.avif',
             quote: 'As a digital nomad, having a reliable mail service is crucial. US Global Mail has exceeded my expectations with their fast scanning and excellent customer service.',
             video: true
         }
@@ -26,14 +26,14 @@
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Section Heading -->
         <div class="text-center mb-12">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-900">
+            <h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-12">
                 Why Clients Love US Global Mail
             </h2>
         </div>
 
         <!-- Testimonial Card -->
         <div class="relative">
-            <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-12">
+            <div class="bg-[#f9fbfe] rounded-2xl p-6 sm:p-12 lg:p-20">
                 <div class="flex flex-col md:flex-row items-start gap-8">
                     <!-- Profile Picture Section -->
                     <div class="flex-shrink-0">
@@ -41,7 +41,7 @@
                             <img :src="testimonials[currentTestimonial].image"
                                 :alt="testimonials[currentTestimonial].name"
                                 class="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover border-4 border-white shadow-lg"
-                                onerror="this.src='/images/testimonials/default-avatar.jpg'">
+                                onerror="this.src='/assets/images/michelle.avif'">
                             <!-- Video Play Button -->
                             <div x-show="testimonials[currentTestimonial].video"
                                 class="absolute -bottom-2 -right-2 w-8 h-8 bg-primary rounded-full flex items-center justify-center shadow-lg">
