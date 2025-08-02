@@ -32,7 +32,7 @@
             </div>
             <!-- Auth Buttons -->
             <div class="flex items-center space-x-8">
-                <a href="{{ route('login') }}" class="text-primary font-medium hover:underline">Login</a>
+                <a href="{{ route('sign-in') }}" class="text-primary font-medium hover:underline">Login</a>
                 <a href="{{ route('register') }}"
                     class="bg-primary hover:bg-blue-600 text-white font-semibold px-5 py-3 rounded shadow">Get
                     Started</a>
