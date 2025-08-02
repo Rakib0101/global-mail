@@ -13,7 +13,7 @@
                     You can view, read, share, shred, or forward your mail from the virtual mailbox.
                 </p>
                 <button
-                    class="px-6 py-3 border border-primary text-primary rounded-lg hover:bg-blue-50 transition-colors duration-200">
+                    class="px-6 py-4 border border-primary text-primary rounded hover:bg-primary hover:text-white transition-colors duration-200">
                     How it works
                 </button>
             </div>
@@ -37,7 +37,7 @@
                     finally, your mail is as smart as your cloud tools.
                 </p>
                 <button
-                    class="px-6 py-3 border border-primary text-primary rounded-lg hover:bg-blue-50 transition-colors duration-200">
+                    class="px-6 py-4 border border-primary text-primary rounded hover:bg-primary hover:text-white transition-colors duration-200">
                     Choose an address
                 </button>
             </div>

@@ -1,4 +1,5 @@
-<nav class="bg-white border-b border-gray-100">
+<!-- Sticky Navigation Header -->
+<nav class="sticky top-0 z-50 bg-white border-b border-gray-100">
     <div class="max-w-[1712px] mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-28 items-center">
             <!-- Logo -->
@@ -30,24 +31,24 @@
                 <a href="/contact-us" class="font-medium text-gray-700 hover:text-primary">Contact Us</a>
             </div>
             <!-- Auth Buttons -->
-            <div class="flex items-center space-x-4">
+            <div class="flex items-center space-x-8">
                 <a href="{{ route('login') }}" class="text-primary font-medium hover:underline">Login</a>
                 <a href="{{ route('register') }}"
-                    class="bg-blue-500 hover:bg-primary text-white font-semibold px-5 py-2 rounded-lg shadow">Get
+                    class="bg-primary hover:bg-blue-600 text-white font-semibold px-5 py-3 rounded shadow">Get
                     Started</a>
             </div>
         </div>
     </div>
-    <!-- Notification Bar -->
-    <div class="bg-[#e2ebf5] py-3">
-        <div class="max-w-7xl mx-auto px-4 flex items-center justify-center space-x-2">
-            <span class="inline-flex items-center justify-center w-6 h-6 bg-green-500 text-white rounded-full"><svg
-                    class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3" />
-                </svg></span>
-            <span class="font-semibold text-black">30-Day FREE Trial</span>
-            <span class="text-gray-500">· Cancel in 30 days for a full refund ·</span>
-            <a href="#" class="text-primary hover:underline">Learn More</a>
-        </div>
-    </div>
 </nav>
+<!-- Notification Bar (Non-sticky) -->
+<div class="bg-[#e2ebf5] py-3">
+    <div class="max-w-7xl mx-auto px-4 flex items-center justify-center space-x-2">
+        <span class="inline-flex items-center justify-center w-6 h-6 bg-green-500 text-white rounded-full"><svg
+                class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3" />
+            </svg></span>
+        <span class="font-semibold text-black">30-Day FREE Trial</span>
+        <span class="text-gray-500">· Cancel in 30 days for a full refund ·</span>
+        <a href="#" class="text-primary hover:underline">Learn More</a>
+    </div>
+</div>

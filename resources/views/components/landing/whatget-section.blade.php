@@ -1,90 +1,195 @@
 <section class="py-16 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <!-- Section Header -->
-        <div class="text-center mb-16">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                We figured why not use our expertise...
+        <!-- Main Heading -->
+        <div class="text-center mb-12">
+            <h2 class="text-5xl font-bold text-gray-900 mb-4">
+                What You Get With US Global Mail
             </h2>
-            <div class="w-24 h-1 bg-primary mx-auto"></div>
         </div>
 
-        <!-- Environmental Impact Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <!-- Award -->
-            <div class="text-center">
-                <div class="w-24 h-24 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <div class="w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center">
-                        <svg class="w-8 h-8 text-yellow-800" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                        </svg>
-                    </div>
+        <!-- Feature Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Card 1: Transparent, All-inclusive Pricing -->
+            <div class="bg-graybg rounded-lg p-8 text-start">
+                <div class="mb-6">
+                    <svg width="64" height="65" fill="none" viewBox="0 0 64 65"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="m34.545 39.428 4e-4 -2e-4 17.245-9.197v13.678 0.0163c0.0055 0.5028-0.0894 1.0017-0.2793 1.4672-0.1899 0.4656-0.4709 0.8886-0.8264 1.2441-0.3556 0.3556-0.7785 0.6365-1.2441 0.8264s-0.9644 0.2849-1.4672 0.2794l-0.0164-1e-4h-32l-0.0164 1e-4c-0.5028 0.0055-1.0016-0.0895-1.4672-0.2794l-0.5664 1.389 0.5664-1.389c-0.4656-0.1899-0.8885-0.4708-1.2441-0.8264-0.3555-0.3555-0.6365-0.7785-0.8264-1.2441l-1.3889 0.5665 1.3889-0.5665c-0.1898-0.4656-0.2848-0.9644-0.2793-1.4672l1e-4 -0.0163v-13.678l17.248 9.1971 3e-4 2e-4c0.7962 0.4243 1.6846 0.6463 2.5868 0.6463s1.7906-0.222 2.5868-0.6463z"
+                            stroke="#2763CE" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+                        <path
+                            d="m47.957 15.824v1e-4l0.0137-1e-4c0.536-0.0059 1.0679 0.0954 1.5643 0.2978 0.4964 0.2025 0.9474 0.502 1.3265 0.8811s0.6786 0.8301 0.8811 1.3265c0.2024 0.4964 0.3037 1.0283 0.2978 1.5643v0 4.0148c0 0.0151-0.0041 0.0299-0.0119 0.0429-0.0077 0.0129-0.0189 0.0235-0.0321 0.0306-1e-4 0-1e-4 0-1e-4 1e-4l-19.996 10.664c-3e-4 1e-4 -5e-4 3e-4 -8e-4 4e-4 -0.0132 0.0068-0.0277 0.0103-0.0425 0.0103s-0.0294-0.0035-0.0426-0.0103c-2e-4 -1e-4 -5e-4 -3e-4 -8e-4 -4e-4l-19.996-10.664c0-1e-4 -1e-4 -1e-4 -2e-4 -2e-4 -0.0132-0.0071-0.0243-0.0176-0.032-0.0305-0.0078-0.013-0.0119-0.0278-0.0118-0.0429v-4.0011h0l-1e-4 -0.0137c-0.0059-0.5361 0.0954-1.0679 0.2978-1.5643 0.2025-0.4964 0.5021-0.9474 0.8811-1.3265 0.3791-0.3791 0.8301-0.6786 1.3265-0.8811 0.4964-0.2024 1.0283-0.3037 1.5644-0.2978v0h32.014z"
+                            stroke="#2763CE" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+                        <circle cx="52.016" cy="15.978" r="9.9316" fill="#fff"></circle>
+                        <path
+                            d="m52.016 22.692c3.7064 0 6.711-3.0047 6.711-6.7111s-3.0046-6.7111-6.711-6.7111c-3.7065 0-6.7111 3.0047-6.7111 6.7111s3.0046 6.7111 6.7111 6.7111z"
+                            fill="#FB662A"></path>
+                    </svg>
                 </div>
-                <h3 class="text-lg font-bold text-gray-900 mb-2">148k+</h3>
-                <p class="text-gray-600 text-sm">
-                    Award-winning customer service since 1999
+                <h3 class="text-xl font-bold text-gray-900 mb-4">
+                    Mail Scanning, On Demand
+                </h3>
+                <p class="text-gray-600 text-xl">
+                    Same-day processing of mail, scanning, and shipping. Instant notifications.
+            </div>
+
+            <!-- Card 2: Permanent US Address -->
+            <div class="bg-graybg rounded-lg p-8 text-start">
+                <div class="mb-6">
+                    <svg width="64" height="65" viewBox="0 0 64 65" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_12934_39900)">
+                            <path
+                                d="M19.9422 18.125C19.5338 19.3025 19.2894 20.5875 19.2605 21.9777H17.3313H16.8313V22.4777V44.457V45.8987L17.7239 44.7666L27.7179 32.0908L28.8373 32.9735L18.227 46.4318L17.5888 47.2414H18.6197H30.6763H31.1763V46.7414V41.1755H32.6026V46.7414V47.2414H33.1026H45.1593H46.1902L45.5519 46.4318L34.9416 32.9747L36.0611 32.092L46.055 44.7666L46.9477 45.8986V44.457V22.4777V21.9777H46.4477H44.5184C44.4895 20.5875 44.2451 19.3025 43.8367 18.125H47.6608C49.3913 18.125 50.8004 19.5341 50.8004 21.2646V47.9546C50.8004 49.6851 49.3913 51.0941 47.6608 51.0941H16.1181C14.3876 51.0941 12.9785 49.6851 12.9785 47.9546V21.2646C12.9785 19.5341 14.3876 18.125 16.1181 18.125H19.9422Z"
+                                fill="#2763CE" stroke="#F9FAFB"></path>
+                            <path
+                                d="M31.8891 12.7734C27.1176 12.7734 22.1836 16.3208 22.1836 22.2581C22.1836 27.7102 30.1275 35.7803 31.0326 36.6829L31.8891 37.5369L32.7456 36.6841C33.6506 35.7815 41.5945 27.7102 41.5945 22.2581C41.5945 16.3208 36.6605 12.7734 31.8891 12.7734ZM31.8891 24.9053C30.5485 24.9053 29.4627 23.8195 29.4627 22.4789C29.4627 21.1383 30.5485 20.0525 31.8891 20.0525C33.2296 20.0525 34.3154 21.1383 34.3154 22.4789C34.3154 23.8195 33.2296 24.9053 31.8891 24.9053Z"
+                                fill="#01A249"></path>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_12934_39900">
+                                <rect width="38.8219" height="38.8219" fill="white"
+                                    transform="translate(12.4785 12.7656)"></rect>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">
+                    Permanent US Address
+                </h3>
+                <p class="text-gray-600 text-xl">
+                    Mail forwarding for multiple LLC’s, homes or offices into one, permanent address. Forever.
+            </div>
+
+            <!-- Card 3: Automatic Check Deposits -->
+            <div class="bg-graybg rounded-lg p-8 text-start">
+                <div class="mb-6">
+                    <svg width="65" height="65" viewBox="0 0 65 65" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M48.5571 28.6367H35.5786V30.7998H47.4756V47.0229H17.1924V30.7998H20.437V28.6367H16.1108C15.5138 28.6367 15.0293 29.1202 15.0293 29.7183V48.1045C15.0293 48.7026 15.5138 49.186 16.1108 49.186H48.5571C49.1541 49.186 49.6387 48.7026 49.6387 48.1045V29.7183C49.6387 29.1202 49.1541 28.6367 48.5571 28.6367Z"
+                            fill="#2763CE" stroke="#2763CE" stroke-width="0.5"></path>
+                        <path
+                            d="M24.3337 34.4104C24.4147 34.4104 24.4957 34.4004 24.5767 34.3804L28.5767 33.3804C28.7527 33.3364 28.9127 33.2454 29.0407 33.1174L41.0407 21.1174C41.4317 20.7264 41.4317 20.0944 41.0407 19.7034L38.0407 16.7034C37.6497 16.3124 37.0177 16.3124 36.6267 16.7034L24.6267 28.7034C24.4987 28.8314 24.4077 28.9924 24.3637 29.1684L23.3637 33.1684C23.2787 33.5094 23.3787 33.8694 23.6267 34.1174C23.8167 34.3064 24.0717 34.4104 24.3337 34.4104Z"
+                            fill="#01A249"></path>
+                        <path d="M41.334 37.4102H23.334V39.4102H41.334V37.4102Z" fill="#4386FC"></path>
+                        <path d="M32.334 41.4102H23.334V43.4102H32.334V41.4102Z" fill="#4386FC"></path>
+                        <path d="M41.334 41.4102H36.334V43.4102H41.334V41.4102Z" fill="#01A249"></path>
+                        <circle cx="44.3804" cy="43.4116" r="8.94287" fill="#F9FAFB"></circle>
+                        <path
+                            d="M49.6387 44.1613V42.659H48.0606C47.9629 42.1806 47.7721 41.7359 47.5108 41.3423L48.6292 40.2239L47.5671 39.1618L46.4487 40.2803C46.0551 40.0189 45.6104 39.8281 45.132 39.7304V38.1523H43.6297V39.7304C43.1513 39.8281 42.7066 40.0189 42.313 40.2803L41.1946 39.1618L40.1325 40.2239L41.251 41.3423C40.9896 41.7359 40.7988 42.1806 40.7011 42.659H39.123V44.1613H40.7011C40.7988 44.6397 40.9896 45.0844 41.251 45.478L40.1325 46.5964L41.1946 47.6585L42.313 46.5401C42.7066 46.8014 43.1513 46.9922 43.6297 47.0899V48.668H45.132V47.0899C45.6104 46.9922 46.0551 46.8014 46.4487 46.5401L47.5671 47.6585L48.6292 46.5964L47.5108 45.478C47.7721 45.0844 47.9629 44.6397 48.0606 44.1613H49.6387ZM44.3809 44.9124C43.5524 44.9124 42.8786 44.2386 42.8786 43.4102C42.8786 42.5817 43.5524 41.9079 44.3809 41.9079C45.2093 41.9079 45.8831 42.5817 45.8831 43.4102C45.8831 44.2386 45.2093 44.9124 44.3809 44.9124Z"
+                            fill="#4386FC"></path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">
+                    Automatic Check Deposits
+                </h3>
+                <p class="text-gray-600 text-xl">
+                    Fast, free same-day deposits for all checks. Without touching an envelope.
                 </p>
             </div>
 
-            <!-- Recycling Impact -->
-            <div class="text-center">
-                <div class="w-24 h-24 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <svg class="w-12 h-12 text-green-600" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+            <!-- Card 4: Dedicated Account Managers -->
+            <div class="bg-graybg rounded-lg p-8 text-start">
+                <div class="mb-6">
+                    <svg width="64" height="65" viewBox="0 0 64 65" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_12930_38086)">
+                            <path
+                                d="M36.2706 23.0074C36.2706 26.8818 33.1298 30.0226 29.2554 30.0226C25.381 30.0226 22.2402 26.8818 22.2402 23.0074C22.2402 19.133 25.381 15.9922 29.2554 15.9922C33.1298 15.9922 36.2706 19.133 36.2706 23.0074Z"
+                                stroke="#2763CE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path
+                                d="M29.256 35.457C30.7147 35.457 32.1213 35.6707 33.453 36.0638C31.8126 38.1679 30.8276 40.8124 30.8276 43.6887C30.8276 45.7853 31.3533 47.7577 32.2725 49.4874H14.3776C14.8431 41.5912 21.3207 35.457 29.256 35.457Z"
+                                stroke="#2763CE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path
+                                d="M51.7901 44.9035V42.4706H49.2344C49.0762 41.6957 48.7672 40.9756 48.3439 40.3382L50.1552 38.5269L48.4352 36.8068L46.6239 38.6181C45.9864 38.1948 45.2663 37.8858 44.4914 37.7276V35.1719H42.0585V37.7276C41.2836 37.8858 40.5635 38.1948 39.9261 38.6181L38.1147 36.8068L36.3947 38.5269L38.206 40.3382C37.7827 40.9756 37.4737 41.6957 37.3155 42.4706H34.7598V44.9035H37.3155C37.4737 45.6784 37.7827 46.3985 38.206 47.036L36.3947 48.8473L38.1147 50.5673L39.9261 48.756C40.5635 49.1794 41.2836 49.4883 42.0585 49.6465V52.2022H44.4914V49.6465C45.2663 49.4883 45.9864 49.1794 46.6239 48.756L48.4352 50.5673L50.1552 48.8473L48.3439 47.036C48.7672 46.3985 49.0762 45.6784 49.2344 44.9035H51.7901ZM43.275 46.12C41.9332 46.12 40.842 45.0288 40.842 43.6871C40.842 42.3453 41.9332 41.2542 43.275 41.2542C44.6167 41.2542 45.7079 42.3453 45.7079 43.6871C45.7079 45.0288 44.6167 46.12 43.275 46.12Z"
+                                fill="#01A249"></path>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_12930_38086">
+                                <rect width="38.9266" height="38.9266" fill="white"
+                                    transform="translate(12.8652 13.2734)"></rect>
+                            </clipPath>
+                        </defs>
                     </svg>
                 </div>
-                <h3 class="text-lg font-bold text-gray-900 mb-2">5,400,000</h3>
-                <p class="text-gray-600 text-sm">
-                    To help recycle 5,400,000 lbs pounds of junk mail every year
+                <h3 class="text-xl font-bold text-gray-900 mb-4">
+                    Dedicated Account Managers
+                </h3>
+                <p class="text-gray-600 text-xl">
+                    Same-day onboarding. White glove service with a dedicated manager for business accounts.
                 </p>
             </div>
 
-            <!-- Tree Planting -->
-            <div class="text-center">
-                <div class="w-24 h-24 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <svg class="w-12 h-12 text-green-600" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M17,8C8,10 5.9,16.17 3.82,21.34L5.71,22L6.66,19.7C7.14,19.87 7.64,20 8,20C19,20 22,3 22,3C21,5 14,5.25 9,6.25C4,7.25 2,11.5 2,13.5C2,15.5 3.75,17.25 3.75,17.25C7,8 17,8 17,8Z"/>
+            <!-- Card 5: Ironclad Security -->
+            <div class="bg-graybg rounded-lg p-8 text-start">
+                <div class="mb-6">
+                    <svg width="65" height="65" viewBox="0 0 65 65" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M47.166 26.9102H19.166V44.9102H47.166V26.9102Z" stroke="#2763CE" stroke-width="3"
+                            stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path
+                            d="M33.166 37.9102C34.8229 37.9102 36.166 36.567 36.166 34.9102C36.166 33.2533 34.8229 31.9102 33.166 31.9102C31.5092 31.9102 30.166 33.2533 30.166 34.9102C30.166 36.567 31.5092 37.9102 33.166 37.9102Z"
+                            fill="#01A249"></path>
+                        <path
+                            d="M41.166 26.9102V18.9102C41.166 16.7884 40.3232 14.7536 38.8229 13.2533C37.3226 11.753 35.2877 10.9102 33.166 10.9102C31.0443 10.9102 29.0095 11.753 27.5092 13.2533C26.0089 14.7536 25.166 16.7884 25.166 18.9102V26.9102"
+                            stroke="#2763CE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path
+                            d="M23.166 54.9102C23.7183 54.9102 24.166 54.4624 24.166 53.9102C24.166 53.3579 23.7183 52.9102 23.166 52.9102C22.6137 52.9102 22.166 53.3579 22.166 53.9102C22.166 54.4624 22.6137 54.9102 23.166 54.9102Z"
+                            fill="#01A249" stroke="#01A249" stroke-width="2"></path>
+                        <path
+                            d="M33.166 54.9102C33.7183 54.9102 34.166 54.4624 34.166 53.9102C34.166 53.3579 33.7183 52.9102 33.166 52.9102C32.6137 52.9102 32.166 53.3579 32.166 53.9102C32.166 54.4624 32.6137 54.9102 33.166 54.9102Z"
+                            fill="#01A249" stroke="#01A249" stroke-width="2"></path>
+                        <path
+                            d="M43.166 54.9102C43.7183 54.9102 44.166 54.4624 44.166 53.9102C44.166 53.3579 43.7183 52.9102 43.166 52.9102C42.6137 52.9102 42.166 53.3579 42.166 53.9102C42.166 54.4624 42.6137 54.9102 43.166 54.9102Z"
+                            fill="#01A249" stroke="#01A249" stroke-width="2"></path>
+                        <path
+                            d="M53.166 54.9102C53.7183 54.9102 54.166 54.4624 54.166 53.9102C54.166 53.3579 53.7183 52.9102 53.166 52.9102C52.6137 52.9102 52.166 53.3579 52.166 53.9102C52.166 54.4624 52.6137 54.9102 53.166 54.9102Z"
+                            fill="#01A249" stroke="#01A249" stroke-width="2"></path>
+                        <path
+                            d="M13.166 54.9102C13.7183 54.9102 14.166 54.4624 14.166 53.9102C14.166 53.3579 13.7183 52.9102 13.166 52.9102C12.6137 52.9102 12.166 53.3579 12.166 53.9102C12.166 54.4624 12.6137 54.9102 13.166 54.9102Z"
+                            fill="#01A249" stroke="#01A249" stroke-width="2"></path>
+                        <path d="M33.166 39.9102V37.9102" stroke="#01A249" stroke-width="3" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
                     </svg>
                 </div>
-                <h3 class="text-lg font-bold text-gray-900 mb-2">100,000+</h3>
-                <p class="text-gray-600 text-sm">
-                    And go further - plant trees for every user to help repair the planet
+                <h3 class="text-xl font-bold text-gray-900 mb-4">
+                    Ironclad Security
+                </h3>
+                <p class="text-gray-600 text-xl">
+                    SOC2 & HIPAA standards. Bank-grade encryption. Your mail is safer with us than in your building’s
+                    lobby.
                 </p>
             </div>
 
-            <!-- Global Reach -->
-            <div class="text-center">
-                <div class="w-24 h-24 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <svg class="w-12 h-12 text-primary" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2M13,4.07C15.39,4.59 17.39,6.59 17.93,9H13V4.07M11,4.07V9H6.07C6.61,6.59 8.61,4.59 11,4.07M4,12C4,11.31 4.08,10.64 4.23,10H6.78C6.68,10.64 6.63,11.31 6.63,12C6.63,12.69 6.68,13.36 6.78,14H4.23C4.08,13.36 4,12.69 4,12M6.07,15H11V19.93C8.61,19.41 6.61,17.41 6.07,15M13,19.93V15H17.93C17.39,17.41 15.39,19.41 13,19.93M19.77,14H17.22C17.32,13.36 17.37,12.69 17.37,12C17.37,11.31 17.32,10.64 17.22,10H19.77C19.92,10.64 20,11.31 20,12C20,12.69 19.92,13.36 19.77,14Z"/>
+            <!-- Card 6: Protect Your Privacy -->
+            <div class="bg-graybg rounded-lg p-8 text-start">
+                <div class="mb-6">
+                    <svg width="65" height="65" viewBox="0 0 65 65" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M41.3487 20.9934V18.5604H38.793C38.6348 17.7856 38.3258 17.0654 37.9025 16.428L39.7138 14.6167L37.9937 12.8966L36.1824 14.7079C35.545 14.2846 34.8249 13.9756 34.05 13.8175V11.2617H31.6171V13.8175C30.8422 13.9756 30.1221 14.2846 29.4846 14.7079L27.6733 12.8966L25.9533 14.6167L27.7646 16.428C27.3413 17.0654 27.0323 17.7856 26.8741 18.5604H24.3184V20.9934H26.8741C27.0323 21.7682 27.3413 22.4884 27.7646 23.1258L25.9533 24.9371L27.6733 26.6572L29.4846 24.8459C30.1221 25.2692 30.8422 25.5782 31.6171 25.7363V28.2921H34.05V25.7363C34.8249 25.5782 35.545 25.2692 36.1824 24.8459L37.9937 26.6572L39.7138 24.9371L37.9025 23.1258C38.3258 22.4884 38.6348 21.7682 38.793 20.9934H41.3487ZM32.8335 22.2098C31.4918 22.2098 30.4006 21.1187 30.4006 19.7769C30.4006 18.4352 31.4918 17.344 32.8335 17.344C34.1753 17.344 35.2665 18.4352 35.2665 19.7769C35.2665 21.1187 34.1753 22.2098 32.8335 22.2098Z"
+                            fill="#01A249"></path>
+                        <path d="M19.4989 23.8203L11.8789 29.3448V52.2048H53.7889V29.3448L46.1689 23.8203"
+                            stroke="#2763CE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M11.8789 29.3438L53.7889 52.2037" stroke="#2763CE" stroke-width="3"
+                            stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M53.789 29.3438L32.834 40.7737" stroke="#2763CE" stroke-width="3"
+                            stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg>
                 </div>
-                <h3 class="text-lg font-bold text-gray-900 mb-2">Global</h3>
-                <p class="text-gray-600 text-sm">
-                    Serving customers worldwide with sustainable mail solutions
+                <h3 class="text-xl font-bold text-gray-900 mb-4">
+                    Total Control
+                </h3>
+                <p class="text-gray-600 text-xl">
+                    Sort mail into folders, add rules for auto-routing, add users and set permissions to control access.
                 </p>
             </div>
         </div>
-
-        <!-- Environmental Banner -->
-        <div class="mt-16 bg-gradient-to-r from-green-500 to-primary rounded-2xl p-8 text-white text-center">
-            <h3 class="text-2xl font-bold mb-4">Our goal is to plant 100,000,000 trees</h3>
-            <p class="text-lg opacity-90 mb-6">
-                Every new member helps us get closer to this environmental milestone
-            </p>
-            <div class="flex justify-center items-center space-x-8">
-                <div class="text-center">
-                    <div class="text-3xl font-bold">25+</div>
-                    <div class="text-sm opacity-80">Years of Service</div>
-                </div>
-                <div class="text-center">
-                    <div class="text-3xl font-bold">100k+</div>
-                    <div class="text-sm opacity-80">Trees Planted</div>
-                </div>
-                <div class="text-center">
-                    <div class="text-3xl font-bold">50k+</div>
-                    <div class="text-sm opacity-80">Happy Customers</div>
-                </div>
-            </div>
+        <div class="flex justify-center items-center mt-12">
+            <a href="{{ route('register') }}" class="inline-block px-6 py-4 bg-primary text-white font-semibold rounded shadow hover:bg-blue-700 transition">
+                Start Risk-free
+            </a>
         </div>
     </div>
 </section>
