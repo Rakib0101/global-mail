@@ -35,10 +35,10 @@
 </style>
 
 <section class="py-24 bg-gray-50">
-    <div class="container flex">
+    <div class="container flex items-center">
         <div class="w-full lg:w-1/3">
-            <h2 class="text-3xl">Integrate your favorite software seamlessly</h2>
-            <p>US Global Mail integrates with your favorite tools so you can create automations, push documents to Dropbox, get notified in Slack, and more.</p>
+            <h2 class="text-4xl font-semibold text-gray-900 mb-6">Integrate your favorite software seamlessly</h2>
+            <p class="text-gray-600 text-lg">US Global Mail integrates with your favorite tools so you can create automations, push documents to Dropbox, get notified in Slack, and more.</p>
         </div>
         <div class="w-full lg:w-2/3 flex justify-center">
             <div class="flex gap-6 h-96 overflow-hidden">
@@ -50,12 +50,12 @@
                         <span class="text-gray-700 text-sm font-medium">Trello</span>
                     </div>
                     <div class="bg-white rounded-2xl shadow-md flex flex-col items-center justify-center p-6 min-w-[120px] min-h-[120px]">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/zapier/zapier-original.svg" alt="Zapier" class="w-10 h-10 mb-2">
+                        <img src="https://www.usglobalmail.com/wp-content/themes/my-daak/public/images/zapier.d7260ce3.png" alt="Zapier" class="w-10 h-10 mb-2">
                         <span class="text-gray-700 text-sm font-medium">Zapier</span>
                     </div>
                     <div class="bg-white rounded-2xl shadow-md flex flex-col items-center justify-center p-6 min-w-[120px] min-h-[120px]">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/asana/asana-original.svg" alt="Asana" class="w-10 h-10 mb-2">
-                        <span class="text-gray-700 text-sm font-medium">Asana</span>
+                        <img src="https://www.usglobalmail.com/wp-content/themes/my-daak/public/images/airtable.2d16606b.png" alt="Asana" class="w-10 h-10 mb-2">
+                        <span class="text-gray-700 text-sm font-medium">Airtable</span>
                     </div>
                     <!-- Second set (duplicate) -->
                     <div class="bg-white rounded-2xl shadow-md flex flex-col items-center justify-center p-6 min-w-[120px] min-h-[120px]">
@@ -67,8 +67,8 @@
                         <span class="text-gray-700 text-sm font-medium">Zapier</span>
                     </div>
                     <div class="bg-white rounded-2xl shadow-md flex flex-col items-center justify-center p-6 min-w-[120px] min-h-[120px]">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/asana/asana-original.svg" alt="Asana" class="w-10 h-10 mb-2">
-                        <span class="text-gray-700 text-sm font-medium">Asana</span>
+                        <img src="https://www.usglobalmail.com/wp-content/themes/my-daak/public/images/airtable.2d16606b.png" alt="Asana" class="w-10 h-10 mb-2">
+                        <span class="text-gray-700 text-sm font-medium">Airtable</span>
                     </div>
                     <!-- Third set (duplicate) -->
                     <div class="bg-white rounded-2xl shadow-md flex flex-col items-center justify-center p-6 min-w-[120px] min-h-[120px]">
@@ -80,8 +80,8 @@
                         <span class="text-gray-700 text-sm font-medium">Zapier</span>
                     </div>
                     <div class="bg-white rounded-2xl shadow-md flex flex-col items-center justify-center p-6 min-w-[120px] min-h-[120px]">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/asana/asana-original.svg" alt="Asana" class="w-10 h-10 mb-2">
-                        <span class="text-gray-700 text-sm font-medium">Asana</span>
+                        <img src="https://www.usglobalmail.com/wp-content/themes/my-daak/public/images/airtable.2d16606b.png" alt="Asana" class="w-10 h-10 mb-2">
+                        <span class="text-gray-700 text-sm font-medium">Airtable</span>
                     </div>
                 </div>
 
@@ -93,11 +93,11 @@
                         <span class="text-gray-700 text-sm font-medium">Salesforce</span>
                     </div>
                     <div class="bg-white rounded-2xl shadow-md flex flex-col items-center justify-center p-6 min-w-[120px] min-h-[120px]">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mailchimp/mailchimp-original.svg" alt="Mailchimp" class="w-10 h-10 mb-2">
+                        <img src="https://www.usglobalmail.com/wp-content/themes/my-daak/public/images/mailchimp.cb7f3377.png" alt="Mailchimp" class="w-10 h-10 mb-2">
                         <span class="text-gray-700 text-sm font-medium">Mailchimp</span>
                     </div>
                     <div class="bg-white rounded-2xl shadow-md flex flex-col items-center justify-center p-6 min-w-[120px] min-h-[120px]">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftteams/microsoftteams-original.svg" alt="Teams" class="w-10 h-10 mb-2">
+                        <img src=https://www.usglobalmail.com/wp-content/themes/my-daak/public/images/teams.1ac0f650.png" alt="Teams" class="w-10 h-10 mb-2">
                         <span class="text-gray-700 text-sm font-medium">Teams</span>
                     </div>
                     <!-- Second set (duplicate) -->
