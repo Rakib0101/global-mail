@@ -3,12 +3,12 @@
         <!-- Mission Statement -->
         <div class="text-center mb-16">
             <h2 class="text-4xl md:text-5xl font-bold mb-8 leading-tight">
-                "Trust is at the heart of everything we do. Come for 
-                our credentials, our employees, our planet: that's what 
+                "Trust is at the heart of everything we do. Come for
+                our credentials, our employees, our planet: that's what
                 drives us."
             </h2>
             <div class="flex items-center justify-center space-x-3">
-                <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
+                <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
                     <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
                     </svg>
@@ -24,7 +24,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
             <!-- Trust & Security -->
             <div class="text-center">
-                <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
                     <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M10,17L6,13L7.41,11.59L10,14.17L16.59,7.58L18,9L10,17Z"/>
                     </svg>
@@ -71,7 +71,7 @@
                 Trusted by 100,000+ customers worldwide since 1999
             </p>
             <div class="flex justify-center space-x-4">
-                <a href="{{ route('register') }}" class="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition">
+                <a href="{{ route('register') }}" class="px-8 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-blue-700 transition">
                     Get Started
                 </a>
                 <a href="#features" class="px-8 py-3 border border-white text-white font-semibold rounded-lg hover:bg-white hover:text-gray-900 transition">

@@ -22,7 +22,7 @@
 
             <!-- Name and Title -->
             <div class="text-left">
-                <h3 class="text-blue-600 font-semibold text-lg">Randip Singh</h3>
+                <h3 class="text-primary font-semibold text-lg">Randip Singh</h3>
                 <p class="text-blue-500 text-sm">Co-Founder & CEO</p>
             </div>
         </div>

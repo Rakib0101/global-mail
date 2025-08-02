@@ -29,7 +29,7 @@
         </div>
 
         <!-- BBB Accredited Business -->
-        <div class="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
+        <div class="bg-primary text-white px-4 py-2 rounded-full text-sm font-semibold">
             BBB Accredited Business 2014-2024
         </div>
 

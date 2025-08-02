@@ -153,7 +153,7 @@
             </div>
 
             <!-- BBB Accredited Business -->
-            <div class="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
+            <div class="bg-primary text-white px-4 py-2 rounded-full text-sm font-semibold">
                 BBB Accredited Business 2014-2024
             </div>
 
@@ -199,7 +199,7 @@
         <!-- Start Risk Free Button -->
         <div class="text-center">
             <button
-                class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition duration-300 transform hover:scale-105">
+                class="bg-primary hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition duration-300 transform hover:scale-105">
                 Start Risk Free
             </button>
         </div>

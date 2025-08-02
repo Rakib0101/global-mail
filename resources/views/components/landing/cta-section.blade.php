@@ -1,4 +1,4 @@
-<section class="relative overflow-hidden bg-blue-600">
+<section class="relative overflow-hidden bg-primary">
     <div class="max-w-7xl mx-auto">
         <div class="grid grid-cols-1 lg:grid-cols-2 min-h-[600px]">
             <!-- Left Column - Blue Background with Text and Buttons -->
@@ -12,10 +12,10 @@
                         Mail processed in 2 - 4 hours. Get Started Now!
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                        <button class="bg-white text-blue-600 font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+                        <button class="bg-white text-primary font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors duration-200">
                             Start Risk Free
                         </button>
-                        <button class="border-2 border-white text-white font-semibold py-3 px-8 rounded-lg hover:bg-white hover:text-blue-600 transition-colors duration-200">
+                        <button class="border-2 border-white text-white font-semibold py-3 px-8 rounded-lg hover:bg-white hover:text-primary transition-colors duration-200">
                             Book A Demo
                         </button>
                     </div>
@@ -32,7 +32,7 @@
                             <!-- Airmail Stripes -->
                             <div class="absolute top-0 left-0 right-0 h-8 bg-gradient-to-r from-red-500 via-blue-500 to-red-500 rounded-t-lg"></div>
                             <div class="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-r from-red-500 via-blue-500 to-red-500 rounded-b-lg"></div>
-                            
+
                             <!-- Sender Address (Top Left) -->
                             <div class="absolute top-12 left-4 transform -rotate-12">
                                 <div class="text-sm text-gray-700 font-mono">
@@ -41,7 +41,7 @@
                                     <div>Sioux City, Iowa, 51106</div>
                                 </div>
                             </div>
-                            
+
                             <!-- Recipient Address (Bottom Right) -->
                             <div class="absolute bottom-12 right-4 transform -rotate-12">
                                 <div class="text-sm text-gray-700 font-mono text-right">
@@ -50,7 +50,7 @@
                                     <div>Acton, California, 93510</div>
                                 </div>
                             </div>
-                            
+
                             <!-- Postmark/Stamp Area -->
                             <div class="absolute top-2 right-2">
                                 <div class="w-12 h-12 border-2 border-gray-400 rounded-full flex items-center justify-center">

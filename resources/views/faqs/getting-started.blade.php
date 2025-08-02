@@ -8,7 +8,7 @@
                 <ol class="inline-flex items-center space-x-1 md:space-x-3">
                     <li class="inline-flex items-center">
                         <a href="/faqs"
-                            class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
+                            class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-primary">
                             <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                 <path
                                     d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z">
@@ -34,7 +34,7 @@
             <div class="text-center mb-12">
                 <div class="flex items-center justify-center mb-4">
                     <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center">
-                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
                         </svg>
@@ -228,7 +228,7 @@
 
             <!-- Back to Help Center -->
             <div class="mt-12 text-center">
-                <a href="/faqs" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium">
+                <a href="/faqs" class="inline-flex items-center text-primary hover:text-blue-800 font-medium">
                     <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M10 19l-7-7m0 0l7-7m-7 7h18" />

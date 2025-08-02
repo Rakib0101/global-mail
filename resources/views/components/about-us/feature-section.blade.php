@@ -3,19 +3,19 @@
         <!-- First Feature: 10+ Years Experience -->
         <div class="flex flex-col lg:flex-row items-center gap-12 mb-20">
             <div class="w-full lg:w-1/2">
-                <h2 class="text-3xl md:text-4xl font-bold text-blue-600 mb-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-6">
                     We figured why not use our expertise...
                 </h2>
                 <div class="text-lg text-gray-600 leading-relaxed space-y-4">
                     <p>
-                        In handling mail to provide a better way for people to manage their 
+                        In handling mail to provide a better way for people to manage their
                         mail and reduce the negative impact of junk mail in our lives.
                     </p>
                     <p>
-                        An average American spends 32 weeks of their life sorting through 
-                        junk mail! And a 100 Million trees are cut each year to print junk mail. 
-                        We want to change that. We want to reclaim the 32 weeks back for 
-                        ourselves and for you. And plant a 100 Million trees to reduce the 
+                        An average American spends 32 weeks of their life sorting through
+                        junk mail! And a 100 Million trees are cut each year to print junk mail.
+                        We want to change that. We want to reclaim the 32 weeks back for
+                        ourselves and for you. And plant a 100 Million trees to reduce the
                         forest debt that junk mail creates.
                     </p>
                 </div>
@@ -29,10 +29,10 @@
                             <svg class="w-24 h-24 text-yellow-600 mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M12 2L13.09 8.26L20 9L14 14.74L15.18 22L12 20.24L8.82 22L10 14.74L4 9L10.91 8.26L12 2Z"/>
                             </svg>
-                            <div class="bg-blue-600 text-white px-6 py-2 rounded-full font-bold text-xl">
+                            <div class="bg-primary text-white px-6 py-2 rounded-full font-bold text-xl">
                                 10+
                             </div>
-                            <div class="bg-blue-600 text-white px-4 py-1 rounded-full font-semibold text-sm mt-2">
+                            <div class="bg-primary text-white px-4 py-1 rounded-full font-semibold text-sm mt-2">
                                 YEARS
                             </div>
                         </div>
@@ -49,12 +49,12 @@
                 </h2>
                 <div class="text-lg text-gray-600 leading-relaxed space-y-4">
                     <p>
-                        We shred and recycle all junk and discarded mail for our members. 
-                        But that's not enough. Our dream is to recycle ALL the junk mail that 
-                        gets printed. All 5.6 Million Pounds of it. Because that would mean we 
-                        not only help recycle millions of tons of junk mail that otherwise 
-                        would not get recycled but we also reduce the number of garbage 
-                        trucks on our streets that transport this junk mail – 340,000 trucks 
+                        We shred and recycle all junk and discarded mail for our members.
+                        But that's not enough. Our dream is to recycle ALL the junk mail that
+                        gets printed. All 5.6 Million Pounds of it. Because that would mean we
+                        not only help recycle millions of tons of junk mail that otherwise
+                        would not get recycled but we also reduce the number of garbage
+                        trucks on our streets that transport this junk mail – 340,000 trucks
                         every year by some estimates.
                     </p>
                 </div>
@@ -72,19 +72,19 @@
         <!-- Third Feature: Plant Trees -->
         <div class="flex flex-col lg:flex-row items-center gap-12">
             <div class="w-full lg:w-1/2">
-                <h2 class="text-3xl md:text-4xl font-bold text-blue-600 mb-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-6">
                     And go further – plant trees for every user to help repair the planet
                 </h2>
                 <div class="text-lg text-gray-600 leading-relaxed space-y-4">
                     <p>
-                        More than 100,000,000 trees get cut to print junk mail every year. Yes, 
-                        a 100,000,000 trees. Deforestation accounts for almost 20% of the 
+                        More than 100,000,000 trees get cut to print junk mail every year. Yes,
+                        a 100,000,000 trees. Deforestation accounts for almost 20% of the
                         worlds carbon footprint.
                     </p>
                     <p>
-                        We decided to not only neutralize the carbon foot print for our 
-                        members, but actually reverse it. So for each user, we plant a tree to 
-                        compensate for the junk mail created for them. Are you ready to join 
+                        We decided to not only neutralize the carbon foot print for our
+                        members, but actually reverse it. So for each user, we plant a tree to
+                        compensate for the junk mail created for them. Are you ready to join
                         the movement?
                     </p>
                 </div>
@@ -92,7 +92,7 @@
             <div class="w-full lg:w-1/2 flex justify-center">
                 <!-- Earth/Globe -->
                 <div class="relative w-64 h-64">
-                    <div class="w-full h-full bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center shadow-2xl">
+                    <div class="w-full h-full bg-gradient-to-br from-blue-400 to-primary rounded-full flex items-center justify-center shadow-2xl">
                         <!-- Earth continents -->
                         <div class="relative w-48 h-48">
                             <!-- North America -->

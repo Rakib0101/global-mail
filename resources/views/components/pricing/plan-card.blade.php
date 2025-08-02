@@ -34,7 +34,7 @@
     <!-- Plan Title and Subtitle -->
     <div class="text-center mb-6">
         <h3 class="text-2xl font-bold text-gray-900 mb-2">{{ $title }}</h3>
-        <p class="text-blue-600 text-sm font-medium">{{ $subtitle }}</p>
+        <p class="text-primary text-sm font-medium">{{ $subtitle }}</p>
     </div>
 
     <!-- Price -->
@@ -61,7 +61,7 @@
             </button>
         @else
             <button
-                class="w-full py-3 px-6 rounded-lg font-semibold text-white bg-blue-600 hover:bg-blue-700 transition-colors">
+                class="w-full py-3 px-6 rounded-lg font-semibold text-white bg-primary hover:bg-blue-700 transition-colors">
                 Select Plan
             </button>
         @endif

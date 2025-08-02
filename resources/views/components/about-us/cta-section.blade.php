@@ -16,11 +16,11 @@
             <!-- Call-to-Action Buttons -->
             <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <button
-                    class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg transition-colors duration-200 min-w-[200px]">
+                    class="bg-primary hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg transition-colors duration-200 min-w-[200px]">
                     Start Risk Free
                 </button>
                 <button
-                    class="bg-white hover:bg-gray-50 text-blue-600 font-bold py-4 px-8 rounded-lg border-2 border-blue-600 transition-colors duration-200 min-w-[200px]">
+                    class="bg-white hover:bg-gray-50 text-primary font-bold py-4 px-8 rounded-lg border-2 border-primary transition-colors duration-200 min-w-[200px]">
                     Book a Demo
                 </button>
             </div>
@@ -84,7 +84,7 @@
 
             <!-- BBB Award -->
             <div class="flex flex-col items-center">
-                <div class="w-20 h-24 flex flex-col items-center justify-center text-blue-600 text-xs font-bold mb-2">
+                <div class="w-20 h-24 flex flex-col items-center justify-center text-primary text-xs font-bold mb-2">
                     <div class="text-2xl mb-1">🔥</div>
                     <div class="text-[10px] font-bold">BBB</div>
                     <div class="text-[8px] text-center">Awards for Excellence<br>2014-2024</div>

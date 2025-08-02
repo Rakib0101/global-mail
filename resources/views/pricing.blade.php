@@ -132,7 +132,7 @@
             <!-- Bottom Select Plan Button -->
             <div class="text-center mt-12">
                 <button
-                    class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded-lg shadow-lg text-lg">
+                    class="bg-primary hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded-lg shadow-lg text-lg">
                     Select Plan
                 </button>
             </div>

@@ -12,7 +12,15 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                sans: ['Fira Sans', 'Figtree', ...defaultTheme.fontFamily.sans],
+            },
+            colors: {
+                'primary': '#4386fc',
+                'secondary': '#6c757d',
+                'success': '#28a745',
+                'danger': '#dc3545',
+                'warning': '#ffc107',
+                'info': '#17a2b8',
             },
             container: {
                 center: true,

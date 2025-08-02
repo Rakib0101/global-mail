@@ -5,7 +5,7 @@
             <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                 We figured why not use our expertise...
             </h2>
-            <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+            <div class="w-24 h-1 bg-primary mx-auto"></div>
         </div>
 
         <!-- Environmental Impact Grid -->
@@ -54,7 +54,7 @@
             <!-- Global Reach -->
             <div class="text-center">
                 <div class="w-24 h-24 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <svg class="w-12 h-12 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                    <svg class="w-12 h-12 text-primary" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2M13,4.07C15.39,4.59 17.39,6.59 17.93,9H13V4.07M11,4.07V9H6.07C6.61,6.59 8.61,4.59 11,4.07M4,12C4,11.31 4.08,10.64 4.23,10H6.78C6.68,10.64 6.63,11.31 6.63,12C6.63,12.69 6.68,13.36 6.78,14H4.23C4.08,13.36 4,12.69 4,12M6.07,15H11V19.93C8.61,19.41 6.61,17.41 6.07,15M13,19.93V15H17.93C17.39,17.41 15.39,19.41 13,19.93M19.77,14H17.22C17.32,13.36 17.37,12.69 17.37,12C17.37,11.31 17.32,10.64 17.22,10H19.77C19.92,10.64 20,11.31 20,12C20,12.69 19.92,13.36 19.77,14Z"/>
                     </svg>
                 </div>
@@ -66,7 +66,7 @@
         </div>
 
         <!-- Environmental Banner -->
-        <div class="mt-16 bg-gradient-to-r from-green-500 to-blue-600 rounded-2xl p-8 text-white text-center">
+        <div class="mt-16 bg-gradient-to-r from-green-500 to-primary rounded-2xl p-8 text-white text-center">
             <h3 class="text-2xl font-bold mb-4">Our goal is to plant 100,000,000 trees</h3>
             <p class="text-lg opacity-90 mb-6">
                 Every new member helps us get closer to this environmental milestone

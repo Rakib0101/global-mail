@@ -14,7 +14,7 @@
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 mb-16">
             <!-- Team Member 1 -->
             <div class="text-center group">
-                <div class="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden bg-gradient-to-br from-blue-400 to-blue-600 p-1">
+                <div class="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden bg-gradient-to-br from-blue-400 to-primary p-1">
                     <div class="w-full h-full bg-gray-300 rounded-full flex items-center justify-center">
                         <svg class="w-12 h-12 text-gray-600" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
@@ -100,9 +100,9 @@
                         Our Dharma - do the right thing, always.
                     </h3>
                     <p class="text-lg text-gray-600 leading-relaxed">
-                        Our Dharma is to be awesome, a passionate solutions to the chaos. We are experts that provide 
-                        best-in-class service to our customers so that they can pursue goals and live successful lives. 
-                        Our team believes that the joy of seeing our customers succeed and advance professionally and 
+                        Our Dharma is to be awesome, a passionate solutions to the chaos. We are experts that provide
+                        best-in-class service to our customers so that they can pursue goals and live successful lives.
+                        Our team believes that the joy of seeing our customers succeed and advance professionally and
                         personally with our service.
                     </p>
                     <p class="text-lg text-gray-600 leading-relaxed">
@@ -138,7 +138,7 @@
                 <div class="flex justify-center">
                     <div class="w-64 h-64 bg-gradient-to-br from-blue-100 to-green-100 rounded-full flex items-center justify-center">
                         <div class="w-48 h-48 bg-white rounded-full shadow-lg flex items-center justify-center">
-                            <svg class="w-24 h-24 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-24 h-24 text-primary" fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5 2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z"/>
                             </svg>
                         </div>

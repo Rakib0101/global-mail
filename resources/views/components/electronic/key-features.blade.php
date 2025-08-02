@@ -97,7 +97,7 @@
         <!-- Call to Action -->
         <div class="text-center">
             <button
-                class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-4 px-8 rounded-lg transition-colors duration-200 text-lg">
+                class="bg-blue-500 hover:bg-primary text-white font-semibold py-4 px-8 rounded-lg transition-colors duration-200 text-lg">
                 Talk to sales
             </button>
         </div>

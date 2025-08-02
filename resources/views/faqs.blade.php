@@ -35,7 +35,7 @@
                             <div class="flex-shrink-0">
                                 <div
                                     class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center group-hover:bg-blue-200 transition-colors">
-                                    <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor"
+                                    <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor"
                                         viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                             d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
@@ -43,13 +43,13 @@
                                 </div>
                             </div>
                             <div class="flex-1 min-w-0">
-                                <h3 class="text-lg font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
+                                <h3 class="text-lg font-semibold text-gray-900 group-hover:text-primary transition-colors">
                                     Getting Started
                                 </h3>
                                 <p class="text-sm text-gray-600 mt-2">
                                     Everything you need to know to begin your mail management journey
                                 </p>
-                                <p class="text-xs text-blue-600 font-medium mt-3">20 articles</p>
+                                <p class="text-xs text-primary font-medium mt-3">20 articles</p>
                             </div>
                         </div>
                     </div>
@@ -265,7 +265,7 @@
                 <h2 class="text-2xl font-bold text-gray-900 mb-6">Helpful Links</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <a href="/faqs/who-can-use"
-                        class="flex items-center text-blue-600 hover:text-blue-800 transition-colors group">
+                        class="flex items-center text-primary hover:text-blue-800 transition-colors group">
                         <span class="font-medium">Who can use US Global Mail?</span>
                         <svg class="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none"
                             stroke="currentColor" viewBox="0 0 24 24">
@@ -273,7 +273,7 @@
                         </svg>
                     </a>
                     <a href="/faqs/virtual-address"
-                        class="flex items-center text-blue-600 hover:text-blue-800 transition-colors group">
+                        class="flex items-center text-primary hover:text-blue-800 transition-colors group">
                         <span class="font-medium">What will my virtual address be?</span>
                         <svg class="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none"
                             stroke="currentColor" viewBox="0 0 24 24">
@@ -281,7 +281,7 @@
                         </svg>
                     </a>
                     <a href="/faqs/id-requirements"
-                        class="flex items-center text-blue-600 hover:text-blue-800 transition-colors group">
+                        class="flex items-center text-primary hover:text-blue-800 transition-colors group">
                         <span class="font-medium">What are the ID requirements for additional recipients?</span>
                         <svg class="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none"
                             stroke="currentColor" viewBox="0 0 24 24">
@@ -289,7 +289,7 @@
                         </svg>
                     </a>
                     <a href="/faqs/check-deposits"
-                        class="flex items-center text-blue-600 hover:text-blue-800 transition-colors group">
+                        class="flex items-center text-primary hover:text-blue-800 transition-colors group">
                         <span class="font-medium">How do I deposit checks with your service?</span>
                         <svg class="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none"
                             stroke="currentColor" viewBox="0 0 24 24">

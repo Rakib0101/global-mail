@@ -44,7 +44,7 @@
                                 onerror="this.src='/images/testimonials/default-avatar.jpg'">
                             <!-- Video Play Button -->
                             <div x-show="testimonials[currentTestimonial].video"
-                                class="absolute -bottom-2 -right-2 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center shadow-lg">
+                                class="absolute -bottom-2 -right-2 w-8 h-8 bg-primary rounded-full flex items-center justify-center shadow-lg">
                                 <svg class="w-4 h-4 text-white ml-0.5" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
@@ -72,7 +72,7 @@
                     <div class="flex-1">
                         <div class="relative">
                             <!-- Large Quote Marks -->
-                            <svg class="absolute -top-4 -left-2 w-12 h-12 text-blue-600 opacity-20" fill="currentColor"
+                            <svg class="absolute -top-4 -left-2 w-12 h-12 text-primary opacity-20" fill="currentColor"
                                 viewBox="0 0 24 24">
                                 <path
                                     d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
@@ -92,7 +92,7 @@
                 <!-- Previous Button -->
                 <button
                     @click="currentTestimonial = currentTestimonial === 0 ? testimonials.length - 1 : currentTestimonial - 1"
-                    class="w-12 h-12 rounded-full border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-colors duration-200 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                    class="w-12 h-12 rounded-full border-2 border-primary text-primary hover:bg-primary hover:text-white transition-colors duration-200 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                     aria-label="Previous testimonial">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
@@ -102,7 +102,7 @@
                 <!-- Next Button -->
                 <button
                     @click="currentTestimonial = currentTestimonial === testimonials.length - 1 ? 0 : currentTestimonial + 1"
-                    class="w-12 h-12 rounded-full border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-colors duration-200 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                    class="w-12 h-12 rounded-full border-2 border-primary text-primary hover:bg-primary hover:text-white transition-colors duration-200 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                     aria-label="Next testimonial">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -114,7 +114,7 @@
             <div class="flex justify-center mt-6 space-x-2">
                 <template x-for="(testimonial, index) in testimonials" :key="index">
                     <button @click="currentTestimonial = index"
-                        :class="currentTestimonial === index ? 'bg-blue-600' : 'bg-gray-300'"
+                        :class="currentTestimonial === index ? 'bg-primary' : 'bg-gray-300'"
                         class="w-3 h-3 rounded-full transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                         :aria-label="`Go to testimonial ${index + 1}`">
                     </button>

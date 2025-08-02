@@ -10,7 +10,7 @@
                 <p class="text-lg text-gray-600 mb-8 leading-relaxed">
                     US Global Mail turns your mailbox into a convenient inbox so you can live and work from anywhere. You can view, read, share, shred, or forward your mail from the virtual mailbox.
                 </p>
-                <button class="px-6 py-3 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 transition-colors duration-200">
+                <button class="px-6 py-3 border border-primary text-primary rounded-lg hover:bg-blue-50 transition-colors duration-200">
                     How it works
                 </button>
             </div>
@@ -37,14 +37,14 @@
                 <p class="text-lg text-gray-600 mb-8 leading-relaxed">
                     Get a US street address to receive mail from IRS, government agencies, bills, and more. Route all company mail to a single digital dashboard. Invite team members, assign access, track documents - finally, your mail is as smart as your cloud tools.
                 </p>
-                <button class="px-6 py-3 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 transition-colors duration-200">
+                <button class="px-6 py-3 border border-primary text-primary rounded-lg hover:bg-blue-50 transition-colors duration-200">
                     Choose an address
                 </button>
             </div>
             <!-- Left Side: Map Graphic -->
             <div class="lg:w-1/2">
                 <div class="bg-blue-100 rounded-lg h-96 flex items-center justify-center">
-                    <div class="text-center text-blue-600">
+                    <div class="text-center text-primary">
                         <svg class="w-16 h-16 mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
                         </svg>
@@ -81,7 +81,7 @@
                                     <span class="ml-2 text-xs text-gray-500">5 x 5 x 5 in • 5 lbs</span>
                                 </div>
                             </div>
-                            <button class="px-3 py-1 bg-blue-600 text-white text-xs rounded">Ship</button>
+                            <button class="px-3 py-1 bg-primary text-white text-xs rounded">Ship</button>
                         </div>
                         <div class="flex items-center p-3 bg-gray-50 rounded">
                             <div class="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
@@ -91,7 +91,7 @@
                                     <span class="ml-2 text-xs text-gray-500">5 x 5 x 5 in • 5 lbs</span>
                                 </div>
                             </div>
-                            <button class="px-3 py-1 bg-blue-600 text-white text-xs rounded">Deposit</button>
+                            <button class="px-3 py-1 bg-primary text-white text-xs rounded">Deposit</button>
                         </div>
                         <div class="flex items-center p-3 bg-gray-50 rounded">
                             <div class="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
@@ -101,7 +101,7 @@
                                     <span class="ml-2 text-xs text-gray-500">5 x 5 x 5 in • 5 lbs</span>
                                 </div>
                             </div>
-                            <button class="px-3 py-1 bg-blue-600 text-white text-xs rounded">Ship</button>
+                            <button class="px-3 py-1 bg-primary text-white text-xs rounded">Ship</button>
                         </div>
                     </div>
                 </div>

@@ -110,7 +110,7 @@
             </div>
         </div>
         <div class="flex justify-center mt-8">
-            <a href="#" class="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Read more</a>
+            <a href="#" class="px-6 py-2 bg-primary text-white rounded hover:bg-blue-700 transition">Read more</a>
         </div>
     </div>
 </section>

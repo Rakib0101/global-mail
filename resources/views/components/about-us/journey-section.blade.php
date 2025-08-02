@@ -48,14 +48,14 @@
                                 <div class="px-4 py-3">
                                     <!-- Header -->
                                     <div class="flex items-center mb-4">
-                                        <div class="w-8 h-8 bg-blue-600 rounded flex items-center justify-center mr-2">
+                                        <div class="w-8 h-8 bg-primary rounded flex items-center justify-center mr-2">
                                             <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                                                 <path
                                                     d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                                                 <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                                             </svg>
                                         </div>
-                                        <span class="text-lg font-semibold text-blue-600">US Global Mail</span>
+                                        <span class="text-lg font-semibold text-primary">US Global Mail</span>
                                     </div>
 
                                     <!-- Recommended Addresses -->
@@ -93,7 +93,7 @@
 
                                     <!-- Call to Action -->
                                     <div class="text-center">
-                                        <button class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium">
+                                        <button class="bg-primary text-white px-4 py-2 rounded-lg text-sm font-medium">
                                             Let's get started!
                                         </button>
                                     </div>
@@ -186,7 +186,7 @@
                 <div class="w-full lg:w-1/2 flex justify-center">
                     <div class="relative">
                         <!-- Earth -->
-                        <div class="w-32 h-32 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full relative">
+                        <div class="w-32 h-32 bg-gradient-to-br from-blue-400 to-primary rounded-full relative">
                             <!-- Continents -->
                             <div class="absolute top-4 left-4 w-8 h-6 bg-green-600 rounded-full opacity-80"></div>
                             <div class="absolute bottom-6 right-6 w-6 h-4 bg-green-600 rounded-full opacity-80"></div>
@@ -239,7 +239,7 @@
         <!-- Call to Action Button -->
         <div class="text-center mt-16">
             <button
-                class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200">
+                class="bg-primary hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200">
                 Join The Revolution
             </button>
         </div>

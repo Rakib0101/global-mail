@@ -5,17 +5,17 @@
             <div class="w-full lg:w-1/2 flex flex-col items-start justify-center">
                 <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">
                     The Earth is Changing...<br>
-                    <span class="text-blue-600">So Should the Way We Do Mail</span>
+                    <span class="text-primary">So Should the Way We Do Mail</span>
                 </h1>
                 <div class="text-lg text-gray-600 mb-4 leading-relaxed">
                     <p class="mb-4">
-                        Being in the mail industry, we see first hand the mountains of junk mail that people 
-                        get everyday. Which prompted us to start digging into the impact of junk mail on our 
+                        Being in the mail industry, we see first hand the mountains of junk mail that people
+                        get everyday. Which prompted us to start digging into the impact of junk mail on our
                         planet.
                     </p>
                     <p>
-                        We were shocked to find that of the 5,600,000 lbs of junk mail is printed every year, 
-                        less than a quarter of it is recycled. Which means 4.3 Million lbs of junk mail ends up 
+                        We were shocked to find that of the 5,600,000 lbs of junk mail is printed every year,
+                        less than a quarter of it is recycled. Which means 4.3 Million lbs of junk mail ends up
                         in America's landfills every year.
                     </p>
                 </div>
@@ -45,16 +45,16 @@
                                 <!-- Header -->
                                 <div class="flex items-center justify-between mb-4">
                                     <div class="flex items-center">
-                                        <div class="w-8 h-8 bg-blue-600 rounded flex items-center justify-center mr-2">
+                                        <div class="w-8 h-8 bg-primary rounded flex items-center justify-center mr-2">
                                             <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                                                 <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
                                                 <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
                                             </svg>
                                         </div>
-                                        <span class="text-lg font-semibold text-blue-600">US Global Mail</span>
+                                        <span class="text-lg font-semibold text-primary">US Global Mail</span>
                                     </div>
                                 </div>
-                                
+
                                 <!-- Your Mailbox Section -->
                                 <div class="mb-4">
                                     <div class="flex items-center mb-2">

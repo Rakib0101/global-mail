@@ -44,7 +44,7 @@
                         <div class="w-3 h-3 bg-blue-500 rounded-full"></div>
                     </div>
                     <div class="text-center">
-                        <div class="text-blue-600 font-semibold">partners</div>
+                        <div class="text-primary font-semibold">partners</div>
                         <div class="text-xs text-blue-400">IN SCHOOL INNOVATION</div>
                     </div>
                 </div>

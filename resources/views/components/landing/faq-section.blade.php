@@ -15,10 +15,10 @@
             <!-- FAQ Item 1 -->
             <div class="border-b border-gray-200 pb-4">
                 <button class="flex justify-between items-center w-full text-left py-4 focus:outline-none group">
-                    <span class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors">
+                    <span class="text-lg font-medium text-gray-900 group-hover:text-primary transition-colors">
                         What is a virtual mailbox?
                     </span>
-                    <svg class="w-5 h-5 text-gray-400 group-hover:text-blue-600 transition-colors transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="w-5 h-5 text-gray-400 group-hover:text-primary transition-colors transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                     </svg>
                 </button>
@@ -32,10 +32,10 @@
             <!-- FAQ Item 2 -->
             <div class="border-b border-gray-200 pb-4">
                 <button class="flex justify-between items-center w-full text-left py-4 focus:outline-none group">
-                    <span class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors">
+                    <span class="text-lg font-medium text-gray-900 group-hover:text-primary transition-colors">
                         How does a virtual mailbox work?
                     </span>
-                    <svg class="w-5 h-5 text-gray-400 group-hover:text-blue-600 transition-colors transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="w-5 h-5 text-gray-400 group-hover:text-primary transition-colors transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                     </svg>
                 </button>
@@ -49,10 +49,10 @@
             <!-- FAQ Item 3 -->
             <div class="border-b border-gray-200 pb-4">
                 <button class="flex justify-between items-center w-full text-left py-4 focus:outline-none group">
-                    <span class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors">
+                    <span class="text-lg font-medium text-gray-900 group-hover:text-primary transition-colors">
                         Can I use a virtual mailbox for my business?
                     </span>
-                    <svg class="w-5 h-5 text-gray-400 group-hover:text-blue-600 transition-colors transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="w-5 h-5 text-gray-400 group-hover:text-primary transition-colors transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                     </svg>
                 </button>
@@ -66,10 +66,10 @@
             <!-- FAQ Item 4 -->
             <div class="border-b border-gray-200 pb-4">
                 <button class="flex justify-between items-center w-full text-left py-4 focus:outline-none group">
-                    <span class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors">
+                    <span class="text-lg font-medium text-gray-900 group-hover:text-primary transition-colors">
                         What types of mail scanning services do you offer?
                     </span>
-                    <svg class="w-5 h-5 text-gray-400 group-hover:text-blue-600 transition-colors transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="w-5 h-5 text-gray-400 group-hover:text-primary transition-colors transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                     </svg>
                 </button>
@@ -83,10 +83,10 @@
             <!-- FAQ Item 5 -->
             <div class="border-b border-gray-200 pb-4">
                 <button class="flex justify-between items-center w-full text-left py-4 focus:outline-none group">
-                    <span class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors">
+                    <span class="text-lg font-medium text-gray-900 group-hover:text-primary transition-colors">
                         Is a virtual mailbox secure?
                     </span>
-                    <svg class="w-5 h-5 text-gray-400 group-hover:text-blue-600 transition-colors transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="w-5 h-5 text-gray-400 group-hover:text-primary transition-colors transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                     </svg>
                 </button>
@@ -100,10 +100,10 @@
             <!-- FAQ Item 6 -->
             <div class="border-b border-gray-200 pb-4">
                 <button class="flex justify-between items-center w-full text-left py-4 focus:outline-none group">
-                    <span class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors">
+                    <span class="text-lg font-medium text-gray-900 group-hover:text-primary transition-colors">
                         Can I deposit the checks I receive through my virtual mailbox?
                     </span>
-                    <svg class="w-5 h-5 text-gray-400 group-hover:text-blue-600 transition-colors transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="w-5 h-5 text-gray-400 group-hover:text-primary transition-colors transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                     </svg>
                 </button>
@@ -117,10 +117,10 @@
             <!-- FAQ Item 7 -->
             <div class="border-b border-gray-200 pb-4">
                 <button class="flex justify-between items-center w-full text-left py-4 focus:outline-none group">
-                    <span class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors">
+                    <span class="text-lg font-medium text-gray-900 group-hover:text-primary transition-colors">
                         How does mail forwarding work with a virtual mailbox?
                     </span>
-                    <svg class="w-5 h-5 text-gray-400 group-hover:text-blue-600 transition-colors transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="w-5 h-5 text-gray-400 group-hover:text-primary transition-colors transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                     </svg>
                 </button>
@@ -134,10 +134,10 @@
             <!-- FAQ Item 8 -->
             <div class="border-b border-gray-200 pb-4">
                 <button class="flex justify-between items-center w-full text-left py-4 focus:outline-none group">
-                    <span class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors">
+                    <span class="text-lg font-medium text-gray-900 group-hover:text-primary transition-colors">
                         Can I use a virtual mailbox if I live outside the United States?
                     </span>
-                    <svg class="w-5 h-5 text-gray-400 group-hover:text-blue-600 transition-colors transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="w-5 h-5 text-gray-400 group-hover:text-primary transition-colors transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                     </svg>
                 </button>
@@ -151,10 +151,10 @@
             <!-- FAQ Item 9 -->
             <div class="border-b border-gray-200 pb-4">
                 <button class="flex justify-between items-center w-full text-left py-4 focus:outline-none group">
-                    <span class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors">
+                    <span class="text-lg font-medium text-gray-900 group-hover:text-primary transition-colors">
                         How does a virtual mailbox compare to a PO Box?
                     </span>
-                    <svg class="w-5 h-5 text-gray-400 group-hover:text-blue-600 transition-colors transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="w-5 h-5 text-gray-400 group-hover:text-primary transition-colors transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                     </svg>
                 </button>
@@ -168,10 +168,10 @@
             <!-- FAQ Item 10 -->
             <div class="border-b border-gray-200 pb-4">
                 <button class="flex justify-between items-center w-full text-left py-4 focus:outline-none group">
-                    <span class="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors">
+                    <span class="text-lg font-medium text-gray-900 group-hover:text-primary transition-colors">
                         What are the benefits of a virtual office?
                     </span>
-                    <svg class="w-5 h-5 text-gray-400 group-hover:text-blue-600 transition-colors transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="w-5 h-5 text-gray-400 group-hover:text-primary transition-colors transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                     </svg>
                 </button>
@@ -186,8 +186,8 @@
         <!-- Footer -->
         <div class="text-center mt-12">
             <p class="text-gray-600">
-                Got more questions? 
-                <a href="#" class="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center">
+                Got more questions?
+                <a href="#" class="text-primary hover:text-blue-800 font-medium inline-flex items-center">
                     Check out our help center
                     <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -201,12 +201,12 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const faqButtons = document.querySelectorAll('.border-b button');
-    
+
     faqButtons.forEach(button => {
         button.addEventListener('click', function() {
             const answer = this.nextElementSibling;
             const icon = this.querySelector('svg');
-            
+
             // Toggle the answer visibility
             if (answer.classList.contains('hidden')) {
                 answer.classList.remove('hidden');
