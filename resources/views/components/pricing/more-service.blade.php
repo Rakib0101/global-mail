@@ -1,119 +1,113 @@
-<div class="pricing-more-services">
+<section class="pricing-more-services bg-graybg">
     <div class="container mx-auto px-4 py-12">
         <!-- Title Section -->
         <div class="text-center mb-12">
-            <h2 class="text-4xl font-bold text-gray-800 mb-4">NO PROBLEM:</h2>
-            <p class="text-lg text-gray-600">Additional services and features available</p>
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">Need Additional Services? <br>
+                No Problem!</h2>
         </div>
 
         <!-- Pricing Table -->
-        <div class="max-w-4xl mx-auto">
+        <div class="max-w-6xl mx-auto">
             <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <!-- Table Header -->
-                <div class="bg-gray-100 px-6 py-4 border-b border-gray-200">
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                        <div class="font-semibold text-gray-800">Service</div>
-                        <div class="font-semibold text-gray-800">Price</div>
-                        <div class="font-semibold text-gray-800">Feature</div>
-                    </div>
-                </div>
+                <!-- Responsive Table -->
+                <div class="overflow-x-auto">
+                    <table class="w-full border-collapse">
+                        <thead>
+                            <tr class="bg-gray-100 border-b border-gray-200">
+                                <th class="px-6 py-4 text-left font-semibold text-gray-800 border-r border-gray-200">Service</th>
+                                <th class="px-6 py-4 text-left font-semibold text-gray-800">Description</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200">
+                            <!-- Row 1: Additional Account Users -->
+                            <tr class="bg-white hover:bg-gray-50 transition-colors">
+                                <td class="px-6 py-4 font-semibold text-gray-800 border-r border-gray-200">
+                                    <strong>Add additional account users</strong>
+                                    <br>
+                                    <strong>$15</strong>/seat/month
+                                </td>
+                                <td class="px-6 py-4 text-gray-600">Add additional users to manage mail and set permissions for them - Business plans only</td>
+                            </tr>
 
-                <!-- Table Rows -->
-                <div class="divide-y divide-gray-200">
-                    <!-- Row 1: Additional Account Users -->
-                    <div class="px-6 py-4 hover:bg-gray-50 transition-colors">
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
-                            <div class="font-semibold text-gray-800">Add additional account users</div>
-                            <div class="font-semibold text-primary">$15/seat/month</div>
-                            <div class="text-gray-600">Add additional users to manage mail and set permissions for them
-                                - Business plans only</div>
-                        </div>
-                    </div>
+                            <!-- Row 2: Additional Recipients -->
+                            <tr class="bg-gray-50 hover:bg-gray-100 transition-colors">
+                                <td class="px-6 py-4 font-semibold text-gray-800 border-r border-gray-200">
+                                    <strong>Add additional recipients</strong>
+                                    <br>
+                                    <strong>$5.00</strong>/recipient/month
+                                </td>
+                                <td class="px-6 py-4 text-gray-600">Add additional recipients to manage mail on the same account</td>
+                            </tr>
 
-                    <!-- Row 2: Additional Recipients -->
-                    <div class="px-6 py-4 hover:bg-gray-50 transition-colors">
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
-                            <div class="font-semibold text-gray-800">Add additional recipients</div>
-                            <div class="font-semibold text-primary">$5.00 /recipient/month</div>
-                            <div class="text-gray-600">Add additional recipients to manage mail on the same account
-                            </div>
-                        </div>
-                    </div>
+                            <!-- Row 3: Additional Interior Scans -->
+                            <tr class="bg-white hover:bg-gray-50 transition-colors">
+                                <td class="px-6 py-4 font-semibold text-gray-800 border-r border-gray-200">
+                                    <strong>Additional interior scans</strong>
+                                    <br>
+                                    <strong>$0.90 - $0.97</strong>/page
+                                </td>
+                                <td class="px-6 py-4 text-gray-600">After free scans are used up, additional mail that is opened and content pages are scanned</td>
+                            </tr>
 
-                    <!-- Row 3: Additional Interior Scans -->
-                    <div class="px-6 py-4 hover:bg-gray-50 transition-colors">
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
-                            <div class="font-semibold text-gray-800">Additional interior scans</div>
-                            <div class="font-semibold text-primary">$0.90 - $0.97 /page</div>
-                            <div class="text-gray-600">After free scans are used up, additional mail that is opened and
-                                content pages are scanned</div>
-                        </div>
-                    </div>
+                            <!-- Row 4: Discounted Scan Bundles -->
+                            <tr class="bg-gray-50 hover:bg-gray-100 transition-colors">
+                                <td class="px-6 py-4 font-semibold text-gray-800 border-r border-gray-200">
+                                    <strong>Discounted scan bundles</strong>
+                                    <br>
+                                    <strong>$0.50 - $0.80</strong>/page
+                                </td>
+                                <td class="px-6 py-4 text-gray-600">Save with scan bundles for additional interior mail scanning</td>
+                            </tr>
 
-                    <!-- Row 4: Discounted Scan Bundles -->
-                    <div class="px-6 py-4 hover:bg-gray-50 transition-colors">
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
-                            <div class="font-semibold text-gray-800">Discounted scan bundles</div>
-                            <div class="font-semibold text-primary">$0.50 - $0.80 /page</div>
-                            <div class="text-gray-600">Save with scan bundles for additional interior mail scanning
-                            </div>
-                        </div>
-                    </div>
+                            <!-- Row 5: Additional Mail Storage -->
+                            <tr class="bg-white hover:bg-gray-50 transition-colors">
+                                <td class="px-6 py-4 font-semibold text-gray-800 border-r border-gray-200">
+                                    <strong>Additional mail storage</strong>
+                                    <br>
+                                    <strong>$0.05</strong>/letter/day<br>
+                                    <strong>$0.10</strong>/lb/box/day
+                                </td>
+                                <td class="px-6 py-4 text-gray-600">After free days expire, storage cost that letters and packages accumulate</td>
+                            </tr>
 
-                    <!-- Row 5: Additional Mail Storage -->
-                    <div class="px-6 py-4 hover:bg-gray-50 transition-colors">
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
-                            <div class="font-semibold text-gray-800">Additional mail storage</div>
-                            <div class="font-semibold text-primary">$0.05 /letter/day<br>$0.10 /lb/box/day</div>
-                            <div class="text-gray-600">After free days expire, storage cost that letters and packages
-                                accumulate</div>
-                        </div>
-                    </div>
+                            <!-- Row 6: Mail Pick-up in Person -->
+                            <tr class="bg-gray-50 hover:bg-gray-100 transition-colors">
+                                <td class="px-6 py-4 font-semibold text-gray-800 border-r border-gray-200">
+                                    <strong>Mail pick-up in person</strong>
+                                    <br>
+                                    <strong>$5.00</strong> flat for letters<br>
+                                    <strong>$15.00</strong> fixed, plus $1.00/lb for packages
+                                </td>
+                                <td class="px-6 py-4 text-gray-600">Pick up your mailbox items in person at the warehouse/store</td>
+                            </tr>
 
-                    <!-- Row 6: Mail Pick-up in Person -->
-                    <div class="px-6 py-4 hover:bg-gray-50 transition-colors">
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
-                            <div class="font-semibold text-gray-800">Mail pick-up in person</div>
-                            <div class="font-semibold text-primary">$5.00 flat for letters<br>$15.00 fixed, plus $1.00
-                                /lb for packages</div>
-                            <div class="text-gray-600">Pick up your mailbox items in person at the warehouse/store</div>
-                        </div>
-                    </div>
+                            <!-- Row 7: Open & Inspect Packages -->
+                            <tr class="bg-white hover:bg-gray-50 transition-colors">
+                                <td class="px-6 py-4 font-semibold text-gray-800 border-r border-gray-200">
+                                    <strong>Open & inspect packages</strong>
+                                    <br>
+                                    <strong>$5.00</strong>/request
+                                </td>
+                                <td class="px-6 py-4 text-gray-600">Upon request, we will open and upload up to 5 pictures of items inside a package</td>
+                            </tr>
 
-                    <!-- Row 7: Open & Inspect Packages -->
-                    <div class="px-6 py-4 hover:bg-gray-50 transition-colors">
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
-                            <div class="font-semibold text-gray-800">Open & inspect packages</div>
-                            <div class="font-semibold text-primary">$5.00 /request</div>
-                            <div class="text-gray-600">Upon request, we will open and upload up to 5 pictures of items
-                                inside a package</div>
-                        </div>
-                    </div>
-
-                    <!-- Row 8: Bundle Items for Shipping -->
-                    <div class="px-6 py-4 hover:bg-gray-50 transition-colors">
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
-                            <div class="font-semibold text-gray-800">Bundle items for shipping</div>
-                            <div class="font-semibold text-primary">$2.00 for mail bundling<br>$5.00 for package
-                                bundling</div>
-                            <div class="text-gray-600">Save on shipping costs by bundling multiple items to ship
-                                together in one envelope/package</div>
-                        </div>
-                    </div>
+                            <!-- Row 8: Bundle Items for Shipping -->
+                            <tr class="bg-gray-50 hover:bg-gray-100 transition-colors">
+                                <td class="px-6 py-4 font-semibold text-gray-800 border-r border-gray-200">
+                                    <strong>Bundle items for shipping</strong>
+                                    <br>
+                                    <strong>$2.00</strong> for mail bundling<br>
+                                    <strong>$5.00</strong> for package bundling
+                                </td>
+                                <td class="px-6 py-4 text-gray-600">Save on shipping costs by bundling multiple items to ship together in one envelope/package</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
-
-        <!-- Call to Action -->
-        <div class="text-center mt-12">
-            <p class="text-gray-600 mb-6">Need help choosing the right plan?</p>
-            <button
-                class="bg-primary hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors">
-                Contact Sales
-            </button>
-        </div>
     </div>
-</div>
+</section>
 
 <style>
     .pricing-more-services {
