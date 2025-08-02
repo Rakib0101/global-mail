@@ -12,19 +12,19 @@
         <!-- Team image gallery -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
             <div class="rounded-lg overflow-hidden shadow-lg">
-                <img src="{{ asset('images/team/team-meeting.jpg') }}" alt="Team meeting around wooden table"
+                <img src="https://www.usglobalmail.com/wp-content/uploads/2025/04/image.png" alt="Team meeting around wooden table"
                     class="w-full h-64 object-cover">
             </div>
             <div class="rounded-lg overflow-hidden shadow-lg">
-                <img src="{{ asset('images/team/team-dinner.jpg') }}" alt="Team dinner gathering with wine"
+                <img src="https://www.usglobalmail.com/wp-content/uploads/2025/04/us-global-mail-team-1-1.png" alt="Team dinner gathering with wine"
                     class="w-full h-64 object-cover">
             </div>
             <div class="rounded-lg overflow-hidden shadow-lg">
-                <img src="{{ asset('images/team/team-biking.jpg') }}" alt="Team members biking on pier"
+                <img src="https://www.usglobalmail.com/wp-content/uploads/2025/04/us-global-mail-team-2.png" alt="Team members biking on pier"
                     class="w-full h-64 object-cover">
             </div>
             <div class="rounded-lg overflow-hidden shadow-lg">
-                <img src="{{ asset('images/team/team-member.jpg') }}" alt="Team member portrait"
+                <img src="https://www.usglobalmail.com/wp-content/uploads/2025/04/ceo-of-us-global-mail-1-1.jpg" alt="Team member portrait"
                     class="w-full h-64 object-cover">
             </div>
         </div>
@@ -33,45 +33,25 @@
         <div class="max-w-4xl mx-auto">
             <h3 class="text-4xl font-bold text-gray-800 text-center mb-12">Our Dharma - do the right thing, always.</h3>
 
-            <div class="flex flex-col lg:flex-row items-start gap-8">
+            <div class="flex flex-col items-start gap-8">
                 <!-- Quote icon -->
-                <div class="flex-shrink-0">
-                    <div class="text-6xl text-teal-400 font-serif">"</div>
-                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#01a249" width="56" height="56" viewBox="0 0 24 24"><path d="M6.5 10c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.318.142-.686.238-1.028.466-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.945-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 6.5 10zm11 0c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.317.143-.686.238-1.028.467-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.944-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 17.5 10z"/></svg>
 
                 <!-- Content -->
-                <div class="flex-1 space-y-6">
-                    <div class="bg-white p-8 rounded-lg shadow-sm">
-                        <h4 class="text-xl font-semibold text-gray-800 mb-4">Our Mission</h4>
-                        <p class="text-gray-700 leading-relaxed">
-                            Our Mission is to give everyone a permanent address in the cloud. The one address that
-                            people will use for the rest of their lives- on their drivers license, passports, to receive
-                            mail, no matter how many homes they live in. And to digitize all postal mail for companies
-                            to make it effortlessly accessible on demand.
-                        </p>
-                    </div>
-
-                    <div class="bg-white p-8 rounded-lg shadow-sm">
-                        <p class="text-gray-700 leading-relaxed">
-                            As a team, we are friends who share a common love of trees, of philanthropy, of using
-                            technology to make peoples lives easier. We also share a strong desire to leave a better
-                            world behind for our children. As professionals, we are alums of Microsoft, Washington Post,
-                            Barclays, Aker, AT&T, Red Cross and See Your Impact among others.
-                        </p>
-                    </div>
-
-                    <div class="bg-white p-8 rounded-lg shadow-sm">
-                        <h4 class="text-xl font-semibold text-gray-800 mb-4">We are driven by our core values of:</h4>
-                        <ul class="space-y-3 text-gray-700">
-                            <li><strong>Authenticity:</strong> say what we mean and mean what we say</li>
-                            <li><strong>Frugality:</strong> use our and worlds resources with respect</li>
-                            <li><strong>Optimism:</strong> trust our attitude and beliefs shape our environment and
-                                results</li>
-                            <li><strong>Durability:</strong> build organization and develop leaders to thrive for the
-                                very long term</li>
-                            <li><strong>Philanthropy:</strong> leave a better world behind</li>
-                        </ul>
-                    </div>
+                <div class="flex-1 space-y-6 font-semibold text-xl">
+                    <p>Our Mission is to give everyone a permanent address in the cloud. The one address that people
+                        will use for the rest of their lives- on their drivers license, passports, to receive mail, no
+                        matter how many homes they live in. And to digitize all postal mail for companies to make it
+                        effortlessly accessible on demand.</p>
+                    <p>As a team, we are friends who share a common love of trees, of philanthropy, of using technology
+                        to make peoples lives easier. We also share a strong desire to leave a better world behind for
+                        our children. As professionals, we are alums of Microsoft, Washington Post, Barclays, Aker,
+                        AT&T, Red Cross and See Your Impact among others.
+                    </p>
+                    <p> We are driven by our core values of: Authenticity: say what we mean and mean what we say;
+                        Frugality: use our and worlds resources with respect; Optimism: trust our attitude and beliefs
+                        shape our environment and results; Durability: build organization and develop leaders to thrive
+                        for the very long term; Philanthropy: leave a better world behind.</p>
                 </div>
             </div>
         </div>
