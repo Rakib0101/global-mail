@@ -3,219 +3,129 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Section Title -->
         <div class="text-center mb-12">
-            <h2 class="text-4xl font-bold text-gray-900">Plans Include</h2>
+            <h2 class="text-5xl font-bold text-gray-900">Plans Include</h2>
         </div>
 
         <!-- Feature Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
             <!-- Card 1: Always Free Check Deposit -->
-            <div class="bg-white rounded-lg shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
-                <div class="flex items-center justify-center w-12 h-12 bg-green-100 rounded-lg mb-4">
-                    <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" stroke-width="2"
-                        viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                </div>
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">Always Free Check Deposit</h3>
-                <p class="text-gray-600 text-sm">Deposit checks directly to your bank via a scan or a ship Request.</p>
+        <div class="bg-[#f9fbfe] rounded-lg p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <svg class="mb-8" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><g clip-path="url(#clip0_17259_96919)"><path d="M46.2655 22.5176H30.8535V25.0862H44.9811V44.3512H9.01984V25.0862H12.8728V22.5176H7.7355C7.02655 22.5176 6.45117 23.0917 6.45117 23.8019V45.6356C6.45117 46.3458 7.02655 46.9199 7.7355 46.9199H46.2655C46.9744 46.9199 47.5498 46.3458 47.5498 45.6356V23.8019C47.5498 23.0917 46.9744 22.5176 46.2655 22.5176Z" fill="#2763CE" stroke="#2763CE" stroke-width="0.5"></path><path d="M17.4997 29.3748C17.5959 29.3748 17.6921 29.3629 17.7883 29.3392L22.5383 28.1517C22.7473 28.0994 22.9373 27.9914 23.0893 27.8394L37.3393 13.5894C37.8036 13.1251 37.8036 12.3746 37.3393 11.9102L33.7768 8.34775C33.3125 7.88343 32.562 7.88343 32.0976 8.34775L17.8476 22.5977C17.6956 22.7497 17.5876 22.9409 17.5353 23.1499L16.3478 27.8999C16.2469 28.3049 16.3656 28.7324 16.6601 29.0269C16.8858 29.2513 17.1886 29.3748 17.4997 29.3748Z" fill="#01A249"></path><path d="M37.6875 32.9375H16.3125V35.3125H37.6875V32.9375Z" fill="#4386FC"></path><path d="M27 37.6875H16.3125V40.0625H27V37.6875Z" fill="#4386FC"></path><path d="M37.6875 37.6875H31.75V40.0625H37.6875V37.6875Z" fill="#01A249"></path><circle cx="42.0464" cy="41" r="8.94287" fill="#F9FAFB"></circle><path d="M47.5498 40.9545V39.1705H45.6758C45.5599 38.6024 45.3333 38.0743 45.0229 37.607L46.351 36.2788L45.0898 35.0176L43.7617 36.3457C43.2943 36.0353 42.7663 35.8088 42.1981 35.6928V33.8188H40.4142V35.6928C39.846 35.8088 39.318 36.0353 38.8506 36.3457L37.5225 35.0176L36.2613 36.2788L37.5894 37.607C37.279 38.0743 37.0524 38.6024 36.9365 39.1705H35.0625V40.9545H36.9365C37.0524 41.5226 37.279 42.0507 37.5894 42.518L36.2613 43.8462L37.5225 45.1074L38.8506 43.7793C39.318 44.0897 39.846 44.3162 40.4142 44.4322V46.3062H42.1981V44.4322C42.7663 44.3162 43.2943 44.0897 43.7617 43.7793L45.0898 45.1074L46.351 43.8462L45.0229 42.518C45.3333 42.0507 45.5599 41.5226 45.6758 40.9545H47.5498ZM41.3062 41.8464C40.3223 41.8464 39.5223 41.0463 39.5223 40.0625C39.5223 39.0787 40.3223 38.2786 41.3062 38.2786C42.29 38.2786 43.0901 39.0787 43.0901 40.0625C43.0901 41.0463 42.29 41.8464 41.3062 41.8464Z" fill="#4386FC"></path></g><defs><clipPath id="clip0_17259_96919"><rect width="48" height="48" fill="white"></rect></clipPath></defs></svg>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Always Free Check Deposit</h3>
+                <p class="text-gray-600 text-xl">Deposit checks directly to your bank via a scan or a ship Request.</p>
             </div>
 
             <!-- Card 2: Real-Time Access & Notifications -->
-            <div class="bg-white rounded-lg shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
-                <div class="flex items-center justify-center w-12 h-12 bg-green-100 rounded-lg mb-4">
-                    <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" stroke-width="2"
-                        viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                    </svg>
-                </div>
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">Real-Time Access & Notifications</h3>
-                <p class="text-gray-600 text-sm">Open, scan, forward & view mail online the same day it is received.</p>
+            <div class="bg-[#f9fbfe] rounded-lg p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <svg class="mb-8" xmlns="http://www.w3.org/2000/svg" width="49" height="48" viewBox="0 0 49 48" fill="none"><path d="M32.6837 13.8401V11.6922H30.4273C30.2877 11.0081 30.0149 10.3723 29.6412 9.80959L31.2403 8.21048L29.7217 6.69192L28.1226 8.29103C27.5599 7.91729 26.9241 7.64451 26.24 7.5049V5.24854H24.0921V7.5049C23.408 7.64451 22.7722 7.91729 22.2095 8.29103L20.6104 6.69192L19.0918 8.21048L20.6909 9.80959C20.3172 10.3723 20.0444 11.0081 19.9048 11.6922H17.6484V13.8401H19.9048C20.0444 14.5242 20.3172 15.16 20.6909 15.7227L19.0918 17.3218L20.6104 18.8404L22.2095 17.2413C22.7722 17.615 23.408 17.8878 24.0921 18.0274V20.2838H26.24V18.0274C26.9241 17.8878 27.5599 17.615 28.1226 17.2413L29.7217 18.8404L31.2403 17.3218L29.6412 15.7227C30.0149 15.16 30.2877 14.5242 30.4273 13.8401H32.6837ZM25.1661 14.9141C23.9815 14.9141 23.0182 13.9507 23.0182 12.7662C23.0182 11.5816 23.9815 10.6183 25.1661 10.6183C26.3506 10.6183 27.314 11.5816 27.314 12.7662C27.314 13.9507 26.3506 14.9141 25.1661 14.9141Z" fill="#01A249"></path><path d="M13.3933 16.3345L6.66602 21.2118V41.3937H43.6662V21.2118L36.9389 16.3345" stroke="#2763CE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path><path d="M6.66602 21.2119L43.6662 41.3938" stroke="#2763CE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path><path d="M43.6661 21.2119L25.166 31.3029" stroke="#2763CE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Real-Time Access & Notifications</h3>
+                <p class="text-gray-600 text-xl">Open, scan, forward & view mail online the same day it is received.</p>
             </div>
 
             <!-- Card 3: Permanent Physical Address -->
-            <div class="bg-white rounded-lg shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
-                <div class="flex items-center justify-center w-12 h-12 bg-green-100 rounded-lg mb-4">
-                    <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" stroke-width="2"
-                        viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                </div>
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">Permanent Physical Address</h3>
-                <p class="text-gray-600 text-sm">Forward mail from multiple locations, or offices to one permanent
+            <div class="bg-[#f9fbfe] rounded-lg p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <svg class="mb-8" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none"><g clip-path="url(#clip0_17259_96933)"><path d="M13.2762 10.7134C12.8678 11.8909 12.6234 13.1759 12.5945 14.5661H10.6652H10.1652V15.0661V37.0454V38.4871L11.0579 37.3549L21.0519 24.6792L22.1713 25.5619L11.561 39.0202L10.9227 39.8298H11.9536H24.0103H24.5103V39.3298V33.7639H25.9366V39.3298V39.8298H26.4366H38.4932H39.5242L38.8859 39.0202L28.2756 25.5631L29.395 24.6804L39.389 37.3549L40.2816 38.487V37.0454V15.0661V14.5661H39.7816H37.8524C37.8234 13.1759 37.5791 11.8909 37.1707 10.7134H40.9948C42.7253 10.7134 44.1344 12.1225 44.1344 13.8529V40.543C44.1344 42.2734 42.7253 43.6825 40.9948 43.6825H9.45205C7.72159 43.6825 6.3125 42.2734 6.3125 40.543V13.8529C6.3125 12.1225 7.72159 10.7134 9.45205 10.7134H13.2762Z" fill="#2763CE" stroke="#F9FAFB"></path><path d="M25.223 5.36084C20.4516 5.36084 15.5176 8.90819 15.5176 14.8455C15.5176 20.2976 23.4615 28.3677 24.3665 29.2703L25.223 30.1243L26.0796 29.2715C26.9846 28.3689 34.9285 20.2976 34.9285 14.8455C34.9285 8.90819 29.9945 5.36084 25.223 5.36084ZM25.223 17.4927C23.8825 17.4927 22.7967 16.4069 22.7967 15.0663C22.7967 13.7257 23.8825 12.6399 25.223 12.6399C26.5636 12.6399 27.6494 13.7257 27.6494 15.0663C27.6494 16.4069 26.5636 17.4927 25.223 17.4927Z" fill="#01A249"></path></g><defs><clipPath id="clip0_17259_96933"><rect width="38.8219" height="38.8219" fill="white" transform="translate(5.8125 5.35449)"></rect></clipPath></defs></svg>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Permanent Physical Address</h3>
+                <p class="text-gray-600 text-xl">Forward mail from multiple locations, or offices to one permanent
                     address.</p>
             </div>
 
             <!-- Card 4: Free Pre-Sort Junk Mail -->
-            <div class="bg-white rounded-lg shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
-                <div class="flex items-center justify-center w-12 h-12 bg-blue-100 rounded-lg mb-4">
-                    <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" stroke-width="2"
-                        viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                    </svg>
-                </div>
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">Free Pre-Sort Junk Mail</h3>
-                <p class="text-gray-600 text-sm">Junk mail is pre-sorted it never arrives into your mailbox.</p>
+            <div class="bg-[#f9fbfe] rounded-lg p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <svg class="mb-8" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none"><path d="M24.3623 32.5521L24.3627 32.5519L37.8274 25.3983V35.8848L37.8275 35.9012C37.8315 36.2645 37.7626 36.6249 37.6248 36.9616C37.4869 37.2982 37.2828 37.6045 37.0242 37.8622L38.0526 38.8945L37.0242 37.8622C36.7655 38.1199 36.4574 38.3238 36.1179 38.4617C35.7784 38.5997 35.4144 38.6687 35.0474 38.6648L35.0311 38.6647H9.25355L9.23722 38.6648C8.87023 38.6687 8.50627 38.5997 8.16674 38.4617C7.82723 38.3238 7.51917 38.1199 7.26048 37.8622L6.20185 38.9248L7.26048 37.8622C7.00181 37.6045 6.79772 37.2982 6.6599 36.9616L5.28695 37.5237L6.6599 36.9616C6.52208 36.6249 6.45321 36.2645 6.45719 35.9012L6.45728 35.8848V25.3981L19.9242 32.5519L19.9245 32.5521C20.6078 32.9148 21.3698 33.1044 22.1434 33.1044C22.917 33.1044 23.679 32.9148 24.3623 32.5521Z" stroke="#2763CE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path><path d="M35.0311 13.5955V13.5955L35.0447 13.5954C35.4449 13.591 35.8417 13.6663 36.212 13.8168L36.6825 12.6587L36.212 13.8168C36.5823 13.9672 36.9184 14.1897 37.2006 14.4709C37.4829 14.752 37.7057 15.0863 37.8561 15.4538C38.0066 15.8214 38.0818 16.215 38.0775 16.6116L38.0774 16.6116V16.6253V19.7268L22.1423 28.1931L6.20728 19.7268V16.6253H6.20736L6.20721 16.6116C6.20286 16.215 6.27806 15.8214 6.42854 15.4538C6.57901 15.0863 6.80179 14.752 7.08404 14.4709C7.36631 14.1897 7.70237 13.9672 8.07264 13.8168C8.44292 13.6663 8.8398 13.591 9.23994 13.5954L9.23994 13.5955H9.25355H35.0311ZM6.20728 19.8363V19.8353C6.20729 19.8356 6.20729 19.836 6.20728 19.8363Z" stroke="#2763CE" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path><ellipse cx="38.2992" cy="13.4699" rx="8.0004" ry="7.9699" fill="white"></ellipse><path d="M38.3006 18.8574C41.2863 18.8574 43.7067 16.4462 43.7067 13.4719C43.7067 10.4976 41.2863 8.08643 38.3006 8.08643C35.3149 8.08643 32.8945 10.4976 32.8945 13.4719C32.8945 16.4462 35.3149 18.8574 38.3006 18.8574Z" fill="#FB662A"></path></svg>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Free Pre-Sort Junk Mail</h3>
+                <p class="text-gray-600 text-xl">Junk mail is pre-sorted it never arrives into your mailbox.</p>
             </div>
 
             <!-- Card 5: Free Shred & Recycle -->
-            <div class="bg-white rounded-lg shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
-                <div class="flex items-center justify-center w-12 h-12 bg-green-100 rounded-lg mb-4">
-                    <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" stroke-width="2"
-                        viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-                    </svg>
-                </div>
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">Free Shred & Recycle</h3>
-                <p class="text-gray-600 text-sm">100% of all junk and discarded mail is shredded and recycled.</p>
+            <div class="bg-[#f9fbfe] rounded-lg p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <svg class="mb-8" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M15.4109 22.2727H31.6436V16.1636H26.2327V10.0545H15.4109V22.2727ZM12.7055 22.2727V8.52025C12.7055 7.68063 13.3072 7 14.0522 7H27.5855L34.3487 14.6364L34.3491 22.2727H37.0545V25.3273H10V22.2727H12.7055Z" fill="#2763CE"></path><path d="M12.8121 28.3271H10V37.9271H12.8121V28.3271Z" fill="#01A249"></path><path d="M35.3091 28.3271H32.497V37.9271H35.3091V28.3271Z" fill="#01A249"></path><path d="M29.6848 28.3271H26.8727V37.9271H29.6848V28.3271Z" fill="#01A249"></path><path d="M24.0606 28.3271H21.2485V37.9271H24.0606V28.3271Z" fill="#01A249"></path><path d="M18.4364 28.3271H15.6242V37.9271H18.4364V28.3271Z" fill="#01A249"></path></svg>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Free Shred & Recycle</h3>
+                <p class="text-gray-600 text-xl">100% of all junk and discarded mail is shredded and recycled.</p>
             </div>
 
             <!-- Card 6: Same Day Shipping -->
-            <div class="bg-white rounded-lg shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
-                <div class="flex items-center justify-center w-12 h-12 bg-blue-100 rounded-lg mb-4">
-                    <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" stroke-width="2"
-                        viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                    </svg>
-                </div>
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">Same Day Shipping</h3>
-                <p class="text-gray-600 text-sm">Same-day processing of mail, scanning, and shipping. Instant
+            <div class="bg-[#f9fbfe] rounded-lg p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <svg class="mb-8" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M5.54102 40.7498H40.7493C41.7071 40.7498 42.6256 40.3694 43.3028 39.6922C43.98 39.015 44.3605 38.0965 44.3605 37.1387V21.7915" stroke="#2763CE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path><path d="M44.3609 15.4722V11.8611C44.3609 10.9034 43.9804 9.98488 43.3032 9.30767C42.626 8.63046 41.7075 8.25 40.7498 8.25H8.24978C7.29206 8.25 6.37356 8.63046 5.69634 9.30767C5.01913 9.98488 4.63867 10.9034 4.63867 11.8611V15.4722L24.4998 21.7917L44.3609 15.4722Z" stroke="#2763CE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path><path d="M25 26.75H14" stroke="#01A249" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path><path d="M22 33.75H10" stroke="#01A249" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Same Day Shipping</h3>
+                <p class="text-gray-600 text-xl">Same-day processing of mail, scanning, and shipping. Instant
                     notifications.</p>
             </div>
 
             <!-- Card 7: Unlimited Exterior Mail Scans -->
-            <div class="bg-white rounded-lg shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
-                <div class="flex items-center justify-center w-12 h-12 bg-blue-100 rounded-lg mb-4">
-                    <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" stroke-width="2"
-                        viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                </div>
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">Unlimited Exterior Mail Scans</h3>
-                <p class="text-gray-600 text-sm">Enjoy real-time access to mail with unlimited exterior mail scans.</p>
+            <div class="bg-[#f9fbfe] rounded-lg p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <svg class="mb-8" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M7.5918 15.3635V7.59082H15.3645" fill="white"></path><path d="M7.5918 15.3635V7.59082H15.3645" stroke="#2763CE" stroke-width="3" stroke-miterlimit="10" stroke-linecap="square"></path><path d="M32.6367 7.59082H40.4094V15.3635" fill="white"></path><path d="M32.6367 7.59082H40.4094V15.3635" stroke="#2763CE" stroke-width="3" stroke-miterlimit="10" stroke-linecap="square"></path><path d="M40.4094 32.6362V40.409H32.6367" fill="white"></path><path d="M40.4094 32.6362V40.409H32.6367" stroke="#2763CE" stroke-width="3" stroke-miterlimit="10" stroke-linecap="square"></path><path d="M15.3645 40.409H7.5918V32.6362" fill="white"></path><path d="M15.3645 40.409H7.5918V32.6362" stroke="#2763CE" stroke-width="3" stroke-miterlimit="10" stroke-linecap="square"></path><path d="M5 24H43" stroke="#B4CFFE" stroke-width="3" stroke-miterlimit="10" stroke-linecap="square"></path></svg>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Unlimited Exterior Mail Scans</h3>
+                <p class="text-gray-600 text-xl">Enjoy real-time access to mail with unlimited exterior mail scans.</p>
             </div>
 
             <!-- Card 8: Quick Scan Turnarounds -->
-            <div class="bg-white rounded-lg shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
-                <div class="flex items-center justify-center w-12 h-12 bg-blue-100 rounded-lg mb-4">
-                    <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" stroke-width="2"
-                        viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                </div>
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">Quick Scan Turnarounds</h3>
-                <p class="text-gray-600 text-sm">Full color, high-quality scans of internal mail in one business day.
+            <div class="bg-[#f9fbfe] rounded-lg p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <svg class="mb-8" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M12.0359 19.0746C12.6266 19.0746 13.1348 19.1832 13.5604 19.4004C13.9947 19.6175 14.3248 19.9129 14.5507 20.2864C14.7765 20.6599 14.8894 21.0769 14.8894 21.5372C14.8894 22.0324 14.7809 22.5101 14.5637 22.9705C14.3552 23.4222 14.0034 23.926 13.5083 24.482C13.0132 25.0379 12.2878 25.7719 11.3323 26.684H15.0849L14.9025 28H9.44301V26.7752C10.5549 25.646 11.3497 24.8121 11.8275 24.2735C12.3139 23.7262 12.657 23.2615 12.8568 22.8793C13.0653 22.4884 13.1695 22.0845 13.1695 21.6675C13.1695 21.268 13.0522 20.9553 12.8177 20.7294C12.5919 20.5036 12.2878 20.3906 11.9056 20.3906C11.5669 20.3906 11.2672 20.4645 11.0066 20.6121C10.7547 20.7511 10.4897 20.9857 10.2118 21.3157L9.19545 20.5079C9.9338 19.5524 10.8806 19.0746 12.0359 19.0746ZM22.0755 24.7165V25.9934H21.0201V28H19.3914V25.9934H15.6649V24.8468L18.2187 19.0616L19.639 19.5958L17.3979 24.7165H19.4045L19.5738 22.5145H21.0201V24.7165H22.0755ZM30.3339 20.9118C30.9419 20.9118 31.4197 21.0986 31.7671 21.4721C32.1146 21.8456 32.2883 22.3581 32.2883 23.0096V28H30.6205V23.2702C30.6205 22.8619 30.5467 22.5753 30.399 22.4102C30.26 22.2452 30.0515 22.1627 29.7736 22.1627C29.4956 22.1627 29.2394 22.2539 29.0048 22.4363C28.7703 22.61 28.5444 22.8619 28.3273 23.192V28H26.6595V18.358L28.3273 18.1886V21.9281C28.8832 21.2506 29.5521 20.9118 30.3339 20.9118ZM37.6312 20.9248C37.8831 20.9248 38.1133 20.9553 38.3218 21.0161L38.0351 22.6317C37.8267 22.5796 37.6225 22.5536 37.4228 22.5536C37.0145 22.5536 36.6931 22.7012 36.4586 22.9966C36.224 23.2832 36.0373 23.7262 35.8983 24.3256V28H34.2305V21.1073H35.6768L35.8331 22.4624C35.9982 21.9672 36.237 21.5894 36.5498 21.3288C36.8625 21.0595 37.223 20.9248 37.6312 20.9248Z" fill="#01A249"></path><path d="M7.47852 15.3041V7.47803H15.3046" stroke="#2763CE" stroke-width="3" stroke-miterlimit="10" stroke-linecap="square"></path><path d="M32.6953 7.47803H40.5214V15.3041" stroke="#2763CE" stroke-width="3" stroke-miterlimit="10" stroke-linecap="square"></path><path d="M40.5214 32.6958V40.5219H32.6953" stroke="#2763CE" stroke-width="3" stroke-miterlimit="10" stroke-linecap="square"></path><path d="M15.3046 40.5219H7.47852V32.6958" stroke="#2763CE" stroke-width="3" stroke-miterlimit="10" stroke-linecap="square"></path></svg>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Quick Scan Turnarounds</h3>
+                <p class="text-gray-600 text-xl">Full color, high-quality scans of internal mail in one business day.
                     Teams and Enterprise Plans include 4-hour scans.</p>
             </div>
 
             <!-- Card 9: Free Mail Storage -->
-            <div class="bg-white rounded-lg shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
-                <div class="flex items-center justify-center w-12 h-12 bg-green-100 rounded-lg mb-4">
-                    <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" stroke-width="2"
-                        viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
-                    </svg>
-                </div>
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">Free Mail Storage</h3>
-                <p class="text-gray-600 text-sm">30 days of free storage of physical mail and packages. Teams and
+            <div class="bg-[#f9fbfe] rounded-lg p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <svg class="mb-8" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M33.8185 30.3414H37.0142C38.1088 30.3413 39.1758 30.6857 40.0638 31.3257C40.9519 31.9657 41.6161 32.8689 41.9624 33.9073L42.5118 35.5573L22.5729 41.693C20.8634 42.2186 19.0172 42.0654 17.4178 41.2653L6 35.5573V23.3867H7.73866C9.65988 23.3867 14.5299 24.1483 16.4319 26.864H21.6479C23.4924 26.864 25.2613 27.5968 26.5656 28.901C27.8698 30.2052 28.6026 31.9742 28.6026 33.8187H18.1706" stroke="#2763CE" stroke-width="3" stroke-miterlimit="10" stroke-linecap="square"></path><path d="M35.9981 20.835C36.015 21.2704 35.9206 21.7035 35.722 22.1008C35.5233 22.4981 35.2259 22.849 34.8526 23.1263C33.9262 23.7584 32.807 24.12 31.6455 24.1625V26H30.2821V24.1975C28.8186 24.1974 27.3697 23.9352 26.0197 23.4263V21.06C26.6881 21.3466 27.3855 21.5747 28.1023 21.7413C28.8133 21.9227 29.5425 22.0399 30.2793 22.0913V19.3113L29.6115 19.0788C28.5668 18.7646 27.6127 18.2454 26.8181 17.5587C26.2671 17.0008 25.9749 16.2737 26.0017 15.5275C25.9933 15.1167 26.0909 14.7098 26.2871 14.3389C26.4832 13.9679 26.7724 13.6431 27.1318 13.39C28.0474 12.7779 29.1444 12.4246 30.2835 12.375V11H31.6469V12.3362C33.0668 12.3751 34.4658 12.655 35.7704 13.1613L34.8346 15.2587C33.8161 14.8803 32.7391 14.6447 31.6413 14.56V17.205C32.6036 17.5093 33.5297 17.8996 34.4056 18.37C34.8933 18.6445 35.305 19.0156 35.6093 19.455C35.8748 19.875 36.0091 20.3519 35.9981 20.835ZM28.9978 15.5275C28.9937 15.6491 29.0187 15.7702 29.0712 15.8823C29.1237 15.9945 29.2023 16.0952 29.3019 16.1775C29.5956 16.3988 29.9271 16.5761 30.2835 16.7025V14.595C29.4273 14.7092 28.9988 15.02 28.9978 15.5275ZM33.0019 20.97C33.0026 20.8478 32.9725 20.727 32.9138 20.6168C32.8551 20.5066 32.7694 20.4098 32.6632 20.3337C32.3527 20.114 32.0109 19.9328 31.6469 19.795V22.0275C32.5493 21.89 33.001 21.5375 33.0019 20.97Z" fill="#01A249"></path></svg>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Free Mail Storage</h3>
+                <p class="text-gray-600 text-xl">30 days of free storage of physical mail and packages. Teams and
                     Enterprise Plans include 60 days free storage.</p>
             </div>
 
             <!-- Card 10: Secure & Compliant -->
-            <div class="bg-white rounded-lg shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
-                <div class="flex items-center justify-center w-12 h-12 bg-green-100 rounded-lg mb-4">
-                    <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" stroke-width="2"
-                        viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                    </svg>
-                </div>
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">Secure & Compliant</h3>
-                <p class="text-gray-600 text-sm">SOC2 & HIPAA standards. Bank-grade encryption with 2FA and loads of
+            <div class="bg-[#f9fbfe] rounded-lg p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <svg class="mb-8" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M24.5006 14.2856L26.914 19.1764L32.3117 19.9601L28.4062 23.7673L29.3273 29.1428L24.5006 26.605L19.6739 29.1428L20.595 23.7673L16.6895 19.9601L22.0872 19.1764L24.5006 14.2856Z" stroke="#01A249" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path><path d="M24.5 44C24.5 44 5 35.6429 5 10.5714L24.5 5L44 10.5714C44 35.6429 24.5 44 24.5 44Z" stroke="#2763CE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Secure & Compliant</h3>
+                <p class="text-gray-600 text-xl">SOC2 & HIPAA standards. Bank-grade encryption with 2FA and loads of
                     security features built-in.</p>
             </div>
 
             <!-- Card 11: User Privacy -->
-            <div class="bg-white rounded-lg shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
-                <div class="flex items-center justify-center w-12 h-12 bg-green-100 rounded-lg mb-4">
-                    <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" stroke-width="2"
-                        viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                    </svg>
-                </div>
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">User Privacy</h3>
-                <p class="text-gray-600 text-sm">Create folders, add users, and set up automations to scan or forward
+            <div class="bg-[#f9fbfe] rounded-lg p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <svg class="mb-8" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M26.3239 21.8649V18.798C26.3239 17.3999 25.7736 16.079 24.7678 15.0859C23.762 14.0927 22.4362 13.5415 21.0274 13.5415C18.1065 13.5415 15.7307 15.8992 15.7307 18.7982V21.8617C14.1136 22.507 13.0469 24.0463 13.0469 25.8075V28.745C13.0469 33.0857 16.5926 36.6298 20.9492 36.6517H21.1016C25.4585 36.6299 29.0039 33.0807 29.0039 28.745V25.8075C29.0039 24.0262 27.8897 22.4986 26.3201 21.8667L26.3239 21.8649ZM21.0273 14.5428C22.1668 14.5428 23.2421 14.9865 24.0565 15.7948C24.8676 16.5998 25.3181 17.6669 25.3181 18.7979V21.5992C25.1233 21.574 24.9286 21.5522 24.7237 21.5522H17.3325C17.1327 21.5522 16.9379 21.569 16.7432 21.5959V18.7995C16.7432 16.4553 18.6684 14.5446 21.0306 14.5446L21.0273 14.5428ZM27.9967 28.7396C27.9967 32.5291 24.9014 35.628 21.1001 35.6448H20.9528C17.1514 35.628 14.0561 32.5309 14.0561 28.7396V25.8021C14.0561 24.3602 14.9874 23.1083 16.3793 22.6915C16.6875 22.6008 17.0041 22.5537 17.3292 22.5537H24.7205C26.5289 22.5537 27.9936 24.0124 27.9936 25.8021V28.7396L27.9967 28.7396Z" fill="#01A249" stroke="#01A249"></path><path d="M23.4885 28.081C23.4885 27.8078 23.4422 27.5434 23.3568 27.2878C23.0095 26.3054 22.0711 25.647 21.0187 25.647C19.9663 25.647 19.0225 26.3054 18.6806 27.2878C18.5898 27.5434 18.5488 27.8079 18.5488 28.081C18.5488 28.8164 18.8907 29.5064 19.4552 29.9634L19.1632 31.3222L18.9816 32.1732C18.9495 32.3256 18.9869 32.4867 19.0866 32.6075C19.1863 32.7283 19.3377 32.8001 19.5015 32.8001H22.543C22.7033 32.8001 22.8528 32.7283 22.9579 32.6075C23.0576 32.4867 23.0986 32.3256 23.063 32.1732L22.5893 29.9634C23.1591 29.5063 23.501 28.8164 23.501 28.0809L23.4885 28.081ZM21.7203 29.2822C21.5191 29.3943 21.4193 29.6237 21.4656 29.8426L21.8752 31.7618H20.1479L20.5575 29.8426C20.6038 29.6237 20.5023 29.3943 20.3028 29.2822C19.8701 29.0353 19.5959 28.5748 19.5959 28.081C19.5959 27.9234 19.6226 27.771 19.6742 27.6275C19.8701 27.0671 20.4043 26.6907 21.0098 26.6907C21.6152 26.6907 22.1494 27.0671 22.3453 27.6275C22.3952 27.7711 22.4237 27.9234 22.4237 28.081C22.4237 28.5748 22.1548 29.0353 21.7167 29.2822H21.7203Z" fill="#01A249" stroke="#01A249"></path><path d="M41.397 11.1655L36.9107 15.6685L35.2745 14.0263C35.0627 13.8136 34.7126 13.8136 34.497 14.0263C34.2796 14.2389 34.2796 14.5903 34.497 14.8067L36.5201 16.8372C36.6288 16.9463 36.7706 16.998 36.907 16.998C37.0433 16.998 37.1907 16.9463 37.2939 16.8372L42.1709 11.9421C42.3883 11.7294 42.3883 11.3781 42.1709 11.1617C41.959 10.9435 41.609 10.9435 41.3934 11.1617L41.397 11.1655Z" fill="#2763CE" stroke="#2763CE"></path><path d="M38.3693 5.08362C35.2441 5.08362 32.5207 6.81171 31.0896 9.36517C27.2658 7.55971 24.0674 5.16099 21.5869 2.21202C21.4665 2.06801 21.2838 1.98633 21.0968 1.98633H21.0861C20.8926 1.98633 20.7121 2.0809 20.5917 2.22921C15.7384 8.39138 10.0876 11.6648 3.79223 11.9575C3.45048 11.9747 3.18179 12.2541 3.18179 12.5959V24.5527C2.94966 28.3055 3.7492 31.7724 5.55257 34.8587C6.98837 37.3176 9.06251 39.5422 11.7147 41.455C16.1983 44.6963 20.7376 45.9279 20.9313 45.9774C20.9872 45.9946 21.0409 45.9989 21.0968 45.9989C21.1527 45.9989 21.2064 45.9924 21.2623 45.9774C21.4429 45.9279 25.7459 44.7673 30.1157 41.5647C32.6907 39.6711 34.7498 37.4658 36.2245 34.9898C38.073 31.8926 39.0144 28.3869 39.0144 24.5677V21.7348C43.3175 21.4038 46.7178 17.8058 46.7178 13.4251C46.7178 8.82536 42.9757 5.08337 38.3761 5.08337L38.3693 5.08362ZM29.3893 40.5077C25.6816 43.2374 21.9181 44.4475 21.0971 44.6904C20.2503 44.4368 16.2654 43.1665 12.4374 40.3938C6.75452 36.2777 4.07429 30.9687 4.46551 24.6128V24.5741L4.46336 13.1929C10.6921 12.7201 16.2826 9.5003 21.1148 3.61981C23.6403 6.44838 26.8148 8.75896 30.557 10.5259C30.2217 11.4286 30.0282 12.4023 30.0282 13.4254C30.0282 17.8102 33.4286 21.4105 37.7316 21.7352V24.568C37.7316 31.0659 34.9245 36.4307 29.3899 40.5036L29.3893 40.5077ZM38.3693 20.4838C34.4746 20.4838 31.3108 17.3135 31.3108 13.4253C31.3108 9.53492 34.4811 6.36679 38.3693 6.36679C42.2597 6.36679 45.4278 9.53712 45.4278 13.4253C45.4278 17.3157 42.2575 20.4838 38.3693 20.4838Z" fill="#2763CE" stroke="#2763CE"></path></svg>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">User Privacy</h3>
+                <p class="text-gray-600 text-xl">Create folders, add users, and set up automations to scan or forward
                     mail.</p>
             </div>
 
             <!-- Card 12: Instant Notifications -->
-            <div class="bg-white rounded-lg shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
-                <div class="flex items-center justify-center w-12 h-12 bg-blue-100 rounded-lg mb-4">
-                    <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" stroke-width="2"
-                        viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M15 17h5l-5 5v-5zM4.19 4.19A2 2 0 004 6v10a2 2 0 002 2h10a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-1.81 1.19z" />
-                    </svg>
-                </div>
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">Instant Notifications</h3>
-                <p class="text-gray-600 text-sm">Receive real-time mail alerts so nothing slips through.</p>
+            <div class="bg-[#f9fbfe] rounded-lg p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <svg class="mb-8" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none"><path d="M33.9227 2.50684H21C20.2044 2.50684 19.4413 2.82291 18.8787 3.38552C18.3161 3.94812 18 4.71119 18 5.50684V28.0068L25.5 23.5068H43.5C44.2957 23.5068 45.0587 23.1908 45.6213 22.6282C46.1839 22.0655 46.5 21.3025 46.5 20.5068V14.4689" stroke="#B4CFFE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path><path d="M43.5879 10.002C46.1217 10.002 48.1758 7.94788 48.1758 5.41406C48.1758 2.88024 46.1217 0.826172 43.5879 0.826172C41.0541 0.826172 39 2.88024 39 5.41406C39 7.94788 41.0541 10.002 43.5879 10.002Z" fill="#FF0000"></path><path d="M25.5 16.001H31.5" stroke="#B4CFFE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path><path d="M25.5 10.0005H34.4772" stroke="#B4CFFE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 5.50732H9C7.80653 5.50732 6.66193 5.98143 5.81802 6.82534C4.97411 7.66926 4.5 8.81385 4.5 10.0073V43.0073C4.5 44.2008 4.97411 45.3454 5.81802 46.1893C6.66193 47.0332 7.80653 47.5073 9 47.5073H28.5C29.6935 47.5073 30.8381 47.0332 31.682 46.1893C32.5259 45.3454 33 44.2008 33 43.0073V29.5073" stroke="#2763CE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Instant Notifications</h3>
+                <p class="text-gray-600 text-xl">Receive real-time mail alerts so nothing slips through.</p>
             </div>
 
             <!-- Card 13: 200+ workflow integrations -->
-            <div class="bg-white rounded-lg shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
-                <div class="flex items-center justify-center w-12 h-12 bg-green-100 rounded-lg mb-4">
-                    <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" stroke-width="2"
-                        viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                    </svg>
-                </div>
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">200+ workflow integrations</h3>
-                <p class="text-gray-600 text-sm">Integrate with Slack, Google, Dropbox & 200+ Apps on Teams and
+            <div class="bg-[#f9fbfe] rounded-lg p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <svg class="mb-8" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><g clip-path="url(#clip0_13081_47469)"><path d="M10.9922 22.8633V6.78516" stroke="#2763CE" stroke-width="2.29688" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10.9922 41.2383V33.1992" stroke="#2763CE" stroke-width="2.29688" stroke-linecap="round" stroke-linejoin="round"></path><path d="M15.5859 27.457H6.39844V33.1992H15.5859V27.457Z" stroke="#01A249" stroke-width="2.29688" stroke-linecap="round" stroke-linejoin="round"></path><path d="M36.2578 22.8633V6.78516" stroke="#2763CE" stroke-width="2.29688" stroke-linecap="round" stroke-linejoin="round"></path><path d="M36.2578 41.2383V33.1992" stroke="#2763CE" stroke-width="2.29688" stroke-linecap="round" stroke-linejoin="round"></path><path d="M40.8516 27.457H31.6641V33.1992H40.8516V27.457Z" stroke="#01A249" stroke-width="2.29688" stroke-linecap="round" stroke-linejoin="round"></path><path d="M23.625 10.2305V6.78516" stroke="#2763CE" stroke-width="2.29688" stroke-linecap="round" stroke-linejoin="round"></path><path d="M23.625 41.2383V20.5664" stroke="#2763CE" stroke-width="2.29688" stroke-linecap="round" stroke-linejoin="round"></path><path d="M28.2188 14.8242H19.0312V20.5664H28.2188V14.8242Z" stroke="#01A249" stroke-width="2.29688" stroke-linecap="round" stroke-linejoin="round"></path></g><defs><clipPath id="clip0_13081_47469"><rect width="36.75" height="36.75" fill="white" transform="translate(5.25 5.63672)"></rect></clipPath></defs></svg>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">200+ workflow integrations</h3>
+                <p class="text-gray-600 text-xl">Integrate with Slack, Google, Dropbox & 200+ Apps on Teams and
                     Enterprise plans.</p>
             </div>
 
             <!-- Card 14: Data Exports -->
-            <div class="bg-white rounded-lg shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
-                <div class="flex items-center justify-center w-12 h-12 bg-green-100 rounded-lg mb-4">
-                    <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" stroke-width="2"
-                        viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                    </svg>
-                </div>
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">Data Exports</h3>
-                <p class="text-gray-600 text-sm">Export mail data seamlessly for compliance or record-keeping.
+            <div class="bg-[#f9fbfe] rounded-lg p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <svg class="mb-8" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M37.3327 30.6667V37.3333C37.3327 38.2174 36.9815 39.0652 36.3564 39.6904C35.7312 40.3155 34.8834 40.6667 33.9993 40.6667H8.99935C8.11529 40.6667 7.26745 40.3155 6.64233 39.6904C6.01721 39.0652 5.66602 38.2174 5.66602 37.3333V17.3333C5.66602 16.4493 6.01721 15.6014 6.64233 14.9763C7.26745 14.3512 8.11529 14 8.99935 14H10.666" stroke="#2763CE" stroke-width="3" stroke-miterlimit="10" stroke-linecap="square"></path><path d="M40.6654 19.0002L27.332 7.3335V14.0002C18.6654 14.0002 12.332 17.1668 12.332 30.6668C15.4987 26.5002 18.4987 24.0002 27.332 24.0002V30.6668L40.6654 19.0002Z" stroke="#01A249" stroke-width="3" stroke-miterlimit="10" stroke-linecap="square"></path></svg>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Data Exports</h3>
+                <p class="text-gray-600 text-xl">Export mail data seamlessly for compliance or record-keeping.
                     Available on Teams and Enterprise plans.</p>
             </div>
 
             <!-- Card 15: Mail Rules -->
-            <div class="bg-white rounded-lg shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
-                <div class="flex items-center justify-center w-12 h-12 bg-blue-100 rounded-lg mb-4">
-                    <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" stroke-width="2"
-                        viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                </div>
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">Mail Rules</h3>
-                <p class="text-gray-600 text-sm">Automatically forward or scan important documents.</p>
+            <div class="bg-[#f9fbfe] rounded-lg p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <svg class="mb-8" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M32.0177 13.8401V11.6922H29.7613C29.6217 11.0081 29.3489 10.3723 28.9752 9.80959L30.5743 8.21048L29.0557 6.69192L27.4566 8.29103C26.8939 7.91729 26.2581 7.64451 25.574 7.5049V5.24854H23.4261V7.5049C22.742 7.64451 22.1062 7.91729 21.5435 8.29103L19.9444 6.69192L18.4258 8.21048L20.0249 9.80959C19.6512 10.3723 19.3784 11.0081 19.2388 11.6922H16.9824V13.8401H19.2388C19.3784 14.5242 19.6512 15.16 20.0249 15.7227L18.4258 17.3218L19.9444 18.8404L21.5435 17.2413C22.1062 17.615 22.742 17.8878 23.4261 18.0274V20.2838H25.574V18.0274C26.2581 17.8878 26.8939 17.615 27.4566 17.2413L29.0557 18.8404L30.5743 17.3218L28.9752 15.7227C29.3489 15.16 29.6217 14.5242 29.7613 13.8401H32.0177ZM24.5 14.9141C23.3155 14.9141 22.3522 13.9507 22.3522 12.7662C22.3522 11.5816 23.3155 10.6183 24.5 10.6183C25.6846 10.6183 26.6479 11.5816 26.6479 12.7662C26.6479 13.9507 25.6846 14.9141 24.5 14.9141Z" fill="#01A249"></path><path d="M12.7273 16.3345L6 21.2118V41.3937H43.0002V21.2118L36.2729 16.3345" stroke="#2763CE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path><path d="M6 21.2119L43.0002 41.3938" stroke="#2763CE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path><path d="M43.0001 21.2119L24.5 31.3029" stroke="#2763CE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Mail Rules</h3>
+                <p class="text-gray-600 text-xl">Automatically forward or scan important documents.</p>
             </div>
         </div>
 
         <!-- Call to Action Button -->
         <div class="text-center">
             <button
-                class="bg-primary hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded-lg shadow-lg text-lg transition-colors">
+                class="bg-primary hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded text-lg transition-colors">
                 Get Started
             </button>
         </div>

@@ -1,8 +1,8 @@
 <section class="py-16 bg-white">
     <div class="container mx-auto px-4">
         <!-- Heading Section -->
-        <div class="text-center mb-12">
-            <h2 class="text-4xl font-bold text-gray-800 mb-4">
+        <div class="text-center mb-20">
+            <h2 class="text-5xl font-bold text-gray-800 mb-4">
                 Over 100,000 users
             </h2>
             <p class="text-xl text-gray-600 max-w-3xl mx-auto">
