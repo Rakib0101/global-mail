@@ -135,32 +135,8 @@
                 </div>
             </div>
 
-            <!-- Navigation Arrows (Mobile Only) -->
-            <div class="md:hidden flex justify-center mt-8 space-x-4">
-                <!-- Previous Button -->
-                <button
-                    @click="currentTestimonial = currentTestimonial === 0 ? testimonials.length - 1 : currentTestimonial - 1"
-                    class="w-12 h-12 rounded-full bg-white text-gray-900 hover:bg-gray-100 transition-colors duration-200 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900"
-                    aria-label="Previous testimonial">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7">
-                        </path>
-                    </svg>
-                </button>
-
-                <!-- Next Button -->
-                <button
-                    @click="currentTestimonial = currentTestimonial === testimonials.length - 1 ? 0 : currentTestimonial + 1"
-                    class="w-12 h-12 rounded-full bg-white text-gray-900 hover:bg-gray-100 transition-colors duration-200 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900"
-                    aria-label="Next testimonial">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                    </svg>
-                </button>
-            </div>
-
-            <!-- Dots Indicator (Mobile Only) -->
-            <div class="md:hidden flex justify-center mt-6 space-x-2">
+            <!-- Pagination Dots (All screen sizes) -->
+            <div class="flex justify-center mt-8 space-x-2">
                 <template x-for="(testimonial, index) in testimonials" :key="index">
                     <button @click="currentTestimonial = index"
                         :class="currentTestimonial === index ? 'bg-white' : 'bg-white bg-opacity-30'"
