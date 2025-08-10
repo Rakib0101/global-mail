@@ -10,34 +10,7 @@
         </div>
     </div>
 
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" x-data="{
-        currentTestimonial: 0,
-        testimonials: [{
-                name: 'Rich Bowen',
-                title: 'Chief Operating Officer, Darwin Homes',
-                quote: 'It sounds simple, but Stable just works.',
-                backgroundImage: '/assets/images/electronic-hero-right-1.webp',
-                ctaText: 'Read the case study',
-                ctaLink: '#'
-            },
-            {
-                name: 'Alessandro Barone',
-                title: 'People Operations Manager, Aiven',
-                quote: 'The old way was really stressful and difficult. Stable has made everything so much more simple.',
-                backgroundImage: '/assets/images/electronic-hero-right-2.webp',
-                ctaText: 'Read the case study',
-                ctaLink: '#'
-            },
-            {
-                name: 'Jaiden Williams',
-                title: 'HR, Verbit',
-                quote: 'Stable has helped us reduce the constant back and forth between departments over mail. They feel like a partner rather than a vendor.',
-                backgroundImage: '/assets/images/electronic-hero-right-top.svg',
-                ctaText: 'Read the case study',
-                ctaLink: '#'
-            }
-        ]
-    }">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Section Heading -->
         <div class="text-center mb-16">
             <h2 class="text-4xl md:text-6xl font-bold text-white mb-4">
@@ -45,38 +18,30 @@
             </h2>
         </div>
 
-        <!-- Testimonials -->
-        <div class="relative">
-            <!-- Desktop: Show all testimonials side by side -->
-            <div class="hidden md:grid md:grid-cols-3 md:gap-6">
-                <template x-for="(testimonial, index) in testimonials" :key="index">
-                    <div class="relative h-80 rounded-xl overflow-hidden group">
-                        <!-- Background Image -->
+        <!-- Swiper Testimonials -->
+        <div class="swiper testimonial-swiper">
+            <div class="swiper-wrapper">
+                <!-- Testimonial 1 -->
+                <div class="swiper-slide">
+                    <div class="relative h-80 rounded-xl overflow-hidden group cursor-pointer">
                         <div class="absolute inset-0 bg-cover bg-center bg-no-repeat"
-                            :style="`background-image: url('${testimonial.backgroundImage}')`">
+                            style="background-image: url('/assets/images/electronic-hero-right-1.webp')">
                         </div>
-
-                        <!-- Dark Overlay -->
                         <div class="absolute inset-0 bg-black bg-opacity-40"></div>
-
-                        <!-- Content -->
-                        <div class="absolute inset-0 flex flex-col justify-between p-8">
-                            <!-- Quote -->
+                        <div class="absolute inset-0 flex flex-col justify-between p-6">
                             <div class="flex-1 flex items-start">
                                 <blockquote class="text-white text-lg font-medium leading-relaxed">
-                                    <span x-text="testimonial.quote"></span>
+                                    It sounds simple, but Stable just works.
                                 </blockquote>
                             </div>
-
-                            <!-- Attribution and CTA -->
                             <div class="flex flex-col">
                                 <div class="mb-4">
-                                    <h3 class="text-white font-semibold text-lg" x-text="testimonial.name"></h3>
-                                    <p class="text-gray-300 text-sm" x-text="testimonial.title"></p>
+                                    <h3 class="text-white font-semibold text-lg">Rich Bowen</h3>
+                                    <p class="text-gray-300 text-sm">Chief Operating Officer, Darwin Homes</p>
                                 </div>
-                                <a :href="testimonial.ctaLink"
+                                <a href="#"
                                     class="inline-flex items-center text-white hover:text-blue-300 transition-colors duration-200 font-medium">
-                                    <span x-text="testimonial.ctaText"></span>
+                                    Read the case study
                                     <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                             d="M9 5l7 7-7 7"></path>
@@ -85,66 +50,150 @@
                             </div>
                         </div>
                     </div>
-                </template>
-            </div>
+                </div>
 
-            <!-- Mobile: Carousel -->
-            <div class="md:hidden relative overflow-hidden">
-                <div class="flex transition-transform duration-500 ease-in-out"
-                    :style="`transform: translateX(-${currentTestimonial * 100}%)`">
-                    <template x-for="(testimonial, index) in testimonials" :key="index">
-                        <div class="w-full flex-shrink-0 px-4">
-                            <div class="relative h-96 rounded-xl overflow-hidden group">
-                                <!-- Background Image -->
-                                <div class="absolute inset-0 bg-cover bg-center bg-no-repeat"
-                                    :style="`background-image: url('${testimonial.backgroundImage}')`">
+                <!-- Testimonial 2 -->
+                <div class="swiper-slide">
+                    <div class="relative h-80 rounded-xl overflow-hidden group cursor-pointer">
+                        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat"
+                            style="background-image: url('/assets/images/electronic-hero-right-2.webp')">
+                        </div>
+                        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+                        <div class="absolute inset-0 flex flex-col justify-between p-6">
+                            <div class="flex-1 flex items-start">
+                                <blockquote class="text-white text-lg font-medium leading-relaxed">
+                                    The old way was really stressful and difficult. Stable has made everything so much
+                                    more simple.
+                                </blockquote>
+                            </div>
+                            <div class="flex flex-col">
+                                <div class="mb-4">
+                                    <h3 class="text-white font-semibold text-lg">Alessandro Barone</h3>
+                                    <p class="text-gray-300 text-sm">People Operations Manager, Aiven</p>
                                 </div>
-
-                                <!-- Dark Overlay -->
-                                <div class="absolute inset-0 bg-black bg-opacity-40"></div>
-
-                                <!-- Content -->
-                                <div class="absolute inset-0 flex flex-col justify-between p-8">
-                                    <!-- Quote -->
-                                    <div class="flex-1 flex items-start">
-                                        <blockquote class="text-white text-lg font-medium leading-relaxed">
-                                            <span x-text="testimonial.quote"></span>
-                                        </blockquote>
-                                    </div>
-
-                                    <!-- Attribution and CTA -->
-                                    <div class="flex flex-col">
-                                        <div class="mb-4">
-                                            <h3 class="text-white font-semibold text-lg" x-text="testimonial.name"></h3>
-                                            <p class="text-gray-300 text-sm" x-text="testimonial.title"></p>
-                                        </div>
-                                        <a :href="testimonial.ctaLink"
-                                            class="inline-flex items-center text-white hover:text-blue-300 transition-colors duration-200 font-medium">
-                                            <span x-text="testimonial.ctaText"></span>
-                                            <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor"
-                                                viewBox="0 0 24 24">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M9 5l7 7-7 7"></path>
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
+                                <a href="#"
+                                    class="inline-flex items-center text-white hover:text-blue-300 transition-colors duration-200 font-medium">
+                                    Read the case study
+                                    <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
                             </div>
                         </div>
-                    </template>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="swiper-slide">
+                    <div class="relative h-80 rounded-xl overflow-hidden group cursor-pointer">
+                        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat"
+                            style="background-image: url('/assets/images/electronic-hero-right-top.svg')">
+                        </div>
+                        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+                        <div class="absolute inset-0 flex flex-col justify-between p-6">
+                            <div class="flex-1 flex items-start">
+                                <blockquote class="text-white text-lg font-medium leading-relaxed">
+                                    Stable has helped us reduce the constant back and forth between departments over
+                                    mail. They feel like a partner rather than a vendor.
+                                </blockquote>
+                            </div>
+                            <div class="flex flex-col">
+                                <div class="mb-4">
+                                    <h3 class="text-white font-semibold text-lg">Jaiden Williams</h3>
+                                    <p class="text-gray-300 text-sm">HR, Verbit</p>
+                                </div>
+                                <a href="#"
+                                    class="inline-flex items-center text-white hover:text-blue-300 transition-colors duration-200 font-medium">
+                                    Read the case study
+                                    <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="swiper-slide">
+                    <div class="relative h-80 rounded-xl overflow-hidden group cursor-pointer">
+                        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat"
+                            style="background-image: url('/assets/images/electronic-hero-right-1.webp')">
+                        </div>
+                        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+                        <div class="absolute inset-0 flex flex-col justify-between p-6">
+                            <div class="flex-1 flex items-start">
+                                <blockquote class="text-white text-lg font-medium leading-relaxed">
+                                    The integration was seamless and the support team is incredibly responsive.
+                                </blockquote>
+                            </div>
+                            <div class="flex flex-col">
+                                <div class="mb-4">
+                                    <h3 class="text-white font-semibold text-lg">Sarah Chen</h3>
+                                    <p class="text-gray-300 text-sm">Operations Director, TechFlow</p>
+                                </div>
+                                <a href="#"
+                                    class="inline-flex items-center text-white hover:text-blue-300 transition-colors duration-200 font-medium">
+                                    Read the case study
+                                    <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <!-- Pagination Dots (All screen sizes) -->
-            <div class="flex justify-center mt-8 space-x-2">
-                <template x-for="(testimonial, index) in testimonials" :key="index">
-                    <button @click="currentTestimonial = index"
-                        :class="currentTestimonial === index ? 'bg-white' : 'bg-white bg-opacity-30'"
-                        class="w-3 h-3 rounded-full transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900"
-                        :aria-label="`Go to testimonial ${index + 1}`">
-                    </button>
-                </template>
+            <!-- Navigation Controls -->
+            <div class="flex justify-center mt-8 space-x-4">
+                <button
+                    class="swiper-button-prev !static !w-12 !h-12 !bg-white !bg-opacity-20 !backdrop-blur-sm !rounded-full !border !border-white !border-opacity-30 hover:!bg-opacity-30 transition-all duration-200">
+                    <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7">
+                        </path>
+                    </svg>
+                </button>
+                <button
+                    class="swiper-button-next !static !w-12 !h-12 !bg-white !bg-opacity-20 !backdrop-blur-sm !rounded-full !border !border-white !border-opacity-30 hover:!bg-opacity-30 transition-all duration-200">
+                    <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                        </path>
+                    </svg>
+                </button>
             </div>
         </div>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            new Swiper('.testimonial-swiper', {
+                modules: [window.SwiperModules.Navigation, window.SwiperModules.Autoplay],
+                slidesPerView: 1,
+                spaceBetween: 20,
+                loop: true,
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                breakpoints: {
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 30,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                    }
+                }
+            });
+        });
+    </script>
 </section>
