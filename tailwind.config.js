@@ -15,7 +15,7 @@ export default {
                 sans: ['Fira Sans', 'Figtree', ...defaultTheme.fontFamily.sans],
             },
             colors: {
-                'primary': '#4386fc',
+                'primary': '#0169C2',
                 'secondary': '#6c757d',
                 'success': '#28a745',
                 'danger': '#dc3545',
