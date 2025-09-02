@@ -4,7 +4,7 @@
         <div class="flex justify-between h-28 items-center">
             <!-- Logo -->
             <a href="/" class="flex items-center space-x-2">
-                <img src="/assets/images/logo.png" alt="Logo" class="w-full max-w-[150px] h-auto" />
+                <img src="/assets/images/logo.png" alt="Logo" class="w-full max-w-[160px] h-auto" />
             </a>
 
             <!-- Desktop Nav Links -->

@@ -5,7 +5,7 @@
             <!-- Company Information Column -->
             <div class="lg:col-span-1">
                 <!-- Logo -->
-                <img src="{{ asset('assets/images/logo.png') }}" alt="US Global Mail" class="w-40 mb-8">
+                <img src="{{ asset('assets/images/logo.png') }}" alt="US Global Mail" class="w-40 h-auto mb-8">
 
 
                 <!-- Address -->
