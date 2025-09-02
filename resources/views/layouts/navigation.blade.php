@@ -1,6 +1,6 @@
 <!-- Sticky Navigation Header -->
 <nav class="sticky top-0 z-50 bg-white border-b border-gray-100">
-    <div class="max-w-[1712px] mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-28 items-center">
             <!-- Logo -->
             <a href="/" class="flex items-center space-x-2">

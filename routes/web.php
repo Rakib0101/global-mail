@@ -12,6 +12,7 @@ Route::view('/faqs', 'faqs')->name('faqs');
 Route::view('/pricing', 'pricing')->name('pricing');
 Route::view('/electronic-check-deposit', 'electronic-check-deposit')->name('electronic-check-deposit');
 Route::view('/sign-in', 'sign-in')->name('sign-in');
+Route::view('/register', 'register')->name('register');
 
 // FAQ Category Routes
 Route::view('/faqs/getting-started', 'faqs.getting-started')->name('faqs.getting-started');

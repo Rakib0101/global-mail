@@ -1,11 +1,11 @@
-<footer class="bg-gray-800 text-gray-300">
+<footer class="bg-gray-900 text-gray-300">
     <!-- Main Footer Content -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
             <!-- Company Information Column -->
             <div class="lg:col-span-1">
                 <!-- Logo -->
-                <img src="{{ asset('assets/images/logo.svg') }}" alt="US Global Mail" class="w-40 mb-8">
+                <img src="{{ asset('assets/images/logo.png') }}" alt="US Global Mail" class="w-40 mb-8">
 
 
                 <!-- Address -->
