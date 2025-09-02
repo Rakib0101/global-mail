@@ -22,7 +22,7 @@
 <section class="lg:py-16 py-6 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Rating Section -->
-        <div class="text-center mb-12 flex flex-col sm:flex-row justify-center items-center gap-4">
+        {{-- <div class="text-center mb-12 flex flex-col sm:flex-row justify-center items-center gap-4">
             <div class="flex flex-col sm:flex-row items-center justify-center">
                 <!-- Stars -->
                 <div class="flex gap-[7px] items-center">
@@ -52,7 +52,7 @@
             <p class="text-gray-600">
                 Based on <span class="underline cursor-pointer">2000+ reviews</span>
             </p>
-        </div>
+        </div> --}}
 
         <!-- Partner Logos with Infinite Scroll -->
         <div class="overflow-hidden">

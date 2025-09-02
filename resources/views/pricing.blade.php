@@ -138,7 +138,7 @@
         @include('components.landing.cta-section')
         @include('components.pricing.testimonial-section')
         @include('components.pricing.more-service')
-        @include('components.pricing.award-section')
+        {{-- @include('components.pricing.award-section') --}}
         @include('components.pricing.faq-section')
     </div>
 @endsection

@@ -12,12 +12,12 @@
                         Mail processed in 2 - 4 hours. Get Started Now!
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                        <button class="bg-white text-primary font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+                        <a href="{{ route('register') }}" class="bg-white text-primary font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors duration-200">
                             Start Risk Free
-                        </button>
-                        <button class="border-2 border-white text-white font-semibold py-3 px-8 rounded-lg hover:bg-white hover:text-primary transition-colors duration-200">
+                        </a>
+                        <a href="#" class="border-2 border-white text-white font-semibold py-3 px-8 rounded-lg hover:bg-white hover:text-primary transition-colors duration-200">
                             Book A Demo
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>

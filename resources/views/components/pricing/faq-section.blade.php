@@ -2,6 +2,9 @@
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Subtitle -->
         <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-gray-900 mb-4">
+                Frequently Asked Questions
+            </h2>
             <p class="text-lg text-gray-600">
                 Everything you need to know about our virtual mail service.
             </p>
