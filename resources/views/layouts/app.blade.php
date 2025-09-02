@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'iMail Vault | Virtual Digital Mailbox for Companies and Individuals') }}</title>
+        <title>{{ config('app.name', 'Virtual Digital Mailbox for Companies and Individuals') }}</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
