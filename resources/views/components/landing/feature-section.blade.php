@@ -12,10 +12,10 @@
                     US Global Mail turns your mailbox into a convenient inbox so you can live and work from anywhere.
                     You can view, read, share, shred, or forward your mail from the virtual mailbox.
                 </p>
-                <button
+                <a href="{{ route('how-it-works') }}"
                     class="px-6 py-4 border border-primary text-primary rounded hover:bg-primary hover:text-white transition-colors duration-200">
                     How it works
-                </button>
+                </a>
             </div>
             <!-- Right Side: Image -->
             <div class="w-full max-w-[400px]">
