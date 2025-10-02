@@ -11,6 +11,7 @@ Route::view('/contact-us', 'contact-us')->name('contact-us');
 Route::view('/faqs', 'faqs')->name('faqs');
 Route::view('/pricing', 'pricing')->name('pricing');
 Route::view('/electronic-check-deposit', 'electronic-check-deposit')->name('electronic-check-deposit');
+Route::view('/select-virtual-address', 'select-virtual-address')->name('select-virtual-address');
 Route::view('/sign-in', 'sign-in')->name('sign-in');
 Route::view('/register', 'register')->name('register');
 
