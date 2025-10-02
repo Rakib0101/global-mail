@@ -365,13 +365,13 @@
                 // Remove active class from all buttons
                 tabButtons.forEach(btn => {
                     btn.classList.remove('bg-blue-50', 'text-blue-600', 'border-l-4',
-                        'border-blue-600');
+                        'border-blue-600', 'shadow-md');
                     btn.classList.add('text-gray-600');
                 });
 
                 // Add active class to clicked button
                 this.classList.add('bg-blue-50', 'text-blue-600', 'border-l-4',
-                    'border-blue-600');
+                    'border-blue-600', 'shadow-md');
                 this.classList.remove('text-gray-600');
 
                 // Hide all tab contents
@@ -385,6 +385,30 @@
                     targetContent.classList.remove('hidden');
                 }
             });
+
+            // Add hover effects
+            button.addEventListener('mouseenter', function() {
+                if (!this.classList.contains('bg-blue-50')) {
+                    this.classList.add('bg-gray-50', 'shadow-sm');
+                }
+            });
+
+            button.addEventListener('mouseleave', function() {
+                if (!this.classList.contains('bg-blue-50')) {
+                    this.classList.remove('bg-gray-50', 'shadow-sm');
+                }
+            });
         });
     });
 </script>
+
+<style>
+    .tab-button {
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+
+    .tab-button:hover {
+        transform: translateX(4px);
+    }
+</style>
