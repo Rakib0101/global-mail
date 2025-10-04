@@ -23,10 +23,10 @@
                         Manage your personal mail from anywhere, anytime. Perfect for digital nomads, remote workers,
                         and frequent travelers.
                     </p>
-                    <button
+                    <a href="{{ route('individuals') }}"
                         class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                         Learn More
-                    </button>
+                    </a>
                 </div>
             </div>
 
@@ -46,10 +46,10 @@
                         Streamline mail for your small business or startup. Share access with team members and manage
                         business correspondence efficiently.
                     </p>
-                    <button
+                    <a href="{{ route('individuals') }}"
                         class="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors">
                         Learn More
-                    </button>
+                    </a>
                 </div>
             </div>
 
@@ -69,10 +69,10 @@
                         Scalable solutions for large organizations and corporations. Advanced features, dedicated
                         support, and enterprise-grade security.
                     </p>
-                    <button
+                    <a href="{{ route('individuals') }}"
                         class="bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
                         Learn More
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>

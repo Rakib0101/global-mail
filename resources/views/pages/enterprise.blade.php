@@ -1,0 +1,15 @@
+@extends('layouts.app')
+
+@section('content')
+    @include('components.enterprise.hero-section')
+    @include('components.enterprise.ai-mailroom-section')
+    @include('components.enterprise.smart-features')
+    @include('components.enterprise.same-day-access')
+    @include('components.enterprise.check-deposit')
+    @include('components.enterprise.integrations')
+    @include('components.enterprise.security-section')
+    @include('components.enterprise.testimonials')
+    @include('components.enterprise.comparison-table')
+    @include('components.enterprise.faq-section')
+    @include('components.enterprise.final-cta')
+@endsection

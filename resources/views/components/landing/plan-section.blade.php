@@ -67,10 +67,10 @@
                         with dedicated support.</p>
                 </div>
                 <div class="text-center">
-                    <button
+                    <a href="{{ route('enterprise') }}"
                         class="bg-primary text-white px-6 py-3 rounded font-medium hover:bg-blue-700 transition-colors duration-200 w-full">
                         Learn More
-                    </button>
+                    </a>
                 </div>
             </div>
 
@@ -165,10 +165,10 @@
                         for multiple users and companies.</p>
                 </div>
                 <div class="text-center">
-                    <button
+                    <a href="{{ route('virtual-office') }}"
                         class="bg-primary text-white px-6 py-3 rounded font-medium hover:bg-blue-700 transition-colors duration-200 w-full">
                         Learn More
-                    </button>
+                    </a>
                 </div>
             </div>
 
@@ -207,10 +207,10 @@
                         permanent legal US address.</p>
                 </div>
                 <div class="text-center">
-                    <button
+                    <a href="{{ route('individuals') }}"
                         class="bg-primary text-white px-6 py-3 rounded font-medium hover:bg-blue-700 transition-colors duration-200 w-full">
                         Learn More
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>

@@ -14,6 +14,9 @@ Route::view('/reviews', 'reviews')->name('reviews');
 Route::view('/electronic-check-deposit', 'electronic-check-deposit')->name('electronic-check-deposit');
 Route::view('/select-virtual-address', 'select-virtual-address')->name('select-virtual-address');
 Route::view('/how-it-works', 'pages.how-it-works')->name('how-it-works');
+Route::view('/virtual-office', 'pages.virtual-office')->name('virtual-office');
+Route::view('/enterprise', 'pages.enterprise')->name('enterprise');
+Route::view('/individuals', 'pages.individuals')->name('individuals');
 Route::view('/sign-in', 'sign-in')->name('sign-in');
 Route::view('/register', 'register')->name('register');
 
