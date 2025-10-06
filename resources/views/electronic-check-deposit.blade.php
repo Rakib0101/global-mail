@@ -2,11 +2,11 @@
 
 @section('content')
     @include('components.electronic.hero-section')
-    @include('components.electronic.mail-address-management')
-    @include('components.electronic.virtual-address')
-    @include('components.electronic.virtual-mailbox')
-    @include('components.electronic.features')
-    @include('components.electronic.testimonial')
-    @include('components.electronic.build-business')
-    @include('components.electronic.cta')
+    @include('components.electronic.trust-badges')
+    @include('components.electronic.feature-highlights')
+    @include('components.electronic.security-section')
+    @include('components.electronic.key-features')
+    @include('components.electronic.testimonials')
+    @include('components.electronic.faq-section')
+    @include('components.electronic.final-cta')
 @endsection

@@ -11,7 +11,7 @@
                     Manage your physical mail like email: secure, digital, and on-demand. The #1 virtual mailbox trusted
                     by 100,000+ individuals and businesses since 1999.
                 </p>
-                <a href="{{ route('register') }}"
+                <a href="{{ route('select-virtual-address') }}"
                     class="inline-block px-6 py-4 bg-primary text-white font-semibold rounded shadow hover:bg-blue-700 transition">
                     Start Risk-free
                 </a>

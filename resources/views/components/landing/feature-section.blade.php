@@ -12,10 +12,10 @@
                     US Global Mail turns your mailbox into a convenient inbox so you can live and work from anywhere.
                     You can view, read, share, shred, or forward your mail from the virtual mailbox.
                 </p>
-                <button
+                <a href="{{ route('how-it-works') }}"
                     class="px-6 py-4 border border-primary text-primary rounded hover:bg-primary hover:text-white transition-colors duration-200">
                     How it works
-                </button>
+                </a>
             </div>
             <!-- Right Side: Image -->
             <div class="w-full max-w-[400px]">
@@ -36,10 +36,10 @@
                     company mail to a single digital dashboard. Invite team members, assign access, track documents -
                     finally, your mail is as smart as your cloud tools.
                 </p>
-                <button
+                <a href="{{ route('select-virtual-address') }}"
                     class="px-6 py-4 border border-primary text-primary rounded hover:bg-primary hover:text-white transition-colors duration-200">
                     Choose an address
-                </button>
+                </a>
             </div>
             <!-- Left Side: Map Graphic -->
             <div class="w-full max-w-[600px]">
@@ -59,6 +59,10 @@
                     Instant check deposits. Send checks straight to your bank without ever opening an envelope. Your
                     time is money - we help you keep both.
                 </p>
+                <a href="{{ route('how-it-works') }}"
+                    class="px-6 py-4 border border-primary text-primary rounded hover:bg-primary hover:text-white transition-colors duration-200">
+                    How it works
+                </a>
             </div>
             <!-- Right Side: Digital Inbox Interface -->
             <div class="w-full max-w-[600px]">

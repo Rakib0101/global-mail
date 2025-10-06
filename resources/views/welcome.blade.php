@@ -4,6 +4,7 @@
     @include('components.landing.hero-section')
     {{-- @include('components.landing.partner-section') --}}
     @include('components.landing.aboutus-section')
+    @include('components.landing.tab-section')
     @include('components.landing.feature-section')
     @include('components.landing.whatget-section')
     @include('components.landing.integrate-section')
