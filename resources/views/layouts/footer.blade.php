@@ -59,15 +59,9 @@
             <div>
                 <h3 class="text-gray-400 font-semibold mb-4">Solutions for</h3>
                 <ul class="space-y-2">
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Individuals</a></li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Virtual Teams</a></li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Enterprise</a></li>
-                    <li class="text-gray-500 text-sm font-medium">Use Cases</li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Non-profits</a></li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Property Management</a>
-                    </li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Small Business</a></li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">HR/Relocation</a></li>
+                    <li><a href="/individuals" class="text-sm hover:text-white transition-colors">Individuals</a></li>
+                    <li><a href="/enterprise" class="text-sm hover:text-white transition-colors">Enterprise</a></li>
+                    <li><a href="/non-profits" class="text-sm hover:text-white transition-colors">Non-profits</a></li>
                 </ul>
             </div>
 
@@ -75,12 +69,11 @@
             <div>
                 <h3 class="text-gray-400 font-semibold mb-4">About us</h3>
                 <ul class="space-y-2">
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">About Us</a></li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Compare Us</a></li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Reviews</a></li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Refer a Friend</a></li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Channel Partners</a></li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Affiliate Program</a></li>
+                    <li><a href="/about-us" class="text-sm hover:text-white transition-colors">About Us</a></li>
+                    <li><a href="/reviews" class="text-sm hover:text-white transition-colors">Reviews</a></li>
+                    <li><a href="/refer-a-friend" class="text-sm hover:text-white transition-colors">Refer a Friend</a></li>
+                    <li><a href="/channel-partners" class="text-sm hover:text-white transition-colors">Channel Partners</a></li>
+                    <li><a href="/affiliate-program" class="text-sm hover:text-white transition-colors">Affiliate Program</a></li>
                 </ul>
             </div>
 
@@ -88,14 +81,13 @@
             <div>
                 <h3 class="text-gray-400 font-semibold mb-4">Support</h3>
                 <ul class="space-y-2">
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Help Center</a></li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Contact Us</a></li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Shipping Calculator</a>
+                    <li><a href="/help-center" class="text-sm hover:text-white transition-colors">Help Center</a></li>
+                    <li><a href="/contact-us" class="text-sm hover:text-white transition-colors">Contact Us</a></li>
+                    <li><a href="/shipping-calculator" class="text-sm hover:text-white transition-colors">Shipping Calculator</a>
                     </li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Blog</a></li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Terms</a></li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Privacy Policy</a></li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">USPS 1583 Form</a></li>
+                    <li><a href="/blog" class="text-sm hover:text-white transition-colors">Blog</a></li>
+                    <li><a href="/terms" class="text-sm hover:text-white transition-colors">Terms</a></li>
+                    <li><a href="/privacy-policy" class="text-sm hover:text-white transition-colors">Privacy Policy</a></li>
                 </ul>
             </div>
         </div>
