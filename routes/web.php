@@ -41,6 +41,14 @@ Route::view('/blog', 'pages.blog')->name('blog');
 Route::view('/terms', 'pages.terms')->name('terms');
 Route::view('/privacy-policy', 'pages.privacy-policy')->name('privacy-policy');
 
+// Service Pages
+Route::view('/mail-forwarding', 'pages.mail-forwarding')->name('mail-forwarding');
+Route::view('/virtual-mailbox', 'pages.virtual-mailbox')->name('virtual-mailbox');
+Route::view('/virtual-po-box', 'pages.virtual-po-box')->name('virtual-po-box');
+Route::view('/digital-mailroom', 'pages.digital-mailroom')->name('digital-mailroom');
+Route::view('/mail-scanning', 'pages.mail-scanning')->name('mail-scanning');
+Route::view('/virtual-address', 'pages.virtual-address')->name('virtual-address');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

@@ -46,12 +46,12 @@
             <div>
                 <h3 class="text-gray-400 font-semibold mb-4">Services</h3>
                 <ul class="space-y-2">
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Mail Forwarding</a></li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Virtual MailBox</a></li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Virtual PO Box</a></li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Digital Mailroom</a></li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Mail Scanning</a></li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Virtual Address</a></li>
+                    <li><a href="{{ route('mail-forwarding') }}" class="text-sm hover:text-white transition-colors">Mail Forwarding</a></li>
+                    <li><a href="{{ route('virtual-mailbox') }}" class="text-sm hover:text-white transition-colors">Virtual MailBox</a></li>
+                    <li><a href="{{ route('virtual-po-box') }}" class="text-sm hover:text-white transition-colors">Virtual PO Box</a></li>
+                    <li><a href="{{ route('digital-mailroom') }}" class="text-sm hover:text-white transition-colors">Digital Mailroom</a></li>
+                    <li><a href="{{ route('mail-scanning') }}" class="text-sm hover:text-white transition-colors">Mail Scanning</a></li>
+                    <li><a href="{{ route('virtual-address') }}" class="text-sm hover:text-white transition-colors">Virtual Address</a></li>
                 </ul>
             </div>
 
