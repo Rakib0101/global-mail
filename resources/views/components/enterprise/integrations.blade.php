@@ -141,7 +141,7 @@
                         <div class="bg-gray-100 rounded-lg p-3">
                             <code class="text-xs text-gray-700">https://your-app.com/webhook/usgm</code>
                         </div>
-                        <button class="mt-2 text-sm text-blue-600 hover:text-blue-700">Copy URL</button>
+                        <button onclick="copyToClipboard('https://your-app.com/webhook/usgm')" class="mt-2 text-sm text-blue-600 hover:text-blue-700">Copy URL</button>
                     </div>
                 </div>
             </div>

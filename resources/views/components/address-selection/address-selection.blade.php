@@ -186,7 +186,7 @@
                 iMailVault is expanding & updating address availability every week. We prioritize the cities based
                 on your needs & recommendations. If you don't see a state/city where you would you like an address in,
                 please
-                <a href="#" class="text-blue-600 hover:text-blue-800 underline">let us know</a>.
+                <a href="{{ route('contact-us') }}" class="text-blue-600 hover:text-blue-800 underline">let us know</a>.
             </p>
         </div>
     </div>

@@ -8,7 +8,7 @@
             <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 leading-tight">
                 We plant a tree for every new member sign up.
             </h2>
-            <a href="#"
+            <a href="{{ route('register') }}"
                 class="inline-flex items-center text-primary hover:text-blue-700 font-semibold text-lg transition-colors duration-200">
                 Get started today!
                 <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

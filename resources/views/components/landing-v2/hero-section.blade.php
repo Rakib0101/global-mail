@@ -89,13 +89,9 @@
 
                 <!-- CTA Buttons -->
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <button
+                    <a href="{{ route('select-virtual-address') }}"
                         class="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                        Find Your Plan
-                    </button>
-                    <a href="{{ route('how-it-works') }}"
-                        class="bg-white text-gray-700 border border-gray-300 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
-                        How it works
+                        Start Risk-free
                     </a>
                 </div>
             </div>

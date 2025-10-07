@@ -18,7 +18,7 @@
                     <p class="text-gray-600 mb-4">Everything you need to know about setting up and using a virtual mailbox for your remote work lifestyle.</p>
                     <div class="flex items-center justify-between">
                         <span class="text-sm text-gray-500">March 15, 2024</span>
-                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium">Read More →</a>
+                        <a href="{{ route('blog') }}" class="text-blue-600 hover:text-blue-800 font-medium">Read More →</a>
                     </div>
                 </div>
             </article>
@@ -31,7 +31,7 @@
                     <p class="text-gray-600 mb-4">Practical tips for entrepreneurs and business owners who need to stay connected while on the road.</p>
                     <div class="flex items-center justify-between">
                         <span class="text-sm text-gray-500">March 10, 2024</span>
-                        <a href="#" class="text-green-600 hover:text-green-800 font-medium">Read More →</a>
+                        <a href="{{ route('blog') }}" class="text-green-600 hover:text-green-800 font-medium">Read More →</a>
                     </div>
                 </div>
             </article>
@@ -44,7 +44,7 @@
                     <p class="text-gray-600 mb-4">Exploring how technology is reshaping the way we handle mail and documents in the digital age.</p>
                     <div class="flex items-center justify-between">
                         <span class="text-sm text-gray-500">March 5, 2024</span>
-                        <a href="#" class="text-purple-600 hover:text-purple-800 font-medium">Read More →</a>
+                        <a href="{{ route('blog') }}" class="text-purple-600 hover:text-purple-800 font-medium">Read More →</a>
                     </div>
                 </div>
             </article>

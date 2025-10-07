@@ -367,10 +367,10 @@
 
                 <!-- CTA Button -->
                 <div class="text-center mt-8">
-                    <button
+                    <a href="{{ route('register') }}"
                         class="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                         Start a Free Trial
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>

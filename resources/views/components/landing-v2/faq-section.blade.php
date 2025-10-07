@@ -112,7 +112,7 @@
 
         <!-- View All FAQs Link -->
         <div class="text-center mt-12">
-            <a href="#" class="text-blue-600 hover:text-blue-800 font-medium text-lg">
+            <a href="{{ route('help-center') }}" class="text-blue-600 hover:text-blue-800 font-medium text-lg">
                 View all FAQs →
             </a>
         </div>

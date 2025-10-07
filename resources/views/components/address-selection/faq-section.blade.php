@@ -96,7 +96,7 @@
         <div class="text-center mt-8">
             <p class="text-gray-600">
                 Got more questions?
-                <a href="#" class="text-blue-600 hover:text-blue-800 font-medium">Check out Help Center →</a>
+                <a href="{{ route('help-center') }}" class="text-blue-600 hover:text-blue-800 font-medium">Check out Help Center →</a>
             </p>
         </div>
     </div>

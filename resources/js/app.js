@@ -56,4 +56,39 @@ window.scrollToId = function(elementId) {
     }
 };
 
+// Copy to Clipboard Function
+window.copyToClipboard = function(text) {
+    navigator.clipboard.writeText(text).then(function() {
+        // Show success feedback
+        const button = event.target;
+        const originalText = button.textContent;
+        button.textContent = 'Copied!';
+        button.classList.add('text-green-600');
+
+        setTimeout(function() {
+            button.textContent = originalText;
+            button.classList.remove('text-green-600');
+        }, 2000);
+    }).catch(function(err) {
+        console.error('Could not copy text: ', err);
+        // Fallback for older browsers
+        const textArea = document.createElement('textarea');
+        textArea.value = text;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textArea);
+
+        const button = event.target;
+        const originalText = button.textContent;
+        button.textContent = 'Copied!';
+        button.classList.add('text-green-600');
+
+        setTimeout(function() {
+            button.textContent = originalText;
+            button.classList.remove('text-green-600');
+        }, 2000);
+    });
+};
+
 Alpine.start();
