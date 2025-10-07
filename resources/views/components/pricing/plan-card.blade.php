@@ -40,10 +40,10 @@
     <!-- Price -->
     <div class="text-center mb-6">
         <div class="text-4xl font-bold text-gray-900">
-            $<span x-text="$root.billingCycle === 'annually' ? '{{ $annualPrice }}' : '{{ $monthlyPrice }}'">{{ $monthlyPrice }}</span>/mo
+            $<span x-text="billingCycle === 'annually' ? '{{ $annualPrice }}' : '{{ $monthlyPrice }}'">{{ $monthlyPrice }}</span>/mo
         </div>
         <div class="text-sm text-gray-500">
-            ($<span x-text="$root.billingCycle === 'annually' ? '{{ $annualValue }}' : '{{ $monthlyValue }}'">{{ $monthlyValue }}</span> value)
+            ($<span x-text="billingCycle === 'annually' ? '{{ $annualValue }}' : '{{ $monthlyValue }}'">{{ $monthlyValue }}</span> value)
         </div>
     </div>
 

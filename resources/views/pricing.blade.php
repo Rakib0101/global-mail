@@ -51,7 +51,7 @@
 
                     <!-- Toggle Switch -->
                     <div class="relative">
-                        <button @click="billingCycle = billingCycle === 'monthly' ? 'annually' : 'monthly'"
+                        <button @click="billingCycle = billingCycle === 'annually' ? 'monthly' : 'annually'"
                             :class="billingCycle === 'monthly' ? 'bg-gray-200' : 'bg-blue-600'"
                             class="relative w-12 h-6 rounded-full transition-colors duration-200 focus:outline-none focus:ring-none">
                             <!-- White thumb -->
