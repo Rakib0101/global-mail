@@ -6,7 +6,7 @@
             <div class="relative">
                 <!-- Main Problem Image -->
                 <div class="bg-gray-50 rounded-2xl p-8">
-                    <img src="{{ asset('assets/images/mailbox-problem.webp') }}"
+                    <img src="{{ asset('assets/images/hero-right.avif') }}"
                         alt="Mailbox with return to sender envelope" class="w-full h-80 object-cover rounded-xl">
                 </div>
 
@@ -135,9 +135,9 @@
 
                     <!-- CTA Button -->
                     <div class="pt-6">
-                        <a href="{{ route('how-it-works') }}"
+                        <a href="{{ route('contact-us') }}"
                             class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-200">
-                            See How It Works
+                            Learn More
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
                                 </path>
@@ -148,7 +148,7 @@
             </div>
 
             <!-- Global Coverage Stats -->
-            <div class="mt-20 bg-gradient-to-r from-blue-50 to-green-50 rounded-2xl p-8">
+            <div class="col-span-2 mt-20 bg-gradient-to-r from-blue-50 to-green-50 rounded-2xl p-8">
                 <h3 class="text-2xl font-bold text-gray-900 text-center mb-8">Built for the Global Lifestyle</h3>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="text-center">
@@ -172,33 +172,39 @@
                 <div class="mt-12 border-t pt-8">
                     <div class="grid grid-cols-2 md:grid-cols-6 gap-6 text-center">
                         <div class="bg-white p-4 rounded-lg shadow-sm">
-                            <img src="{{ asset('assets/images/flags/uk.svg') }}" alt="United Kingdom"
-                                class="w-8 h-8 mx-auto mb-2">
+                            <div class="w-8 h-8 bg-blue-600 rounded mx-auto mb-2 flex items-center justify-center">
+                                <span class="text-white text-xs font-bold">UK</span>
+                            </div>
                             <div class="text-sm font-semibold text-gray-900">UK</div>
                         </div>
                         <div class="bg-white p-4 rounded-lg shadow-sm">
-                            <img src="{{ asset('assets/images/flags/ca.svg') }}" alt="Canada"
-                                class="w-8 h-8 mx-auto mb-2">
+                            <div class="w-8 h-8 bg-red-600 rounded mx-auto mb-2 flex items-center justify-center">
+                                <span class="text-white text-xs font-bold">CA</span>
+                            </div>
                             <div class="text-sm font-semibold text-gray-900">Canada</div>
                         </div>
                         <div class="bg-white p-4 rounded-lg shadow-sm">
-                            <img src="{{ asset('assets/images/flags/au.svg') }}" alt="Australia"
-                                class="w-8 h-8 mx-auto mb-2">
+                            <div class="w-8 h-8 bg-green-600 rounded mx-auto mb-2 flex items-center justify-center">
+                                <span class="text-white text-xs font-bold">AU</span>
+                            </div>
                             <div class="text-sm font-semibold text-gray-900">Australia</div>
                         </div>
                         <div class="bg-white p-4 rounded-lg shadow-sm">
-                            <img src="{{ asset('assets/images/flags/nl.svg') }}" alt="Netherlands"
-                                class="w-8 h-8 mx-auto mb-2">
+                            <div class="w-8 h-8 bg-orange-600 rounded mx-auto mb-2 flex items-center justify-center">
+                                <span class="text-white text-xs font-bold">NL</span>
+                            </div>
                             <div class="text-sm font-semibold text-gray-900">Netherlands</div>
                         </div>
                         <div class="bg-white p-4 rounded-lg shadow-sm">
-                            <img src="{{ asset('assets/images/flags/de.svg') }}" alt="Germany"
-                                class="w-8 h-8 mx-auto mb-2">
+                            <div class="w-8 h-8 bg-yellow-600 rounded mx-auto mb-2 flex items-center justify-center">
+                                <span class="text-white text-xs font-bold">DE</span>
+                            </div>
                             <div class="text-sm font-semibold text-gray-900">Germany</div>
                         </div>
                         <div class="bg-white p-4 rounded-lg shadow-lg">
-                            <img src="{{ asset('assets/images/flags/jp.svg') }}" alt="Japan"
-                                class="w-8 h-8 mx-auto mb-2">
+                            <div class="w-8 h-8 bg-red-500 rounded mx-auto mb-2 flex items-center justify-center">
+                                <span class="text-white text-xs font-bold">JP</span>
+                            </div>
                             <div class="text-sm font-semibold text-gray-900">Japan</div>
                         </div>
                     </div>

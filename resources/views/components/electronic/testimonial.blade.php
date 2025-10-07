@@ -39,7 +39,7 @@
                                     <h3 class="text-white font-semibold text-lg">Rich Bowen</h3>
                                     <p class="text-gray-300 text-sm">Chief Operating Officer, Darwin Homes</p>
                                 </div>
-                                <a href="#"
+                                <a href="{{ route('about-us') }}"
                                     class="inline-flex items-center text-white hover:text-blue-300 transition-colors duration-200 font-medium">
                                     Read the case study
                                     <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -71,7 +71,7 @@
                                     <h3 class="text-white font-semibold text-lg">Alessandro Barone</h3>
                                     <p class="text-gray-300 text-sm">People Operations Manager, Aiven</p>
                                 </div>
-                                <a href="#"
+                                <a href="{{ route('about-us') }}"
                                     class="inline-flex items-center text-white hover:text-blue-300 transition-colors duration-200 font-medium">
                                     Read the case study
                                     <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -103,7 +103,7 @@
                                     <h3 class="text-white font-semibold text-lg">Jaiden Williams</h3>
                                     <p class="text-gray-300 text-sm">HR, Verbit</p>
                                 </div>
-                                <a href="#"
+                                <a href="{{ route('about-us') }}"
                                     class="inline-flex items-center text-white hover:text-blue-300 transition-colors duration-200 font-medium">
                                     Read the case study
                                     <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -134,7 +134,7 @@
                                     <h3 class="text-white font-semibold text-lg">Sarah Chen</h3>
                                     <p class="text-gray-300 text-sm">Operations Director, TechFlow</p>
                                 </div>
-                                <a href="#"
+                                <a href="{{ route('about-us') }}"
                                     class="inline-flex items-center text-white hover:text-blue-300 transition-colors duration-200 font-medium">
                                     Read the case study
                                     <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

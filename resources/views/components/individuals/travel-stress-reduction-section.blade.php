@@ -6,13 +6,17 @@
             <div class="relative">
                 <!-- Happy Travelers Image -->
                 <div class="bg-white rounded-2xl shadow-lg p-8">
-                    <img src="{{ asset('assets/images/happy-travelers.webp') }}" alt="Happy couple traveling together"
+                    <img src="{{ asset('assets/images/hero-right.avif') }}" alt="Happy couple traveling together"
                         class="w-full h-80 object-cover rounded-xl mb-6">
 
                     <!-- Mobile Interface Overlay -->
                     <div class="bg-gradient-to-br from-green-50 to-blue-50 rounded-xl p-6">
                         <div class="flex items-center justify-between mb-4">
-                            <img src="{{ asset('assets/icons/mail-app.svg') }}" alt="Mail App" class="w-8 h-8">
+                            <div class="w-8 h-8 bg-blue-600 rounded flex items-center justify-center">
+                                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v9a2 2 0 002 2z"></path>
+                                </svg>
+                            </div>
                             <div class="text-sm font-medium text-gray-900">iMailVault</div>
                             <div class="flex items-center">
                                 <div class="w-2 h-2 bg-green-500 rounded-full mr-1"></div>

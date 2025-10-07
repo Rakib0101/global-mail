@@ -8,7 +8,6 @@
     @include('components.individuals.travel-stress-reduction-section')
     @include('components.individuals.shop-us-websites-section')
     @include('components.individuals.mail-headaches-section')
-    @include('components.individuals.individual-testimonial-section')
     @include('components.individuals.getting-started-section')
     @include('components.individuals.faq-section')
     @include('components.individuals.final-cta-section')

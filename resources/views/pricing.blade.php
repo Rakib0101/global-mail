@@ -126,10 +126,10 @@
 
             <!-- Bottom Select Plan Button -->
             <div class="text-center mt-12">
-                <button
-                    class="bg-primary hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded-lg shadow-lg text-lg">
+                <a href="{{ route('register') }}"
+                    class="bg-primary hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded-lg shadow-lg text-lg inline-block">
                     Select Plan
-                </button>
+                </a>
             </div>
         </div>
 

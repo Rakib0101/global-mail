@@ -53,15 +53,15 @@
     <!-- Select Plan Button -->
     <div class="mb-8">
         @if ($buttonColor === 'orange')
-            <button
-                class="w-full py-3 px-6 rounded-lg font-semibold text-white bg-orange-500 hover:bg-orange-600 transition-colors">
+            <a href="{{ route('register') }}"
+                class="w-full py-3 px-6 rounded-lg font-semibold text-white bg-orange-500 hover:bg-orange-600 transition-colors inline-block text-center">
                 Select Plan
-            </button>
+            </a>
         @else
-            <button
-                class="w-full py-3 px-6 rounded-lg font-semibold text-white bg-primary hover:bg-blue-700 transition-colors">
+            <a href="{{ route('register') }}"
+                class="w-full py-3 px-6 rounded-lg font-semibold text-white bg-primary hover:bg-blue-700 transition-colors inline-block text-center">
                 Select Plan
-            </button>
+            </a>
         @endif
     </div>
 

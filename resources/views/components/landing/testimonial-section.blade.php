@@ -149,7 +149,7 @@
             </div>
         </div>
         <div class="flex justify-center mt-8">
-            <a href="#"
+            <a href="{{ route('reviews') }}"
                 class="px-6 py-3 inline-flex items-center gap-2 border border-primary text-primary rounded hover:bg-primary hover:text-white transition">Read
                 more
 

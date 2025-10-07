@@ -15,7 +15,7 @@
                         <a href="{{ route('register') }}" class="bg-white text-primary font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors duration-200">
                             Start Risk Free
                         </a>
-                        <a href="#" class="border-2 border-white text-white font-semibold py-3 px-8 rounded-lg hover:bg-white hover:text-primary transition-colors duration-200">
+                        <a href="{{ route('contact-us') }}" class="border-2 border-white text-white font-semibold py-3 px-8 rounded-lg hover:bg-white hover:text-primary transition-colors duration-200">
                             Book A Demo
                         </a>
                     </div>

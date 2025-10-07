@@ -86,7 +86,7 @@
             <div class="relative">
                 <!-- Map Illustration -->
                 <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8">
-                    <img src="{{ asset('assets/images/world-map-access.webp') }}"
+                    <img src="{{ asset('assets/images/map.webp') }}"
                         alt="World map with mobile phone showing mail access" class="w-full h-80 object-contain">
                 </div>
 

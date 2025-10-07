@@ -97,7 +97,7 @@
             </svg></span>
         <span class="font-semibold text-black">30-Day FREE Trial</span>
         <span class="text-gray-500">· Cancel in 30 days for a full refund ·</span>
-        <a href="#" class="text-primary hover:underline">Learn More</a>
+        <a href="{{ route('pricing') }}" class="text-primary hover:underline">Learn More</a>
     </div>
 </div>
 

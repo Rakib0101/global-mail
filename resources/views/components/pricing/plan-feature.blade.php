@@ -124,10 +124,10 @@
 
         <!-- Call to Action Button -->
         <div class="text-center">
-            <button
-                class="bg-primary hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded text-lg transition-colors">
+            <a href="{{ route('register') }}"
+                class="bg-primary hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded text-lg transition-colors inline-block">
                 Get Started
-            </button>
+            </a>
         </div>
     </div>
 </section>

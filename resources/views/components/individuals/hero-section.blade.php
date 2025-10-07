@@ -71,7 +71,7 @@
                         </svg>
                         Start Your Global Mailbox
                     </a>
-                    <a href="{{ route('pricing') }}"
+                    <a href="{{ route('contact-us') }}"
                         class="inline-flex items-center px-8 py-4 border border-gray-300 text-base font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 transition-colors duration-200">
                         <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -102,7 +102,7 @@
             <div class="relative">
                 <!-- Main Traveler Visual -->
                 <div class="relative">
-                    <img src="{{ asset('assets/images/Jamie.webp') }}" alt="Happy Traveler"
+                    <img src="{{ asset('assets/images/electronic-hero-right-1.webp') }}" alt="Happy Traveler"
                         class="w-full h-auto rounded-2xl shadow-xl">
 
                     <!-- Mobile Mail App Overlay -->
