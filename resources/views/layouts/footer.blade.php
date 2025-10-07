@@ -9,7 +9,7 @@
 
 
                 <!-- Address -->
-                <p class="text-sm mb-12 text-gray-500">1321 Upland Drive<br>Houston, TX 77043</p>
+                <p class="text-sm mb-12 text-gray-500">1814 N Memorial Way Houston, <br> TX 77007</p>
 
                 <!-- Rating Stars -->
                 <div class="flex items-center mb-12">

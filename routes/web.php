@@ -30,6 +30,17 @@ Route::view('/faqs/pricing', 'faqs.pricing')->name('faqs.pricing');
 Route::view('/faqs/shipping', 'faqs.shipping')->name('faqs.shipping');
 Route::view('/faqs/troubleshooting', 'faqs.troubleshooting')->name('faqs.troubleshooting');
 
+// Additional Pages
+Route::view('/non-profits', 'pages.non-profits')->name('non-profits');
+Route::view('/refer-a-friend', 'pages.refer-a-friend')->name('refer-a-friend');
+Route::view('/channel-partners', 'pages.channel-partners')->name('channel-partners');
+Route::view('/affiliate-program', 'pages.affiliate-program')->name('affiliate-program');
+Route::view('/help-center', 'pages.help-center')->name('help-center');
+Route::view('/shipping-calculator', 'pages.shipping-calculator')->name('shipping-calculator');
+Route::view('/blog', 'pages.blog')->name('blog');
+Route::view('/terms', 'pages.terms')->name('terms');
+Route::view('/privacy-policy', 'pages.privacy-policy')->name('privacy-policy');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

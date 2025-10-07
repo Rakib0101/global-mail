@@ -110,7 +110,7 @@
             <h3 class="text-lg font-bold text-gray-900 mb-2">Corporate Headquarters</h3>
             <div class="text-gray-700">
                 <p class="font-medium">iMailVault</p>
-                <p>1321 Upland Drive, Houston, TX 77043</p>
+                <p>1814 N Memorial Way Houston, TX 77007</p>
             </div>
         </div>
 
@@ -156,7 +156,7 @@
             </div>
             <h3 class="text-lg font-bold text-gray-900 mb-2">Help Center</h3>
             <div class="text-gray-700">
-                <a href="#" class="text-primary hover:text-blue-800 font-medium transition-colors">
+                <a href="/faqs" class="text-primary hover:text-blue-800 font-medium transition-colors">
                     Get Answers to your Questions
                 </a>
             </div>
