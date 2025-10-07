@@ -81,15 +81,15 @@
 <script>
 const reviewsData = {
     google: [
-        {name: "Ramaa K", role: "Customer for 5 years", rating: 5, text: "I have been using US Global Mail for over 5 years now. Very satisfied with their services. I have recently started using the option of all my packages stored & shipped from their facility in Houston, TX. We surely recommend this company to anyone looking to use their service for personal or business use."},
+        {name: "Ramaa K", role: "Customer for 5 years", rating: 5, text: "I have been using iMailVault for over 5 years now. Very satisfied with their services. I have recently started using the option of all my packages stored & shipped from their facility in Houston, TX. We surely recommend this company to anyone looking to use their service for personal or business use."},
         {name: "Nanette", role: "Customer for 2 years", rating: 5, text: "Their customer service is excellent. I love the scan feature which allows me to be able to view mail online without the expense of having it delivered. Good work!"},
-        {name: "Dean", role: "Customer for 2 years", rating: 5, text: "We HIGHLY recommend US Global Mail! Since moving abroad we have been mailing items we can not do without and even sending all our vendors our new address some still arrived to USGM with an incomplete address, or wrong address. The professional staff at USGM have always been extremely helpful and proficient in coming to a solution. Keep up the great work and THANK YOU!"},
+        {name: "Dean", role: "Customer for 2 years", rating: 5, text: "We HIGHLY recommend iMailVault! Since moving abroad we have been mailing items we can not do without and even sending all our vendors our new address some still arrived to iMailVault with an incomplete address, or wrong address. The professional staff at iMailVault have always been extremely helpful and proficient in coming to a solution. Keep up the great work and THANK YOU!"},
         {name: "Mary Stone", role: "Google review", rating: 5, text: "Absolutely the best service I've ever used. Should've done it years ago. Every interaction and every service has been carried out in a world class manner."},
         {name: "Phil Marsh", role: "Customer for 6 years", rating: 5, text: "I have had an account with these guys for several years. I used to buy stuff and then ask they repackage everything to save weight and volume for forward shipping. I now trust these guys. I just tick the box to repack and they do an excellent job. Very professional."},
         {name: "Dean Woods", role: "Google Review", rating: 5, text: "These guys help me keep track of my mail no matter where my job sends me. Its awesome to get an email letting you know what you get and the services they do for you when you get mail are top notch. If you get thrown around like a bird in a hurricane, at least you'll know where your mail is when you land."}
     ],
     bbb: [
-        {name: "Rodney Lax", role: "BBB Verified", rating: 5, text: "After living in the US for 20 years, I moved back to Europe. US Global Mail is the ideal solution. I can review, scan, discard, download, save or forward from the other side of the world, and it is super-fast and affordable."},
+        {name: "Rodney Lax", role: "BBB Verified", rating: 5, text: "After living in the US for 20 years, I moved back to Europe. iMailVault is the ideal solution. I can review, scan, discard, download, save or forward from the other side of the world, and it is super-fast and affordable."},
         {name: "James R", role: "BBB Verified", rating: 5, text: "I like being able to review my mail and pitch most of it, which is what I would do if I still had a home address. When I need to see something, the scans are almost always available sooner than promised."},
         {name: "John F", role: "BBB Verified", rating: 5, text: "I've even had them scan in paper checks that I've then printed and deposited with my bank's mobile app."}
     ],
@@ -102,7 +102,7 @@ const reviewsData = {
 function renderReviews(source) {
     const container = document.getElementById('reviews-container');
     const reviews = reviewsData[source];
-    
+
     container.innerHTML = reviews.map(review => `
         <div class="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
             <div class="flex items-start mb-4">
@@ -124,7 +124,7 @@ function renderReviews(source) {
 
 document.addEventListener('DOMContentLoaded', function() {
     renderReviews('google');
-    
+
     const tabs = document.querySelectorAll('.review-tab');
     tabs.forEach(tab => {
         tab.addEventListener('click', function() {
@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', function() {
             renderReviews(this.dataset.source);
         });
     });
-    
+
     tabs[0].classList.add('bg-primary', 'text-white');
     tabs.forEach((t, i) => {
         if (i > 0) t.classList.add('bg-gray-100', 'text-gray-600');

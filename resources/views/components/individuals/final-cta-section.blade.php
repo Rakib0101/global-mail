@@ -8,7 +8,7 @@
                     Start Your Global Lifestyle Today
                 </h2>
                 <p class="text-xl text-blue-100 mb-8 leading-relaxed">
-                    Join 100,000+ customers who trust US Global Mail to handle their mail while they explore the world.
+                    Join 100,000+ customers who trust iMailVault to handle their mail while they explore the world.
                     Never worry about missed mail, expensive shipping, or inaccessible US services again.
                 </p>
 

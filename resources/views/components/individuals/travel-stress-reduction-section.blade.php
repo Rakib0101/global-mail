@@ -13,7 +13,7 @@
                     <div class="bg-gradient-to-br from-green-50 to-blue-50 rounded-xl p-6">
                         <div class="flex items-center justify-between mb-4">
                             <img src="{{ asset('assets/icons/mail-app.svg') }}" alt="Mail App" class="w-8 h-8">
-                            <div class="text-sm font-medium text-gray-900">US Global Mail</div>
+                            <div class="text-sm font-medium text-gray-900">iMailVault</div>
                             <div class="flex items-center">
                                 <div class="w-2 h-2 bg-green-500 rounded-full mr-1"></div>
                                 <span class="text-xs text-green-600">Online</span>

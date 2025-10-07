@@ -172,7 +172,7 @@
                         class="w-12 h-12 rounded-full mr-4">
                     <div>
                         <h4 class="font-semibold text-gray-900 mb-2">Tech Startup Expansion</h4>
-                        <p class="text-gray-600 mb-3">"We expanded to 5 new markets in 6 months using US Global Mail.
+                        <p class="text-gray-600 mb-3">"We expanded to 5 new markets in 6 months using iMailVault.
                             The premium addresses helped us secure new clients immediately."</p>
                         <div class="text-sm text-gray-500">Sarah K., CEO of InnovateCorp</div>
                     </div>

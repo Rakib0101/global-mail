@@ -38,7 +38,7 @@
                     </h3>
                     <p class="text-lg text-gray-600 leading-relaxed">
                         You will stop getting postal mail at your home as USPS will route all mail coming to your home,
-                        to your US Global Mail address.
+                        to your iMailVault address.
                     </p>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                     </h3>
                     <p class="text-lg text-gray-600 leading-relaxed">
                         As we are a registered agent of the United States Postal Service, senders of junk mail recognize
-                        your US Global Mail address is not where you live. Which is great because many stop sending you
+                        your iMailVault address is not where you live. Which is great because many stop sending you
                         junk mail and your home address stay private.
                     </p>
                 </div>

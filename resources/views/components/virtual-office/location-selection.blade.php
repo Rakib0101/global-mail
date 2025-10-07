@@ -5,7 +5,7 @@
         <div class="text-center mb-16">
             <span class="text-sm font-semibold tracking-wide uppercase text-blue-500">Setup Process</span>
             <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mt-4 mb-6">
-                Switching to US Global Mail is easy
+                Switching to iMailVault is easy
             </h2>
             <p class="text-xl text-gray-600 max-w-3xl mx-auto">
                 Get started in minutes with our simple 3-step process
@@ -36,7 +36,7 @@
                         </svg>
                     </div>
                     <h3 class="text-xl font-semibold text-gray-900 mb-3">Set up your virtual mailbox</h3>
-                    <p class="text-gray-600">Configure your US Global Mail virtual mailbox with your preferences and services.</p>
+                    <p class="text-gray-600">Configure your iMailVault virtual mailbox with your preferences and services.</p>
                 </div>
             </div>
 
@@ -74,7 +74,7 @@
         <div class="text-center mb-12">
             <h3 class="text-3xl font-bold text-gray-900 mb-4">Let's get started!</h3>
             <p class="text-xl text-gray-600 mb-8">Find the perfect virtual office address for your business.</p>
-            
+
             <!-- Search Bar -->
             <div class="max-w-2xl mx-auto mb-12">
                 <div class="relative">

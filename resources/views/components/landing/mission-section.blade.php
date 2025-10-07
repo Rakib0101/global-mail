@@ -14,7 +14,7 @@
                     </svg>
                 </div>
                 <div class="text-left">
-                    <p class="font-semibold">Global Mail Team</p>
+                    <p class="font-semibold">iMailVault Team</p>
                     <p class="text-sm text-gray-300">Founder & CEO</p>
                 </div>
             </div>

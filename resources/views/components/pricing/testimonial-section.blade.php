@@ -4,21 +4,21 @@
             name: 'Dawn Wills',
             verified: true,
             image: '/assets/images/michelle.avif',
-            quote: 'The feature of US Global Mail that I rely on the most ... As soon as they receive mail, they send me an email and bam, I can go in, log into my account, and check to see if this is something that I need for them to scan so I can look at it further, or I can just request for them to just delete it right away. I appreciate the fact that I can rely on them to quickly expedite any mail services I might need.',
+            quote: 'The feature of iMailVault that I rely on the most ... As soon as they receive mail, they send me an email and bam, I can go in, log into my account, and check to see if this is something that I need for them to scan so I can look at it further, or I can just request for them to just delete it right away. I appreciate the fact that I can rely on them to quickly expedite any mail services I might need.',
             video: true
         },
         {
             name: 'Sarah Johnson',
             verified: true,
             image: '/assets/images/Jamie.webp',
-            quote: 'US Global Mail has been a game-changer for my business. The scanning feature saves me hours every week, and the professional address gives my company credibility. Highly recommended!',
+            quote: 'iMailVault has been a game-changer for my business. The scanning feature saves me hours every week, and the professional address gives my company credibility. Highly recommended!',
             video: false
         },
         {
             name: 'Michael Chen',
             verified: true,
             image: '/assets/images/michelle.avif',
-            quote: 'As a digital nomad, having a reliable mail service is crucial. US Global Mail has exceeded my expectations with their fast scanning and excellent customer service.',
+            quote: 'As a digital nomad, having a reliable mail service is crucial. iMailVault has exceeded my expectations with their fast scanning and excellent customer service.',
             video: true
         }
     ]
@@ -27,7 +27,7 @@
         <!-- Section Heading -->
         <div class="text-center mb-12">
             <h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-12">
-                Why Clients Love US Global Mail
+                Why Clients Love iMailVault
             </h2>
         </div>
 

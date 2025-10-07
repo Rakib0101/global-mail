@@ -18,7 +18,7 @@
                         </div>
                     </div>
                     <p class="text-gray-700 italic mb-4">
-                        "We're a small business that's wholly distributed across the US. US Global Mail has truly
+                        "We're a small business that's wholly distributed across the US. iMailVault has truly
                         transformed how we manage our mail. We can all collaborate on documents, deposit checks, and
                         manage our mail from anywhere."
                     </p>
@@ -44,7 +44,7 @@
                         </div>
                     </div>
                     <p class="text-gray-700 italic mb-4">
-                        "We've been using US Global Mail for our e-commerce business for over 5 years. Their check
+                        "We've been using iMailVault for our e-commerce business for over 5 years. Their check
                         deposit feature has been a game-changer for our accounting. Their enterprise-grade security
                         gives us peace of mind."
                     </p>
@@ -70,7 +70,7 @@
                         </div>
                     </div>
                     <p class="text-gray-700 italic mb-4">
-                        "US Global Mail's centralized mail management has made our operations much more efficient. The
+                        "iMailVault's centralized mail management has made our operations much more efficient. The
                         ability to access and manage mail from anywhere has been invaluable for our remote team. The
                         customer support is also top-notch."
                     </p>

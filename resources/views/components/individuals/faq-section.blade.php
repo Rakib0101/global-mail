@@ -8,7 +8,7 @@
                 Frequently Asked Questions
             </h2>
             <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                Everything you need to know to get started with US Global Mail for your personal needs.
+                Everything you need to know to get started with iMailVault for your personal needs.
             </p>
         </div>
 
@@ -18,7 +18,7 @@
             <div class="bg-gray-50 rounded-xl hover:shadow-md transition-shadow duration-200">
                 <button
                     class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-100 transition-colors duration-200">
-                    <span class="font-medium text-gray-900">How does US Global Mail work for individuals and
+                    <span class="font-medium text-gray-900">How does iMailVault work for individuals and
                         travelers?</span>
                     <svg class="w-5 h-5 text-gray-500 transition-transform duration-200" fill="none"
                         stroke="currentColor" viewBox="0 0 24 24">

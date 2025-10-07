@@ -13,7 +13,7 @@
                     <thead class="bg-gray-50">
                         <tr>
                             <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">Features</th>
-                            <th class="px-6 py-4 text-center text-sm font-semibold text-blue-600">US Global Mail</th>
+                            <th class="px-6 py-4 text-center text-sm font-semibold text-blue-600">iMailVault</th>
                             <th class="px-6 py-4 text-center text-sm font-semibold text-gray-600">iPostal1</th>
                             <th class="px-6 py-4 text-center text-sm font-semibold text-gray-600">Earth Class Mail</th>
                             <th class="px-6 py-4 text-center text-sm font-semibold text-gray-600">Stable</th>

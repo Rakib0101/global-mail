@@ -26,12 +26,12 @@
 
                 <!-- Testimonial Quote -->
                 <blockquote class="text-2xl lg:text-3xl font-medium text-gray-900 leading-relaxed mb-8 italic">
-                    "US Global Mail is literally keeping my digital nomad lifestyle possible!"
+                    "iMailVault is literally keeping my digital nomad lifestyle possible!"
                 </blockquote>
 
                 <!-- Detailed Review -->
                 <p class="text-lg text-gray-700 leading-relaxed mb-8">
-                    I've been traveling Asia and Europe for 18 months now. US Global Mail handles everything - my
+                    I've been traveling Asia and Europe for 18 months now. iMailVault handles everything - my
                     student loan documents,
                     bank statements, important packages from family. No stress, no missed deadlines.
                     When I ordered limited edition books for my research, they forwarded them perfectly to my Airbnb.

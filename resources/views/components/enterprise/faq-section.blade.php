@@ -12,7 +12,7 @@
             <!-- FAQ Item 1 -->
             <div class="bg-blue-50 rounded-lg">
                 <button class="w-full px-6 py-4 text-left flex items-center justify-between">
-                    <span class="font-medium text-gray-900">How does US Global Mail streamline mail management for
+                    <span class="font-medium text-gray-900">How does iMailVault streamline mail management for
                         enterprises?</span>
                     <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -24,7 +24,7 @@
             <!-- FAQ Item 2 -->
             <div class="bg-gray-50 rounded-lg">
                 <button class="w-full px-6 py-4 text-left flex items-center justify-between">
-                    <span class="font-medium text-gray-900">Can US Global Mail handle mail for multiple offices and
+                    <span class="font-medium text-gray-900">Can iMailVault handle mail for multiple offices and
                         remote teams?</span>
                     <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -36,7 +36,7 @@
             <!-- FAQ Item 3 -->
             <div class="bg-gray-50 rounded-lg">
                 <button class="w-full px-6 py-4 text-left flex items-center justify-between">
-                    <span class="font-medium text-gray-900">How secure is US Global Mail for handling sensitive business
+                    <span class="font-medium text-gray-900">How secure is iMailVault for handling sensitive business
                         documents?</span>
                     <svg class="w-5 h-5 text-gray-500" fill="none" stroke="current-color" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -48,7 +48,7 @@
             <!-- FAQ Item 4 -->
             <div class="bg-gray-50 rounded-lg">
                 <button class="w-full px-6 py-4 text-left flex items-center justify-between">
-                    <span class="font-medium text-gray-900">What types of mail can US Global Mail manage for
+                    <span class="font-medium text-gray-900">What types of mail can iMailVault manage for
                         enterprises?</span>
                     <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -60,7 +60,7 @@
             <!-- FAQ Item 5 -->
             <div class="bg-gray-50 rounded-lg">
                 <button class="w-full px-6 py-4 text-left flex items-center justify-between">
-                    <span class="font-medium text-gray-900">Can we integrate US Global Mail with our existing business
+                    <span class="font-medium text-gray-900">Can we integrate iMailVault with our existing business
                         tools?</span>
                     <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"

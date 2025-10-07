@@ -2,7 +2,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
             <h2 class="text-4xl font-bold text-white mb-6">
-                Switching to Global Mail is easy
+                Switching to iMailVault is easy
             </h2>
             <p class="text-xl text-blue-200 mb-8 max-w-3xl mx-auto">
                 Get started with electronic check deposits today and experience faster, more secure check processing.

@@ -7,7 +7,7 @@
                 Start Your Virtual Office Today
             </h2>
             <p class="text-xl text-blue-100 mb-8 leading-relaxed">
-                Join thousands of successful businesses already using US Global Mail. Get your professional business
+                Join thousands of successful businesses already using iMailVault. Get your professional business
                 address and start building credibility in minutes.
             </p>
 

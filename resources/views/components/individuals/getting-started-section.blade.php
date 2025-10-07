@@ -8,7 +8,7 @@
                 Getting started takes minutes
             </h2>
             <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                Join over 100,000 customers who trust US Global Mail. Start receiving professional address and digital
+                Join over 100,000 customers who trust iMailVault. Start receiving professional address and digital
                 mail management today.
             </p>
         </div>

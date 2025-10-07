@@ -8,7 +8,7 @@
                 Loved by 100,000+ Happy Travelers Worldwide
             </h2>
             <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                From digital nomads to retirees abroad, see why global citizens love US Global Mail for their mail
+                From digital nomads to retirees abroad, see why global citizens love iMailVault for their mail
                 management needs.
             </p>
         </div>
@@ -22,7 +22,7 @@
                 <h4 class="font-semibold text-gray-900">Mary P.</h4>
                 <p class="text-sm text-gray-600 mb-3">NYC → London</p>
                 <p class="text-gray-700 italic text-sm">
-                    "Moved to London 3 years ago but still need my US mail. US Global Mail makes it so easy - everything
+                    "Moved to London 3 years ago but still need my US mail. iMailVault makes it so easy - everything
                     gets scanned and forwarded perfectly!"
                 </p>
                 <div class="flex justify-center mt-4">
@@ -65,7 +65,7 @@
                 <p class="text-sm text-gray-600 mb-3">San Francisco → Tokyo</p>
                 <p class="text-gray-700 italic text-sm">
                     "Perfect for expat life! Business mail, personal correspondence, even online purchases - everything
-                    arrives safely through US Global Mail."
+                    arrives safely through iMailVault."
                 </p>
                 <div class="flex justify-center mt-4">
                     @for ($i = 0; $i < 5; $i++)
@@ -85,7 +85,7 @@
                 <h4 class="font-semibold text-gray-900">Mike D.</h4>
                 <p class="text-sm text-gray-600 mb-3">Freelancer in Canada</p>
                 <p class="text-gray-700 italic text-sm">
-                    "Ordered tons of packages during COVID lockdown. US Global Mail forwarding saved my sanity and my
+                    "Ordered tons of packages during COVID lockdown. iMailVault forwarding saved my sanity and my
                     wallet on shipping costs."
                 </p>
                 <div class="flex justify-center mt-4">
@@ -126,7 +126,7 @@
                     class="w-16 h-16 rounded-full mx-auto mb-4">
                 <h4 class="font-semibold text-gray-900">Alex T.</h4>
                 <p class="text-sm text-gray-600">
-                    "Student abroad but need US documents for visa renewals. US Global Mail ensures I never miss
+                    "Student abroad but need US documents for visa renewals. iMailVault ensures I never miss
                     important government mail."
                 </p>
                 <div class="flex justify-center mt-4">

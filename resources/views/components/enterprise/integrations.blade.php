@@ -203,7 +203,7 @@
                     <div>
                         <h3 class="text-2xl font-bold text-gray-900 mb-4">Developer-Friendly</h3>
                         <p class="text-lg text-gray-600 mb-6">
-                            Powerful APIs and webhooks make it easy to integrate US Global Mail into your existing
+                            Powerful APIs and webhooks make it easy to integrate iMailVault into your existing
                             workflows and applications.
                         </p>
                         <ul class="space-y-3">

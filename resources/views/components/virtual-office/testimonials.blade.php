@@ -188,7 +188,7 @@
                     </div>
                 </div>
 
-                <p class="text-gray-600 mb-6">Join thousands of satisfied businesses already using US Global Mail</p>
+                <p class="text-gray-600 mb-6">Join thousands of satisfied businesses already using iMailVault</p>
                 <a href="{{ route('register') }}"
                     class="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-200">
                     Start Your Virtual Office

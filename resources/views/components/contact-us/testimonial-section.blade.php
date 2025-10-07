@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 <p class="text-gray-700 leading-relaxed">
-                    "As a small business owner with clients across the US, US Global Mail has been invaluable. Their
+                    "As a small business owner with clients across the US, iMailVault has been invaluable. Their
                     virtual mailbox service allows me to maintain a professional address in Houston while I travel for
                     work. The ability to view and manage mail online has streamlined our operations significantly."
                 </p>
@@ -86,7 +86,7 @@
                     </div>
                 </div>
                 <p class="text-gray-700 leading-relaxed">
-                    "We've been using US Global Mail for our e-commerce business for over two years now. Their package
+                    "We've been using iMailVault for our e-commerce business for over two years now. Their package
                     consolidation and international forwarding services have saved us thousands in shipping costs. The
                     customer service team is always responsive to our needs."
                 </p>
@@ -116,7 +116,7 @@
                     </div>
                 </div>
                 <p class="text-gray-700 leading-relaxed">
-                    "US Global Mail's check deposit feature has been a game-changer for our consulting firm. We no
+                    "iMailVault's check deposit feature has been a game-changer for our consulting firm. We no
                     longer have to worry about checks getting lost in the mail or delaying our cash flow. It's made our
                     financial management much more efficient."
                 </p>

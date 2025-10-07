@@ -9,7 +9,7 @@
                     Get physical mail delivered online
                 </h2>
                 <p class="text-lg text-gray-600 mb-8 leading-relaxed">
-                    US Global Mail turns your mailbox into a convenient inbox so you can live and work from anywhere.
+                    iMailVault turns your mailbox into a convenient inbox so you can live and work from anywhere.
                     You can view, read, share, shred, or forward your mail from the virtual mailbox.
                 </p>
                 <a href="{{ route('how-it-works') }}"

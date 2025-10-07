@@ -23,7 +23,7 @@
                                 d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-900">Before US Global Mail</h3>
+                    <h3 class="text-2xl font-bold text-gray-900">Before iMailVault</h3>
                 </div>
 
                 <div class="space-y-4">
@@ -90,7 +90,7 @@
                                 d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-900">With US Global Mail</h3>
+                    <h3 class="text-2xl font-bold text-gray-900">With iMailVault</h3>
                 </div>
 
                 <div class="space-y-4">

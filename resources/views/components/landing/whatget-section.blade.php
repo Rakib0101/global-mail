@@ -3,7 +3,7 @@
         <!-- Main Heading -->
         <div class="text-center mb-12">
             <h2 class="text-5xl font-bold text-gray-900 mb-4">
-                What You Get With US Global Mail
+                What You Get With iMailVault
             </h2>
         </div>
 

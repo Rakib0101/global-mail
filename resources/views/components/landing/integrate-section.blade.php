@@ -40,7 +40,7 @@
     <div class="container flex lg:flex-row flex-col lg:items-center">
         <div class="w-full lg:w-1/3">
             <h2 class="text-4xl font-semibold text-gray-900 mb-6">Integrate your favorite software seamlessly</h2>
-            <p class="text-gray-600 text-lg">US Global Mail integrates with your favorite tools so you can create
+            <p class="text-gray-600 text-lg">iMailVault integrates with your favorite tools so you can create
                 automations, push documents to Dropbox, get notified in Slack, and more.</p>
         </div>
         <div class="w-full lg:w-2/3 flex justify-center">

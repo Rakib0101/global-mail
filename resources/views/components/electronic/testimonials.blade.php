@@ -2,7 +2,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
             <h2 class="text-4xl font-bold text-gray-900 mb-6">
-                See why customers love Global Mail
+                See why customers love iMailVault
             </h2>
             <p class="text-xl text-gray-600 max-w-3xl mx-auto">
                 Join thousands of businesses that have transformed their check processing with our electronic deposit
@@ -22,7 +22,7 @@
                     </div>
                 </div>
                 <blockquote class="text-gray-700 italic">
-                    "Global Mail's electronic check deposit has revolutionized our cash flow. We get funds available
+                    "iMailVault's electronic check deposit has revolutionized our cash flow. We get funds available
                     same-day instead of waiting 3-5 business days. The transparency and real-time tracking are
                     game-changers."
                 </blockquote>

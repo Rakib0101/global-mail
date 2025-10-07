@@ -20,7 +20,7 @@
                     <p class="text-xl text-gray-600 leading-relaxed">
                         Travel the world while staying connected to your mail. Digital nomads, expats, and frequent
                         travelers
-                        trust US Global Mail for reliable mail scanning, forwarding, and US shopping access.
+                        trust iMailVault for reliable mail scanning, forwarding, and US shopping access.
                     </p>
                 </div>
 

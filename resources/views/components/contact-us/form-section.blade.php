@@ -109,7 +109,7 @@
             </div>
             <h3 class="text-lg font-bold text-gray-900 mb-2">Corporate Headquarters</h3>
             <div class="text-gray-700">
-                <p class="font-medium">U.S. Global Mail</p>
+                <p class="font-medium">iMailVault</p>
                 <p>1321 Upland Drive, Houston, TX 77043</p>
             </div>
         </div>

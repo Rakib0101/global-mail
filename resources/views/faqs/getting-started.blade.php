@@ -44,7 +44,7 @@
                     Getting Started
                 </h1>
                 <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-                    Everything you need to know to begin your mail management journey with US Global Mail
+                    Everything you need to know to begin your mail management journey with iMailVault
                 </p>
             </div>
 
@@ -57,7 +57,7 @@
                         onclick="toggleFAQ(this)">
                         <div class="flex items-center justify-between">
                             <h3 class="text-lg font-semibold text-gray-900">
-                                How do I sign up for US Global Mail?
+                                How do I sign up for iMailVault?
                             </h3>
                             <svg class="w-5 h-5 text-gray-500 transform transition-transform" fill="none"
                                 stroke="currentColor" viewBox="0 0 24 24">
@@ -68,7 +68,7 @@
                     <div class="hidden px-6 pb-4">
                         <div class="prose prose-gray max-w-none">
                             <p class="text-gray-700 mb-4">
-                                Signing up for US Global Mail is quick and easy. Follow these steps:
+                                Signing up for iMailVault is quick and easy. Follow these steps:
                             </p>
                             <ol class="list-decimal list-inside space-y-2 text-gray-700">
                                 <li>Visit our website and click the "Get Started" button</li>

@@ -6,7 +6,7 @@
             <!-- Header -->
             <div class="text-center mb-12">
                 <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                    Welcome to US Global Mail Help Center
+                    Welcome to iMailVault Help Center
                 </h1>
 
                 <!-- Search Bar -->
@@ -73,7 +73,7 @@
                             <div class="flex-1 min-w-0">
                                 <h3
                                     class="text-lg font-semibold text-gray-900 group-hover:text-green-600 transition-colors">
-                                    Activating your US Global Mail
+                                    Activating your iMailVault
                                 </h3>
                                 <p class="text-sm text-gray-600 mt-2">
                                     Where to use your address and all about Form 1583
@@ -266,7 +266,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <a href="/faqs/who-can-use"
                         class="flex items-center text-primary hover:text-blue-800 transition-colors group">
-                        <span class="font-medium">Who can use US Global Mail?</span>
+                        <span class="font-medium">Who can use iMailVault?</span>
                         <svg class="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none"
                             stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />

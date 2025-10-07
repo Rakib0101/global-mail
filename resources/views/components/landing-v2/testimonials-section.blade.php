@@ -6,7 +6,7 @@
                 Choose the Virtual Mailbox Everyone Loves
             </h2>
             <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                Hear what our customers have to say about their experience with US Global Mail.
+                Hear what our customers have to say about their experience with iMailVault.
             </p>
         </div>
 
@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <p class="text-gray-600 italic">
-                    "US Global Mail has been a game-changer for my nomadic lifestyle. I can manage all my mail from
+                    "iMailVault has been a game-changer for my nomadic lifestyle. I can manage all my mail from
                     anywhere in the world with complete peace of mind."
                 </p>
             </div>
@@ -259,7 +259,7 @@
                     </div>
                 </div>
                 <p class="text-gray-600 italic">
-                    "As someone who travels constantly, US Global Mail has been essential. I never miss important mail
+                    "As someone who travels constantly, iMailVault has been essential. I never miss important mail
                     and can handle everything remotely."
                 </p>
             </div>
