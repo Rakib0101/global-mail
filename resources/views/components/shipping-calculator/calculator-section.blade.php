@@ -7,7 +7,8 @@
                 <!-- Origin -->
                 <div>
                     <label class="block text-sm font-medium text-gray-700 mb-2">From (Origin)</label>
-                    <select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                    <select
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
                         <option>Houston, TX (iMailVault)</option>
                         <option>New York, NY</option>
                         <option>Los Angeles, CA</option>
@@ -19,33 +20,34 @@
                 <div>
                     <label class="block text-sm font-medium text-gray-700 mb-2">To (Destination)</label>
                     <input type="text" placeholder="Enter destination city or ZIP code"
-                           class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
                 </div>
 
                 <!-- Package Details -->
                 <div>
                     <label class="block text-sm font-medium text-gray-700 mb-2">Package Weight (lbs)</label>
                     <input type="number" placeholder="0.0" step="0.1"
-                           class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
                 </div>
 
                 <div>
                     <label class="block text-sm font-medium text-gray-700 mb-2">Package Dimensions</label>
                     <div class="flex gap-2">
                         <input type="number" placeholder="Length"
-                               class="flex-1 px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            class="flex-1 px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
                         <input type="number" placeholder="Width"
-                               class="flex-1 px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            class="flex-1 px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
                         <input type="number" placeholder="Height"
-                               class="flex-1 px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            class="flex-1 px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
                     </div>
                 </div>
             </div>
 
             <div class="mt-8 text-center">
-                <button class="px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold">
+                <a href="{{ route('contact-us') }}"
+                    class="px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold inline-block">
                     Calculate Shipping
-                </button>
+                </a>
             </div>
 
             <!-- Results -->

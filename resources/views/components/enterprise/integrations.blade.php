@@ -141,7 +141,8 @@
                         <div class="bg-gray-100 rounded-lg p-3">
                             <code class="text-xs text-gray-700">https://your-app.com/webhook/usgm</code>
                         </div>
-                        <button onclick="copyToClipboard('https://your-app.com/webhook/usgm')" class="mt-2 text-sm text-blue-600 hover:text-blue-700">Copy URL</button>
+                        <button onclick="copyToClipboard('https://your-app.com/webhook/usgm')"
+                            class="mt-2 text-sm text-blue-600 hover:text-blue-700">Copy URL</button>
                     </div>
                 </div>
             </div>
@@ -248,14 +249,14 @@
   }
 }</code></pre>
                         <div class="mt-4 flex space-x-3">
-                            <button
-                                class="flex-1 bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors duration-200">
+                            <a href="{{ route('contact-us') }}"
+                                class="flex-1 bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors duration-200 inline-block text-center">
                                 View API Docs
-                            </button>
-                            <button
-                                class="flex-1 bg-gray-100 text-gray-700 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-200 transition-colors duration-200">
+                            </a>
+                            <a href="{{ route('contact-us') }}"
+                                class="flex-1 bg-gray-100 text-gray-700 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-200 transition-colors duration-200 inline-block text-center">
                                 Get API Key
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>

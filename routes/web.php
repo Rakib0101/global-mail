@@ -30,6 +30,12 @@ Route::view('/faqs/pricing', 'faqs.pricing')->name('faqs.pricing');
 Route::view('/faqs/shipping', 'faqs.shipping')->name('faqs.shipping');
 Route::view('/faqs/troubleshooting', 'faqs.troubleshooting')->name('faqs.troubleshooting');
 
+// Specific FAQ Pages
+Route::view('/faqs/who-can-use', 'faqs.who-can-use')->name('faqs.who-can-use');
+Route::view('/faqs/virtual-address', 'faqs.virtual-address')->name('faqs.virtual-address');
+Route::view('/faqs/id-requirements', 'faqs.id-requirements')->name('faqs.id-requirements');
+Route::view('/faqs/check-deposits', 'faqs.check-deposits')->name('faqs.check-deposits');
+
 // Additional Pages
 Route::view('/non-profits', 'pages.non-profits')->name('non-profits');
 Route::view('/refer-a-friend', 'pages.refer-a-friend')->name('refer-a-friend');

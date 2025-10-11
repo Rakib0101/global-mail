@@ -46,12 +46,18 @@
             <div>
                 <h3 class="text-gray-400 font-semibold mb-4">Services</h3>
                 <ul class="space-y-2">
-                    <li><a href="{{ route('mail-forwarding') }}" class="text-sm hover:text-white transition-colors">Mail Forwarding</a></li>
-                    <li><a href="{{ route('virtual-mailbox') }}" class="text-sm hover:text-white transition-colors">Virtual MailBox</a></li>
-                    <li><a href="{{ route('virtual-po-box') }}" class="text-sm hover:text-white transition-colors">Virtual PO Box</a></li>
-                    <li><a href="{{ route('digital-mailroom') }}" class="text-sm hover:text-white transition-colors">Digital Mailroom</a></li>
-                    <li><a href="{{ route('mail-scanning') }}" class="text-sm hover:text-white transition-colors">Mail Scanning</a></li>
-                    <li><a href="{{ route('virtual-address') }}" class="text-sm hover:text-white transition-colors">Virtual Address</a></li>
+                    <li><a href="{{ route('mail-forwarding') }}" class="text-sm hover:text-white transition-colors">Mail
+                            Forwarding</a></li>
+                    <li><a href="{{ route('virtual-mailbox') }}"
+                            class="text-sm hover:text-white transition-colors">Virtual MailBox</a></li>
+                    <li><a href="{{ route('virtual-po-box') }}"
+                            class="text-sm hover:text-white transition-colors">Virtual PO Box</a></li>
+                    <li><a href="{{ route('digital-mailroom') }}"
+                            class="text-sm hover:text-white transition-colors">Digital Mailroom</a></li>
+                    <li><a href="{{ route('mail-scanning') }}" class="text-sm hover:text-white transition-colors">Mail
+                            Scanning</a></li>
+                    <li><a href="{{ route('virtual-address') }}"
+                            class="text-sm hover:text-white transition-colors">Virtual Address</a></li>
                 </ul>
             </div>
 
@@ -71,9 +77,12 @@
                 <ul class="space-y-2">
                     <li><a href="/about-us" class="text-sm hover:text-white transition-colors">About Us</a></li>
                     <li><a href="/reviews" class="text-sm hover:text-white transition-colors">Reviews</a></li>
-                    <li><a href="/refer-a-friend" class="text-sm hover:text-white transition-colors">Refer a Friend</a></li>
-                    <li><a href="/channel-partners" class="text-sm hover:text-white transition-colors">Channel Partners</a></li>
-                    <li><a href="/affiliate-program" class="text-sm hover:text-white transition-colors">Affiliate Program</a></li>
+                    <li><a href="/refer-a-friend" class="text-sm hover:text-white transition-colors">Refer a Friend</a>
+                    </li>
+                    <li><a href="/channel-partners" class="text-sm hover:text-white transition-colors">Channel
+                            Partners</a></li>
+                    <li><a href="/affiliate-program" class="text-sm hover:text-white transition-colors">Affiliate
+                            Program</a></li>
                 </ul>
             </div>
 
@@ -83,11 +92,13 @@
                 <ul class="space-y-2">
                     <li><a href="/help-center" class="text-sm hover:text-white transition-colors">Help Center</a></li>
                     <li><a href="/contact-us" class="text-sm hover:text-white transition-colors">Contact Us</a></li>
-                    <li><a href="/shipping-calculator" class="text-sm hover:text-white transition-colors">Shipping Calculator</a>
+                    <li><a href="/shipping-calculator" class="text-sm hover:text-white transition-colors">Shipping
+                            Calculator</a>
                     </li>
                     <li><a href="/blog" class="text-sm hover:text-white transition-colors">Blog</a></li>
                     <li><a href="/terms" class="text-sm hover:text-white transition-colors">Terms</a></li>
-                    <li><a href="/privacy-policy" class="text-sm hover:text-white transition-colors">Privacy Policy</a></li>
+                    <li><a href="/privacy-policy" class="text-sm hover:text-white transition-colors">Privacy Policy</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -107,12 +118,12 @@
 
     <!-- Floating Chat Button -->
     <div class="fixed bottom-6 right-6 z-50">
-        <button
+        <a href="{{ route('contact-us') }}"
             class="w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 transition-colors">
             <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
                 <path
                     d="M20 2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h4l4 4 4-4h4c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z" />
             </svg>
-        </button>
+        </a>
     </div>
 </footer>

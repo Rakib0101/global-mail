@@ -109,10 +109,10 @@
 
         <!-- Call to Action Button -->
         <div class="text-center mt-16">
-            <button
+            <a href="{{ route('register') }}"
                 class="bg-primary hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200">
                 Join The Revolution
-            </button>
+            </a>
         </div>
     </div>
 </section>
