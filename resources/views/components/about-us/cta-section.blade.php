@@ -3,7 +3,7 @@
         <!-- Main CTA Content -->
         <div class="text-center mb-12">
             <!-- Headline -->
-            <h2 class="text-4xl md:text-[40px] font-medium text-gray-900 mb-6">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-[40px] font-medium text-gray-900 mb-6">
                 Join the #1 Leader In Virtual Mail Management
             </h2>
 

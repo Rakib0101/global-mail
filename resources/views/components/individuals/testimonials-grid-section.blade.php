@@ -8,7 +8,7 @@
                 Loved by 100,000+ Happy Travelers Worldwide
             </h2>
             <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                From digital nomads to retirees abroad, see why global citizens love iMailVault for their mail
+                From digital nomads to retirees abroad, see why Imail citizens love iMailVault for their mail
                 management needs.
             </p>
         </div>
@@ -104,7 +104,7 @@
                 <img src="{{ asset('assets/images/michelle.avif') }}" alt="Lisa S."
                     class="w-16 h-16 rounded-full mx-auto mb-4">
                 <h4 class="font-semibold text-gray-900">Lisa S.</h4>
-                <p class="text-sm text-gray-600 mb-3">Global Traveler</p>
+                <p class="text-sm text-gray-600 mb-3">Imail Traveler</p>
                 <p class="text-gray-700 italic text-sm">
                     "Been traveling for 18 months straight. No matter where I am in the world, my important mail always
                     reaches me safely and on time."
@@ -144,7 +144,7 @@
 
         <!-- Trust Statistics -->
         <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8">
-            <h3 class="text-2xl font-bold text-gray-900 mb-8">Trusted by Global Citizens</h3>
+            <h3 class="text-2xl font-bold text-gray-900 mb-8">Trusted by Imail Citizens</h3>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
                 <div class="text-center">
                     <div class="text-3xl font-bold text-blue-600 mb-2">100K+</div>

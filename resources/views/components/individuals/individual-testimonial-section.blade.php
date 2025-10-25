@@ -156,7 +156,7 @@
         <div class="text-center bg-blue-600 rounded-2xl p-12 text-white">
             <h3 class="text-3xl font-bold mb-4">Join Thousands of Satisfied Globetrotters</h3>
             <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-                Ready to simplify your global lifestyle? Start receiving mail digitally today and travel with complete
+                Ready to simplify your Imail lifestyle? Start receiving mail digitally today and travel with complete
                 peace of mind.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">

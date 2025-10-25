@@ -108,7 +108,7 @@
             </div>
         </div>
 
-        <!-- Global Statistics -->
+        <!-- Imail Statistics -->
         <div class="mt-20 bg-gray-50 rounded-2xl p-8">
             <h3 class="text-2xl font-bold text-gray-900 text-center mb-8">Mail Access Worldwide</h3>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">

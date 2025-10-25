@@ -5,7 +5,7 @@
             <!-- Main CTA Content -->
             <div class="max-w-5xl mx-auto">
                 <h2 class="text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
-                    Start Your Global Lifestyle Today
+                    Start Your Imail Lifestyle Today
                 </h2>
                 <p class="text-xl text-blue-100 mb-8 leading-relaxed">
                     Join 100,000+ customers who trust iMailVault to handle their mail while they explore the world.
@@ -49,7 +49,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                         </svg>
-                        Start Your Global Mailbox
+                        Start Your Imail Mailbox
                     </a>
                     <a href="{{ route('pricing') }}"
                         class="inline-flex items-center px-10 py-4 border border-white/20 text-lg font-medium rounded-xl text-white bg-white/10 hover:bg-white/20 transition-all duration-200 backdrop-blur-sm">
@@ -142,7 +142,7 @@
 
                 <!-- Stats Section -->
                 <div class="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
-                    <h3 class="text-2xl font-bold text-white mb-8">Trusted by Global Citizens</h3>
+                    <h3 class="text-2xl font-bold text-white mb-8">Trusted by Imail Citizens</h3>
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
                         <div class="text-center">
                             <div class="text-3xl font-bold text-white mb-2">100K+</div>
@@ -171,7 +171,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                         </svg>
-                        Start Your Global Adventure Now
+                        Start Your Imail Adventure Now
                     </a>
                     <p class="text-blue-200 mt-6 text-lg">
                         Join thousands of satisfied customers • No contracts • Cancel anytime • 30-day money-back

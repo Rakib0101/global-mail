@@ -14,13 +14,9 @@
                 </div>
 
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <a href="#contact"
+                    <a href="{{ route('contact-us') }}"
                         class="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200">
                         Talk to sales
-                    </a>
-                    <a href="#demo"
-                        class="inline-flex items-center justify-center px-8 py-4 border-2 border-gray-300 text-gray-700 font-semibold rounded-lg hover:border-gray-400 transition-colors duration-200">
-                        Watch demo
                     </a>
                 </div>
             </div>

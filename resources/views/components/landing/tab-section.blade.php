@@ -236,7 +236,7 @@
                             reliable shipping service.</p>
                         <div class="grid md:grid-cols-2 gap-6">
                             <div class="bg-gray-50 p-4 rounded-lg">
-                                <h4 class="font-semibold text-gray-900 mb-2">Global Shipping</h4>
+                                <h4 class="font-semibold text-gray-900 mb-2">Imail Shipping</h4>
                                 <p class="text-sm text-gray-600">Ship mail to any destination worldwide</p>
                             </div>
                             <div class="bg-gray-50 p-4 rounded-lg">
