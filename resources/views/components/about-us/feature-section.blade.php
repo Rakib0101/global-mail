@@ -20,10 +20,10 @@
                     </p>
                 </div>
             </div>
-            <div class="w-full lg:w-1/2 flex justify-center">
+            {{-- <div class="w-full lg:w-1/2 flex justify-center">
                 <!-- 10+ Years Badge -->
                 <img src="{{ asset('assets/images/animated-trophy.svg') }}" alt="">
-            </div>
+            </div> --}}
         </div>
 
         <!-- Second Feature: Recycling Junk Mail -->

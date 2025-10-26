@@ -27,7 +27,7 @@
                 <div class="w-full lg:w-1/2 flex justify-center">
                     <div class="relative">
                         <!-- Phone Frame -->
-                        <img src="{{ asset('assets/images/journey-01.webp') }}" alt="">
+                        {{-- <img src="{{ asset('assets/images/journey-01.webp') }}" alt=""> --}}
                     </div>
                 </div>
 
