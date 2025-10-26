@@ -1,4 +1,4 @@
-<section class="py-16 bg-white">
+{{-- <section class="py-16 bg-white">
     <div class="container mx-auto px-4">
         <!-- Heading Section -->
         <div class="text-center mb-20">
@@ -67,4 +67,4 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
