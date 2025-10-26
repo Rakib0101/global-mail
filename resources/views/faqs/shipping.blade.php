@@ -53,7 +53,7 @@
                         <div class="prose prose-gray max-w-none">
                             <p>We ship packages worldwide to over 200 countries and territories:</p>
                             <ul>
-                                <li><strong>Domestic:</strong> All 50 US states and territories</li>
+                                <li><strong>Domestic:</strong> All cities and territories</li>
                                 <li><strong>International:</strong> Most countries worldwide</li>
                                 <li><strong>Express Options:</strong> FedEx, UPS, DHL available</li>
                                 <li><strong>Economy Options:</strong> USPS for cost-effective shipping</li>

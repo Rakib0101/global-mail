@@ -47,7 +47,7 @@
 
                     <h3 class="text-xl font-semibold text-gray-900 mb-4">Geographic Restrictions</h3>
                     <ul class="list-disc pl-6 mb-6">
-                        <li>Available to US residents and citizens</li>
+                        <li>Available to all residents and citizens</li>
                         <li>International customers welcome with proper documentation</li>
                         <li>Some services may be restricted based on location</li>
                     </ul>

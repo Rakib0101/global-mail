@@ -114,7 +114,7 @@
                 <x-pricing.plan-card title="Virtual Teams" subtitle="Remote-first Companies" monthly-price="45"
                     annual-price="31.50" monthly-value="180" annual-value="126"
                     description="Our most popular plan for complete, hassle-free mail management." :features="[
-                        'Professional US business address',
+                        'Professional Imail business address',
                         'Unlimited exterior mail scans',
                         '30 envelopes scanned/mo',
                         '5 recipients (individuals + companies)',

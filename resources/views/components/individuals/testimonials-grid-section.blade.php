@@ -22,7 +22,7 @@
                 <h4 class="font-semibold text-gray-900">Mary P.</h4>
                 <p class="text-sm text-gray-600 mb-3">NYC → London</p>
                 <p class="text-gray-700 italic text-sm">
-                    "Moved to London 3 years ago but still need my US mail. iMailVault makes it so easy - everything
+                    "Moved to London 3 years ago but still need my Imail. iMailVault makes it so easy - everything
                     gets scanned and forwarded perfectly!"
                 </p>
                 <div class="flex justify-center mt-4">

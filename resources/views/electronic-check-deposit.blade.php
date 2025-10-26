@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.electronic')
 
 @section('content')
     @include('components.electronic.hero-section')
