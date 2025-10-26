@@ -32,7 +32,7 @@
 
                 <div>
                     <label class="block text-sm font-medium text-gray-700 mb-2">Package Dimensions</label>
-                    <div class="flex gap-2">
+                    <div class="flex flex-wrap gap-2">
                         <input type="number" placeholder="Length"
                             class="flex-1 px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
                         <input type="number" placeholder="Width"
