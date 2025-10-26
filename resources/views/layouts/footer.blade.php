@@ -9,7 +9,7 @@
 
 
                 <!-- Address -->
-                <p class="text-sm mb-12 text-gray-500">1814 N Memorial Way Houston, <br> TX 77007</p>
+                <p class="text-sm mb-12 text-gray-500">1814 N Memorial Way <br> Houston, TX 77007</p>
 
                 <!-- Rating Stars -->
                 <div class="flex items-center mb-12">
@@ -37,9 +37,6 @@
                     </div>
                 </div>
                 <p class="text-sm mb-4">Based on 1000+ Reviews</p>
-
-                <!-- Worldwide ERC -->
-                <p class="text-sm">Worldwide ERC</p>
             </div>
 
             <!-- Services Column -->
@@ -117,7 +114,7 @@
     </div>
 
     <!-- Floating Chat Button -->
-    <div class="fixed bottom-6 right-6 z-50">
+    {{-- <div class="fixed bottom-6 right-6 z-50">
         <a href="{{ route('contact-us') }}"
             class="w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 transition-colors">
             <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -125,5 +122,5 @@
                     d="M20 2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h4l4 4 4-4h4c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z" />
             </svg>
         </a>
-    </div>
+    </div> --}}
 </footer>
