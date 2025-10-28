@@ -124,7 +124,7 @@
         </div>
 
 
-        <div class="max-w-7xl mx-auto px-4">
+        {{-- <div class="max-w-7xl mx-auto px-4">
             <!-- Ready to Simplify Mail Section -->
             <div class="text-center mb-12">
                 <h2 class="text-4xl font-bold text-gray-800 mb-4">Ready to Simplify Mail?</h2>
@@ -149,6 +149,6 @@
                     class="inline-block text-lg font-medium px-6 py-4 bg-primary text-white rounded">Start Risk
                     Free</a>
             </div>
-        </div>
+        </div> --}}
     </div>
 </section>
