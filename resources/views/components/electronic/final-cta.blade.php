@@ -14,10 +14,6 @@
                     class="inline-flex items-center justify-center px-8 py-4 bg-white text-blue-900 font-semibold rounded-lg hover:bg-gray-100 transition-colors duration-200">
                     Get started
                 </a>
-                <a href="{{ route('pricing') }}"
-                    class="inline-flex items-center justify-center px-8 py-4 border-2 border-blue-300 text-white font-semibold rounded-lg hover:border-blue-200 transition-colors duration-200">
-                    Watch demo
-                </a>
             </div>
 
             <!-- Guarantee and Support -->

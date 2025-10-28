@@ -49,7 +49,7 @@
     <!-- Mobile Menu Header -->
     <div class="flex items-center justify-between p-6 border-b border-gray-200">
         <a href="/" class="flex items-center space-x-2">
-            <img src="/assets/images/logo.svg" alt="Logo" class="h-8 w-auto" />
+            <img src="/assets/images/logo.png" alt="Logo" class="h-8 w-auto" />
         </a>
         <button id="close-mobile-menu" class="text-gray-500 hover:text-gray-700">
             <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

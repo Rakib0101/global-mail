@@ -14,7 +14,7 @@
             <!-- Profile Picture -->
             <div
                 class="w-16 h-16 rounded-full overflow-hidden bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center">
-                <img src="{{ asset('images/founders/randip-singh.jpg') }}" alt="Randip Singh"
+                <img src="{{ asset('images/founders/randip-singh.jpg') }}" alt="Murray Musgrove"
                     class="w-full h-full object-cover"
                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                 <div class="text-white text-2xl font-bold" style="display: none;">RS</div>
@@ -22,7 +22,7 @@
 
             <!-- Name and Title -->
             <div class="text-left">
-                <h3 class="text-primary font-semibold text-lg">Randip Singh</h3>
+                <h3 class="text-primary font-semibold text-lg">Murray Musgrove</h3>
                 <p class="text-blue-500 text-sm">Co-Founder & CEO</p>
             </div>
         </div>
