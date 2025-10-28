@@ -49,7 +49,7 @@
                             </svg>
                         </div>
                     </button>
-                    <div class="hidden px-6 pb-4">
+                    <div class="hidden px-6 pb-4 overflow-hidden" style="max-height: 0; opacity: 0;">
                         <div class="prose prose-gray max-w-none">
                             <p>To activate your iMailVault account, follow these steps:</p>
                             <ol>
@@ -78,7 +78,7 @@
                             </svg>
                         </div>
                     </button>
-                    <div class="hidden px-6 pb-4">
+                    <div class="hidden px-6 pb-4 overflow-hidden" style="max-height: 0; opacity: 0;">
                         <div class="prose prose-gray max-w-none">
                             <p>Form 1583 is a USPS requirement that authorizes iMailVault to receive mail on your behalf.
                                 It's mandatory for all virtual mailbox services in the United States.</p>
@@ -108,7 +108,7 @@
                             </svg>
                         </div>
                     </button>
-                    <div class="hidden px-6 pb-4">
+                    <div class="hidden px-6 pb-4 overflow-hidden" style="max-height: 0; opacity: 0;">
                         <div class="prose prose-gray max-w-none">
                             <p>Your virtual address can be used for:</p>
                             <ul>
@@ -140,7 +140,7 @@
                             </svg>
                         </div>
                     </button>
-                    <div class="hidden px-6 pb-4">
+                    <div class="hidden px-6 pb-4 overflow-hidden" style="max-height: 0; opacity: 0;">
                         <div class="prose prose-gray max-w-none">
                             <p>Activation typically takes 1-2 business days after we receive your completed Form 1583 and
                                 identification documents.</p>
@@ -171,7 +171,7 @@
                             </svg>
                         </div>
                     </button>
-                    <div class="hidden px-6 pb-4">
+                    <div class="hidden px-6 pb-4 overflow-hidden" style="max-height: 0; opacity: 0;">
                         <div class="prose prose-gray max-w-none">
                             <p>You'll need to provide:</p>
                             <ul>
@@ -215,10 +215,21 @@
 
             if (content.classList.contains('hidden')) {
                 content.classList.remove('hidden');
+                content.style.maxHeight = '0';
+                content.style.opacity = '0';
+                // Force reflow
+                content.offsetHeight;
+                content.style.transition = 'max-height 0.3s ease-in-out, opacity 0.3s ease-in-out';
+                content.style.maxHeight = content.scrollHeight + 'px';
+                content.style.opacity = '1';
                 icon.classList.add('rotate-45');
             } else {
-                content.classList.add('hidden');
+                content.style.maxHeight = '0';
+                content.style.opacity = '0';
                 icon.classList.remove('rotate-45');
+                setTimeout(() => {
+                    content.classList.add('hidden');
+                }, 300);
             }
         }
     </script>

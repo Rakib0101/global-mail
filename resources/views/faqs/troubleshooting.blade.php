@@ -51,7 +51,7 @@
                             </svg>
                         </div>
                     </button>
-                    <div class="hidden px-6 pb-4">
+                    <div class="hidden px-6 pb-4 overflow-hidden" style="max-height: 0; opacity: 0;">
                         <div class="prose prose-gray max-w-none">
                             <p>If you can't log into your account, try these steps:</p>
                             <ol>
@@ -82,7 +82,7 @@
                             </svg>
                         </div>
                     </button>
-                    <div class="hidden px-6 pb-4">
+                    <div class="hidden px-6 pb-4 overflow-hidden" style="max-height: 0; opacity: 0;">
                         <div class="prose prose-gray max-w-none">
                             <p>If your mail isn't appearing, check these common causes:</p>
                             <ul>
@@ -112,7 +112,7 @@
                             </svg>
                         </div>
                     </button>
-                    <div class="hidden px-6 pb-4">
+                    <div class="hidden px-6 pb-4 overflow-hidden" style="max-height: 0; opacity: 0;">
                         <div class="prose prose-gray max-w-none">
                             <p>If scans are unclear, we can help:</p>
                             <ul>
@@ -141,7 +141,7 @@
                             </svg>
                         </div>
                     </button>
-                    <div class="hidden px-6 pb-4">
+                    <div class="hidden px-6 pb-4 overflow-hidden" style="max-height: 0; opacity: 0;">
                         <div class="prose prose-gray max-w-none">
                             <p>To fix email notification issues:</p>
                             <ol>
@@ -171,7 +171,7 @@
                             </svg>
                         </div>
                     </button>
-                    <div class="hidden px-6 pb-4">
+                    <div class="hidden px-6 pb-4 overflow-hidden" style="max-height: 0; opacity: 0;">
                         <div class="prose prose-gray max-w-none">
                             <p>Common reasons for forwarding failures:</p>
                             <ul>
@@ -202,7 +202,7 @@
                             </svg>
                         </div>
                     </button>
-                    <div class="hidden px-6 pb-4">
+                    <div class="hidden px-6 pb-4 overflow-hidden" style="max-height: 0; opacity: 0;">
                         <div class="prose prose-gray max-w-none">
                             <p>To fix mobile app issues:</p>
                             <ol>
@@ -234,7 +234,7 @@
                             </svg>
                         </div>
                     </button>
-                    <div class="hidden px-6 pb-4">
+                    <div class="hidden px-6 pb-4 overflow-hidden" style="max-height: 0; opacity: 0;">
                         <div class="prose prose-gray max-w-none">
                             <p>For billing and payment issues:</p>
                             <ul>
@@ -278,10 +278,21 @@
 
             if (content.classList.contains('hidden')) {
                 content.classList.remove('hidden');
+                content.style.maxHeight = '0';
+                content.style.opacity = '0';
+                // Force reflow
+                content.offsetHeight;
+                content.style.transition = 'max-height 0.3s ease-in-out, opacity 0.3s ease-in-out';
+                content.style.maxHeight = content.scrollHeight + 'px';
+                content.style.opacity = '1';
                 icon.classList.add('rotate-45');
             } else {
-                content.classList.add('hidden');
+                content.style.maxHeight = '0';
+                content.style.opacity = '0';
                 icon.classList.remove('rotate-45');
+                setTimeout(() => {
+                    content.classList.add('hidden');
+                }, 300);
             }
         }
     </script>
