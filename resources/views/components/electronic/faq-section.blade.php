@@ -13,7 +13,7 @@
             <!-- FAQ Item 1 -->
             <div class="bg-gray-50 rounded-2xl p-6">
                 <button class="w-full text-left flex items-center justify-between focus:outline-none"
-                    onclick="toggleFAQ(1)">
+                    onclick="toggleElectronicFAQ(1)">
                     <h3 class="text-lg font-semibold text-gray-900">How quickly are funds available after depositing a
                         check?</h3>
                     <svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200" id="icon-1"
@@ -31,7 +31,7 @@
             <!-- FAQ Item 2 -->
             <div class="bg-gray-50 rounded-2xl p-6">
                 <button class="w-full text-left flex items-center justify-between focus:outline-none"
-                    onclick="toggleFAQ(2)">
+                    onclick="toggleElectronicFAQ(2)">
                     <h3 class="text-lg font-semibold text-gray-900">What types of checks can be deposited
                         electronically?</h3>
                     <svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200" id="icon-2"
@@ -49,7 +49,7 @@
             <!-- FAQ Item 3 -->
             <div class="bg-gray-50 rounded-2xl p-6">
                 <button class="w-full text-left flex items-center justify-between focus:outline-none"
-                    onclick="toggleFAQ(3)">
+                    onclick="toggleElectronicFAQ(3)">
                     <h3 class="text-lg font-semibold text-gray-900">Is there a limit on the number of checks I can
                         deposit?</h3>
                     <svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200" id="icon-3"
@@ -66,7 +66,7 @@
             <!-- FAQ Item 4 -->
             <div class="bg-gray-50 rounded-2xl p-6">
                 <button class="w-full text-left flex items-center justify-between focus:outline-none"
-                    onclick="toggleFAQ(4)">
+                    onclick="toggleElectronicFAQ(4)">
                     <h3 class="text-lg font-semibold text-gray-900">How secure is the electronic check deposit process?
                     </h3>
                     <svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200" id="icon-4"
@@ -84,7 +84,7 @@
             <!-- FAQ Item 5 -->
             <div class="bg-gray-50 rounded-2xl p-6">
                 <button class="w-full text-left flex items-center justify-between focus:outline-none"
-                    onclick="toggleFAQ(5)">
+                    onclick="toggleElectronicFAQ(5)">
                     <h3 class="text-lg font-semibold text-gray-900">Can I integrate this with my existing accounting
                         software?</h3>
                     <svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200" id="icon-5"
@@ -101,7 +101,7 @@
             <!-- FAQ Item 6 -->
             <div class="bg-gray-50 rounded-2xl p-6">
                 <button class="w-full text-left flex items-center justify-between focus:outline-none"
-                    onclick="toggleFAQ(6)">
+                    onclick="toggleElectronicFAQ(6)">
                     <h3 class="text-lg font-semibold text-gray-900">What happens if a check is returned or rejected?
                     </h3>
                     <svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200" id="icon-6"
@@ -120,30 +120,39 @@
 </section>
 
 <script>
-    function toggleFAQ(id) {
-        const answer = document.getElementById(`answer-${id}`);
-        const icon = document.getElementById(`icon-${id}`);
-        const isOpen = answer.style.maxHeight && answer.style.maxHeight !== '0px';
+    (function() {
+        // Rename to avoid conflicts
+        window.toggleElectronicFAQ = function(id) {
+            // Ensure id is a number
+            if (typeof id !== 'number') {
+                console.error('toggleFAQ: Expected a number, got', id);
+                return;
+            }
 
-        if (!isOpen) {
-            // Open the FAQ
-            answer.style.maxHeight = answer.scrollHeight + 'px';
-            answer.style.opacity = '1';
-            answer.style.paddingTop = '0.5rem';
-            icon.style.transform = 'rotate(180deg)';
-        } else {
-            // Close the FAQ
-            answer.style.maxHeight = '0';
-            answer.style.opacity = '0';
-            answer.style.paddingTop = '0';
-            icon.style.transform = 'rotate(0deg)';
-        }
-    }
+            const answer = document.getElementById(`answer-${id}`);
+            const icon = document.getElementById(`icon-${id}`);
+
+            if (!answer || !icon) {
+                console.error('toggleFAQ: Element not found for id', id);
+                return;
+            }
+
+            const isOpen = answer.style.maxHeight && answer.style.maxHeight !== '0px';
+
+            if (!isOpen) {
+                // Open the FAQ
+                answer.style.maxHeight = answer.scrollHeight + 'px';
+                answer.style.opacity = '1';
+                answer.style.paddingTop = '0.5rem';
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                // Close the FAQ
+                answer.style.maxHeight = '0';
+                answer.style.opacity = '0';
+                answer.style.paddingTop = '0';
+                icon.style.transform = 'rotate(0deg)';
+            }
+        };
+    })();
 </script>
-
-
-
-
-
-
 
