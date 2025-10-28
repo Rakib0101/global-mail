@@ -27,7 +27,7 @@
                 <div class="w-full lg:w-1/2 flex justify-center">
                     <div class="relative">
                         <!-- Phone Frame -->
-                        <img src="{{ asset('assets/images/journey-01.webp') }}" alt="">
+                        {{-- <img src="{{ asset('assets/images/journey-01.webp') }}" alt=""> --}}
                     </div>
                 </div>
 
@@ -109,10 +109,10 @@
 
         <!-- Call to Action Button -->
         <div class="text-center mt-16">
-            <button
+            <a href="{{ route('register') }}"
                 class="bg-primary hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200">
                 Join The Revolution
-            </button>
+            </a>
         </div>
     </div>
 </section>

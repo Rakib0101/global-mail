@@ -3,7 +3,7 @@
         <!-- Main CTA Content -->
         <div class="text-center mb-12">
             <!-- Headline -->
-            <h2 class="text-4xl md:text-[40px] font-medium text-gray-900 mb-6">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-[40px] font-medium text-gray-900 mb-6">
                 Join the #1 Leader In Virtual Mail Management
             </h2>
 
@@ -15,14 +15,14 @@
 
             <!-- Call-to-Action Buttons -->
             <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <button
-                    class="bg-primary hover:bg-blue-700 text-white font-bold py-4 px-8 rounded transition-colors duration-200 min-w-[200px]">
+                <a href="{{ route('register') }}"
+                    class="bg-primary hover:bg-blue-700 text-white font-bold py-4 px-8 rounded transition-colors duration-200 min-w-[200px] inline-block text-center">
                     Start Risk Free
-                </button>
-                <button
-                    class="bg-white hover:bg-gray-50 text-primary font-bold py-4 px-8 rounded border-2 border-primary transition-colors duration-200 min-w-[200px]">
+                </a>
+                <a href="{{ route('contact-us') }}"
+                    class="bg-white hover:bg-gray-50 text-primary font-bold py-4 px-8 rounded border-2 border-primary transition-colors duration-200 min-w-[200px] inline-block text-center">
                     Book a Demo
-                </button>
+                </a>
             </div>
         </div>
 

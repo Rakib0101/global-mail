@@ -21,7 +21,7 @@
             </div>
             <!-- Right: Mobile Interface -->
             <div class="w-full lg:w-1/2 flex justify-center">
-                <img src="{{ asset('assets/images/about-hero-right.webp') }}" alt="">
+                <img src="{{ asset('assets/images/about-right.jpeg') }}" alt="">
             </div>
         </div>
     </div>

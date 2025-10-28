@@ -6,7 +6,7 @@
     @include('components.about-us.goal-section')
     @include('components.about-us.journey-section')
     @include('components.about-us.team-section')
-    @include('components.about-us.award-section')
+    {{-- @include('components.about-us.award-section') --}}
     @include('components.about-us.founder-qoute')
-    @include('components.about-us.cta-section')
+    {{-- @include('components.about-us.cta-section') --}}
 @endsection

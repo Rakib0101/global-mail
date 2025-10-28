@@ -6,8 +6,8 @@
             <div class="relative">
                 <!-- Main Problem Image -->
                 <div class="bg-gray-50 rounded-2xl p-8">
-                    <img src="{{ asset('assets/images/hero-right.avif') }}"
-                        alt="Mailbox with return to sender envelope" class="w-full h-80 object-cover rounded-xl">
+                    <img src="{{ asset('assets/images/hero-right.avif') }}" alt="Mailbox with return to sender envelope"
+                        class="w-full h-80 object-cover rounded-xl">
                 </div>
 
                 <!-- Trust Indicators -->
@@ -28,14 +28,14 @@
             <div class="space-y-8">
                 <!-- Main Heading -->
                 <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
-                    USPS wasn't built for a global life. We are.
+                    USPS wasn't built for a Imail life. We are.
                 </h2>
 
                 <!-- Description -->
                 <p class="text-xl text-gray-600 leading-relaxed">
                     Traditional mail services were designed for a stationary lifestyle. When you're living abroad,
                     traveling frequently, or embracing the digital nomad lifestyle, you need a mail solution that keeps
-                    up with your global mobility.
+                    up with your Imail mobility.
                 </p>
 
                 <!-- Problem Statement -->
@@ -147,9 +147,9 @@
                 </div>
             </div>
 
-            <!-- Global Coverage Stats -->
+            <!-- Imail Coverage Stats -->
             <div class="col-span-2 mt-20 bg-gradient-to-r from-blue-50 to-green-50 rounded-2xl p-8">
-                <h3 class="text-2xl font-bold text-gray-900 text-center mb-8">Built for the Global Lifestyle</h3>
+                <h3 class="text-2xl font-bold text-gray-900 text-center mb-8">Built for the Imail Lifestyle</h3>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="text-center">
                         <div class="text-3xl font-bold text-blue-600 mb-2">190+</div>

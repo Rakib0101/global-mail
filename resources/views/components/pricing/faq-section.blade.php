@@ -49,7 +49,7 @@
                 </button>
                 <div x-show="openItem === 2" x-transition class="pb-6 pr-6">
                     <p class="text-gray-600">Absolutely! Our virtual mailbox service is perfect for expats, digital
-                        nomads, and international businesses. You can manage your US mail from anywhere in the world.
+                        nomads, and international businesses. You can manage your Imail from anywhere in the world.
                     </p>
                 </div>
             </div>

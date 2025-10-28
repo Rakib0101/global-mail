@@ -192,9 +192,9 @@
                                     0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10"></path>
                             </svg>
                         </div>
-                        <h4 class="font-semibold text-gray-900">Global Reach</h4>
+                        <h4 class="font-semibold text-gray-900">Imail Reach</h4>
                     </div>
-                    <p class="text-gray-600 text-sm">International forwarding capabilities for global business
+                    <p class="text-gray-600 text-sm">International forwarding capabilities for Imail business
                         expansion and seamless worldwide operations.</p>
                 </div>
 

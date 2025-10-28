@@ -105,7 +105,7 @@
                     <span class="text-sm font-medium text-gray-900">Virtual office</span>
                 </div>
 
-                <div class="feature-item flex items-center space-x-224 p-22 rounded-lg hover:bg-gray-50 transition-colors cursor-pointer"
+                <div class="feature-item flex items-center space-x-2 p-2 rounded-lg hover:bg-gray-50 transition-colors cursor-pointer"
                     data-feature="mail-forwarding">
                     <div class="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
                         <svg class="w-5 h-5 text-orange-600" fill="currentColor" viewBox="0 0 20 20">
@@ -153,9 +153,9 @@
                                         </div>
                                         <div class="flex space-x-2">
                                             <button
-                                                class="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded">Scan</button>
+                                                class="text-sm bg-blue-100 text-blue-700 px-3 py-2 rounded min-h-[44px]">Scan</button>
                                             <button
-                                                class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">Forward</button>
+                                                class="text-sm bg-gray-100 text-gray-700 px-3 py-2 rounded min-h-[44px]">Forward</button>
                                         </div>
                                     </div>
                                     <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
@@ -165,9 +165,9 @@
                                         </div>
                                         <div class="flex space-x-2">
                                             <button
-                                                class="text-xs bg-green-100 text-green-700 px-2 py-1 rounded">Forward</button>
+                                                class="text-sm bg-green-100 text-green-700 px-3 py-2 rounded min-h-[44px]">Forward</button>
                                             <button
-                                                class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">Archive</button>
+                                                class="text-sm bg-gray-100 text-gray-700 px-3 py-2 rounded min-h-[44px]">Archive</button>
                                         </div>
                                     </div>
                                 </div>
@@ -248,7 +248,7 @@
                                 shipping service.</p>
                             <div class="grid grid-cols-2 gap-4">
                                 <div class="bg-yellow-50 p-4 rounded-lg">
-                                    <h4 class="font-semibold text-yellow-800 mb-2">Global Shipping</h4>
+                                    <h4 class="font-semibold text-yellow-800 mb-2">Imail Shipping</h4>
                                     <p class="text-sm text-yellow-700">Ship to any destination worldwide</p>
                                 </div>
                                 <div class="bg-yellow-50 p-4 rounded-lg">
@@ -332,7 +332,7 @@
                                 forwarding service.</p>
                             <div class="grid grid-cols-2 gap-4">
                                 <div class="bg-orange-50 p-4 rounded-lg">
-                                    <h4 class="font-semibold text-orange-800 mb-2">Global Forwarding</h4>
+                                    <h4 class="font-semibold text-orange-800 mb-2">Imail Forwarding</h4>
                                     <p class="text-sm text-orange-700">Forward mail to any destination</p>
                                 </div>
                                 <div class="bg-orange-50 p-4 rounded-lg">

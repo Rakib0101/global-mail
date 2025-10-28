@@ -15,7 +15,7 @@
                     <span class="text-sm font-semibold tracking-wide uppercase text-green-500">Personal Mail
                         Solutions</span>
                     <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                        Perfect Virtual Mailbox for Global Citizens
+                        Perfect Virtual Mailbox for Imail Citizens
                     </h1>
                     <p class="text-xl text-gray-600 leading-relaxed">
                         Travel the world while staying connected to your mail. Digital nomads, expats, and frequent
@@ -69,7 +69,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                         </svg>
-                        Start Your Global Mailbox
+                        Start Your Imail Mailbox
                     </a>
                     <a href="{{ route('contact-us') }}"
                         class="inline-flex items-center px-8 py-4 border border-gray-300 text-base font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 transition-colors duration-200">
@@ -138,7 +138,7 @@
 
                 <!-- Lifestyle Stats -->
                 <div class="mt-8 bg-white rounded-xl p-6 shadow-sm border border-green-100">
-                    <h3 class="text-lg font-semibold text-gray-900 mb-4">Perfect for Global Lifestyles</h3>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-4">Perfect for Imail Lifestyles</h3>
                     <div class="space-y-3">
                         <div class="flex justify-between items-center">
                             <span class="text-sm text-gray-600">Digital Nomads</span>
@@ -154,7 +154,7 @@
                         </div>
                         <div class="flex justify-between items-center">
                             <span class="text-sm text-gray-600">Remote Workers</span>
-                            <span class="text-sm font-semibold text-orange-600">Global Coverage</span>
+                            <span class="text-sm font-semibold text-orange-600">Imail Coverage</span>
                         </div>
                     </div>
                 </div>

@@ -4,7 +4,7 @@
             <!-- Left: Text Content -->
             <div
                 class="w-full lg:w-1/3 flex flex-col items-center lg:items-start justify-center text-center lg:text-left">
-                <h1 class="text-4xl md:text-[56px] font-medium text-gray-900 mb-6 leading-[1.2]">
+                <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-[56px] font-medium text-gray-900 mb-6 leading-[1.2]">
                     Mail <br> On-Demand
                 </h1>
                 <p class="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
