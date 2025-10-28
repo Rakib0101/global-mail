@@ -21,7 +21,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                     </svg>
                 </button>
-                <div class="mt-4 text-gray-600 hidden overflow-hidden" id="answer-1" style="max-height: 0; opacity: 0;">
+                <div class="mt-4 text-gray-600 overflow-hidden transition-all duration-300" id="answer-1" style="max-height: 0; opacity: 0;">
                     <p>Funds are typically available within 1-2 business days for most checks, with same-day
                         availability for qualifying checks. We provide real-time status updates so you know exactly when
                         your funds will be available.</p>
@@ -39,7 +39,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                     </svg>
                 </button>
-                <div class="mt-4 text-gray-600 hidden overflow-hidden" id="answer-2" style="max-height: 0; opacity: 0;">
+                <div class="mt-4 text-gray-600 overflow-hidden transition-all duration-300" id="answer-2" style="max-height: 0; opacity: 0;">
                     <p>We accept most types of business and personal checks, including payroll checks, vendor payments,
                         customer payments, and government checks. We do not accept third-party checks or checks over
                         $25,000 without prior approval.</p>
@@ -57,7 +57,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                     </svg>
                 </button>
-                <div class="mt-4 text-gray-600 hidden overflow-hidden" id="answer-3" style="max-height: 0; opacity: 0;">
+                <div class="mt-4 text-gray-600 overflow-hidden transition-all duration-300" id="answer-3" style="max-height: 0; opacity: 0;">
                     <p>There are no limits on the number of checks you can deposit. Our platform is designed to handle
                         high-volume processing, whether you're depositing 10 checks or 10,000 checks per month.</p>
                 </div>
@@ -74,7 +74,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                     </svg>
                 </button>
-                <div class="mt-4 text-gray-600 hidden overflow-hidden" id="answer-4" style="max-height: 0; opacity: 0;">
+                <div class="mt-4 text-gray-600 overflow-hidden transition-all duration-300" id="answer-4" style="max-height: 0; opacity: 0;">
                     <p>We use bank-level encryption and are SOC2 and HIPAA compliant. All check images are encrypted in
                         transit and at rest, and we maintain detailed audit logs for every transaction. Your data is
                         protected with the same security standards used by major financial institutions.</p>
@@ -92,7 +92,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                     </svg>
                 </button>
-                <div class="mt-4 text-gray-600 hidden overflow-hidden" id="answer-5" style="max-height: 0; opacity: 0;">
+                <div class="mt-4 text-gray-600 overflow-hidden transition-all duration-300" id="answer-5" style="max-height: 0; opacity: 0;">
                     <p>Yes! We offer API integrations with popular accounting software including QuickBooks, Xero, and
                         Sage. We also provide webhook notifications and CSV export options for custom integrations.</p>
                 </div>
@@ -109,7 +109,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                     </svg>
                 </button>
-                <div class="mt-4 text-gray-600 hidden overflow-hidden" id="answer-6" style="max-height: 0; opacity: 0;">
+                <div class="mt-4 text-gray-600 overflow-hidden transition-all duration-300" id="answer-6" style="max-height: 0; opacity: 0;">
                     <p>If a check is returned or rejected, we'll notify you immediately via email and dashboard
                         notification. The amount will be debited from your account, and you'll receive detailed
                         information about the reason for rejection to help resolve the issue.</p>
@@ -123,26 +123,20 @@
     function toggleFAQ(id) {
         const answer = document.getElementById(`answer-${id}`);
         const icon = document.getElementById(`icon-${id}`);
+        const isOpen = answer.style.maxHeight && answer.style.maxHeight !== '0px';
 
-        if (answer.classList.contains('hidden')) {
-            answer.classList.remove('hidden');
-            answer.style.maxHeight = '0';
-            answer.style.opacity = '0';
-            // Force reflow
-            answer.offsetHeight;
-            answer.style.transition = 'max-height 0.3s ease-in-out, opacity 0.3s ease-in-out, padding-top 0.3s ease-in-out';
+        if (!isOpen) {
+            // Open the FAQ
             answer.style.maxHeight = answer.scrollHeight + 'px';
             answer.style.opacity = '1';
-            answer.style.paddingTop = '1rem';
+            answer.style.paddingTop = '0.5rem';
             icon.style.transform = 'rotate(180deg)';
         } else {
+            // Close the FAQ
             answer.style.maxHeight = '0';
             answer.style.opacity = '0';
             answer.style.paddingTop = '0';
             icon.style.transform = 'rotate(0deg)';
-            setTimeout(() => {
-                answer.classList.add('hidden');
-            }, 300);
         }
     }
 </script>
