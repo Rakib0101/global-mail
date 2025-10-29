@@ -9,7 +9,10 @@
 
 
                 <!-- Address -->
-                <p class="text-sm mb-12 text-gray-500">1814 N Memorial Way <br> Houston, TX 77007</p>
+                <p class="text-sm mb-12 text-gray-500">401 Westpark Court
+                    <br>
+                    Peachtree City GA 30269
+                </p>
 
                 <!-- Rating Stars -->
                 <div class="flex items-center mb-12">

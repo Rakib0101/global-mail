@@ -110,7 +110,7 @@
             <h3 class="text-lg font-bold text-gray-900 mb-2">Corporate Headquarters</h3>
             <div class="text-gray-700">
                 <p class="font-medium">iMailVault</p>
-                <p>1814 N Memorial Way Houston, TX 77007</p>
+                <p>401 Westpark Court Peachtree City GA 30269</p>
             </div>
         </div>
 
