@@ -4,7 +4,7 @@
 
 
         <!-- Team image gallery -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+        {{-- <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
             <div class="flex justify-center items-center text-center mb-16">
                 <div>
                     <h2 class="text-4xl font-bold text-gray-800 mb-6">Meet our team</h2>
@@ -25,7 +25,7 @@
                 <img src="{{ asset('assets/images/about-us/last.jpeg') }}" alt="Team members biking on pier"
                     class="w-full h-auto object-cover">
             </div>
-        </div>
+        </div> --}}
 
         <!-- Our Dharma section -->
         <div class="max-w-4xl mx-auto">
