@@ -110,7 +110,7 @@
             <div class="flex justify-center items-center">
                 <!-- Copyright -->
                 <div class="mb-4 md:mb-0">
-                    <p class="text-sm">©2025 iMailVault. All rights reserved.</p>
+                    <p class="text-sm">©2026 iMailVault. All rights reserved.</p>
                 </div>
             </div>
         </div>
